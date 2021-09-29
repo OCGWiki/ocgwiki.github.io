@@ -13,16 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+
+locale: de-DE
+url: https://ocgwiki.github.io/
+repository: "OCGWiki/ocgwiki.github.io"
+
+#logo: ocg logo einbauen
+title: OCG UI Wiki
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Here you can find the OCG IDABUS UI Wiki.
 twitter_username: username
-github_username: username
+github_username: OCGWiki
 minimal_mistakes_skin: default
 search: true
+
 
 # Build settings
 markdown: kramdown
@@ -89,16 +94,24 @@ footer:
 
 defaults:
   # _posts
+  #- scope:
+  #    path: ""
+  #    type: posts
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    read_time: true
+  #    comments: true
+  #    share: true
+  #    related: true
+  
+  # _docs
   - scope:
       path: ""
-      type: posts
+      type: docs
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      sidebar:
+        nav: "docs"
   # _pages
   - scope:
       path: "_pages"
