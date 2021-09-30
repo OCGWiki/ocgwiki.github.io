@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+ <article class="article-content">
+   <header class="article-content__header dock-header">
+     <h1 >{{title}}</h1>
+
+     {% if page.description != null %}
+       <p>
+         {{page.description}}
+       </p>
+     {% endif %}
+  </header>
+
+     <div>
+     {% if page.status == 'todo' %}
+       Coming soon...
+     {% else %}
+       <div>
+         <h3>Table of contents:</h3>
+         {% include toc.html html=content sanitize=true %}
+       </div>
+       {{ content }}
+     {% endif %}
+   </div>
+ </article>
