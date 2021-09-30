@@ -3,6 +3,7 @@ title: Installation Guide
 filename: installation.md
 permalink: /installation/
 nav_order: 2
+status: in progress
 ---
 
 # Installation
