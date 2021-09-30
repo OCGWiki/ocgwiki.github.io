@@ -1,5 +1,6 @@
 ---
 title: Installation Guide
+description: This is the IDABUS UI Installation Guide
 filename: installation.md
 permalink: /installation/
 nav_order: 2
@@ -10,9 +11,6 @@ status: in progress
 Version: 4.2 or above
 
 You can find all installation packages and tools in Teams unter OCGDE Technisch -> MIM UI -> Files -> OCG UI v4 -> Releases
-
-## Contents
-{% include toc.html html=content %}
 
 ## Prerequisites
 - MIM Service and Portal (2016 R2 or later)
