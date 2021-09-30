@@ -6,6 +6,7 @@ permalink: /installation/
 nav_order: 2
 status: in progress
 layout: docs
+toc: true
 ---
 
 # Installation
