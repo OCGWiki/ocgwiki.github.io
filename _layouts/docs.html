@@ -15,12 +15,12 @@ layout: default
      <div>
      {% if page.status == 'todo' %}
        Coming soon...
-     {% else %}
+     {% else if page.toc = true %}
        <div>
          <h3>Table of contents:</h3>
          {% include toc.html html=content sanitize=true  class="inline_toc" %}
        </div>
-       {{ content }}    
+       {{ content }}
      {% endif %}
    </div>
  </article>
