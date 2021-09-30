@@ -1,4 +1,4 @@
-#theme: jekyll-theme-slate
+#theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs
 title: Idabus UI Wiki
 description: Feel free to look around and give some feedback!

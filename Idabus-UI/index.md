@@ -6,6 +6,7 @@ permalink: /
 nav_order: 1
 status: todo  #when status is todo, the page is not shown yet
 layout: docs
+toc: false
 ---
 
 ## Welcome to GitHub Pages
