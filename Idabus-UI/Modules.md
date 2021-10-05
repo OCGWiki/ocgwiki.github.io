@@ -65,7 +65,7 @@ Includes core components which can be reused for other components
 # App module
 
 Entrance of the UI, includes components implemented for MIM or IDABUS
-> Font-Awesome icons can be loaded here
+>> Font-Awesome icons can be loaded here
 
 # Custom module
 
