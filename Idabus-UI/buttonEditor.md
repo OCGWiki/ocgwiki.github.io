@@ -27,7 +27,7 @@ toc: true
 
 # Configuration in UI
 
-![UIButton.png](/img/UIButton-b7f0a407-ae60-40a8-a688-526e85542da9.png =1200x)
+![UIButton.png](/img/UIButton-b7f0a407-ae60-40a8-a688-526e85542da9.png)
 
 # Event handler
 
