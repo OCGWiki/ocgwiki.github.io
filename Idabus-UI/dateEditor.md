@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: dateEditor.md
 permalink: /dateEditor/
 
-nav_order: 7
+nav_order: 4
 parent: Editors
 status: in progress
 toc: true

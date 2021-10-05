@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: booleanEditor.md
 permalink: /booleanEditor/
 
-nav_order: 7
+nav_order: 3
 parent: Editors
 status: in progress
 toc: true

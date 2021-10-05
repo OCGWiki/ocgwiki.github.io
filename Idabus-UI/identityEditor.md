@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: identityEditor.md
 permalink: /identityEditor/
 
-nav_order: 7
+nav_order: 6
 parent: Editors
 status: in progress
 toc: true

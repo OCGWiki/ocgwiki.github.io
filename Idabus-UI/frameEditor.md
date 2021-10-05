@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: frameEditor.md
 permalink: /frameEditor/
 
-nav_order: 7
+nav_order: 5
 parent: Editors
 status: in progress
 toc: true

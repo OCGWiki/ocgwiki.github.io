@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: buttonEditor.md
 permalink: /buttonEditor/
 
-nav_order: 7
+nav_order: 2
 parent: Editors
 status: in progress
 toc: true
