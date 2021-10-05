@@ -13,7 +13,7 @@ toc: true
 
 # Configure OCG Data Service
 Navigate to the IIS folder, which hosts the OCG Data Service and edit the "appsettings.json" file.<br/>
-![config1_1.png](/img/config1_1-beee0229-1082-4b1a-8c01-faaa8a01e9a3.png =600x)
+![config1_1.png](/img/config1_1-beee0229-1082-4b1a-8c01-faaa8a01e9a3.png)
 
 | Key | Description | Default |
 |--|--|--|
@@ -32,7 +32,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 
 ## General Settings
 
-![config1_2.png](/img/config1_2-a9db3469-73c4-4145-8ed4-796ebb6ceaae.png =800x)
+![config1_2.png](/img/config1_2-a9db3469-73c4-4145-8ed4-796ebb6ceaae.png)
 
 | Key | Description | Default |
 |--|--|--|
@@ -51,7 +51,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## Supported languages
 > You can add, remove, enable or disable language supports in config.json. Every language should has its own translation source file (json format) under assert/translate/shared
 
-![config_supported_languages.png](/img/config_supported_languages-231bc506-2ac6-4f80-9476-57c30c869f79.png =800x)
+![config_supported_languages.png](/img/config_supported_languages-231bc506-2ac6-4f80-9476-57c30c869f79.png)
 
 |Key|Description|
 |--|--|
@@ -65,7 +65,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## Available systems
 > You can use the same OCG UI web app to access different systems or environments (eg. development and production environments). You can also disable the system selection to make the first landing page to be the login page
 
-![config_systems.png](/img/config_systems-1c9b230d-2871-403c-aa25-beed8e1101d3.png =800x)
+![config_systems.png](/img/config_systems-1c9b230d-2871-403c-aa25-beed8e1101d3.png)
 
 |Key|Description|
 |--|--|
@@ -80,7 +80,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## Sidebar items
 > You can add, remove, enable or disable side menu items. Every menu item should have a routing path pointing out the corresponding page or an event handler defining the click action
 
-![config_sidebar_items.png](/img/config_sidebar_items-a5bde651-e43d-48ba-91a3-743e13864f68.png =800x)
+![config_sidebar_items.png](/img/config_sidebar_items-a5bde651-e43d-48ba-91a3-743e13864f68.png)
 
 |Key|Description|
 |--|--|
@@ -93,7 +93,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## Search scopes
 > Search scopes can be used to configure resource list view and the results shown in simple search
 
-![config_search_scopes.png](/img/config_search_scopes-bca4980a-fc50-49c6-b4f7-250a1bcf4a94.png =800x)
+![config_search_scopes.png](/img/config_search_scopes-bca4980a-fc50-49c6-b4f7-250a1bcf4a94.png)
 
 |Key|Description|
 |--|--|
@@ -109,7 +109,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## All resources
 > Configuration in this section are used to setup the resources page. You can enable, disable items, define their appearance or restrict their behaviors
 
-![config_all_resources.png](/img/config_all_resources-8200d487-67ba-4b69-b88a-d942fa1cb26d.png =800x)
+![config_all_resources.png](/img/config_all_resources-8200d487-67ba-4b69-b88a-d942fa1cb26d.png)
 
 |Key|Description|
 |--|--|
@@ -133,7 +133,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## Uniqueness checks
 > You can define a XPath query to fetch resources and indicate which attribute value should be unique within these resources. Use %SearchText% (case insensitive) as a placeholder for inputs
 
-![config_uniqueness_check.png](/img/config_uniqueness_check-e3ae9de6-4080-406a-8b2e-fb1845760272.png =800x)
+![config_uniqueness_check.png](/img/config_uniqueness_check-e3ae9de6-4080-406a-8b2e-fb1845760272.png)
 
 # Verify the installation
 - Navigate to the OCG Data Service Url, you should see the Swagger page.
@@ -145,5 +145,5 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 
 
 | ![verify1_1.png](/img/verify1_1-e1c9eccc-51bc-40cd-af40-b4ea93a3b453.png) | ![verify1_2.png](/img/verify1_2-46ecad22-2c2f-4257-8f13-1c92b56848fd.png) |
-|--|--|
+
 
