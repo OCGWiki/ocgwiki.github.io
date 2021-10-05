@@ -7,6 +7,7 @@ filename: Editors.md
 permalink: /editors/
 
 nav_order: 7
+has_children: true
 status: in progress
 toc: true
 ---
