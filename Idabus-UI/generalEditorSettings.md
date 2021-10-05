@@ -6,8 +6,8 @@ description: This is the IDABUS UI Installation Guide
 filename: generalEditorSettings.md
 permalink: /generalEditorSettings/
 
-nav_order: 7
 parent: Editors
+nav_order: 1
 status: in progress
 toc: true
 ---

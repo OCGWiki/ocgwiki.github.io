@@ -13,9 +13,6 @@ toc: true
 ---
 Form views are usually used to show object attributes and details. Other object views like [tab view](/OCG-UI/Views/Tab-View) or [attribute view](/OCG-UI/Views/Attribute-View) are built on the top of the form view. Please refer to [Views](/OCG-UI/Views) to see more details
 
-[[_TOC_]]
-
-
 ## onViewAfterInit
 
 ### Trigger
