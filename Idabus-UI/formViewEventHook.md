@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: formViewEventHook.md
 permalink: /formView/
 
-nav_order: 8
+nav_order: 1
 parent: Event Hooks
 status: in progress
 toc: true

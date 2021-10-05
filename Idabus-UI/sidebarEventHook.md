@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: sidebarEventHook.md
 permalink: /sidebarEventHook/
 
-nav_order: 8
+nav_order: 5
 parent: Event Hooks
 status: in progress
 toc: true

@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: tabViewEventHook.md
 permalink: /tabView/
 
-nav_order: 8
+nav_order: 2
 parent: Event Hooks
 status: in progress
 toc: true

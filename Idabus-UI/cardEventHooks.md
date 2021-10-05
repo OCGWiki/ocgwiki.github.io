@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: cardEventHook.md
 permalink: /cardEventHook/
 
-nav_order: 8
+nav_order: 6
 parent: Event Hooks
 status: in progress
 toc: true
