@@ -1,12 +1,12 @@
 ---
 layout: docs
 
-title: Installation Guide
+title: Modules
 description: This is the IDABUS UI Installation Guide
 filename: Modules.md
 permalink: /modules/
 
-nav_order: 2
+nav_order: 4
 status: in progress
 toc: true
 ---

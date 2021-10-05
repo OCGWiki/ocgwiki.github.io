@@ -1,7 +1,7 @@
 ---
 layout: docs
 
-title: Installation Guide
+title: UI Settings
 description: This is the IDABUS UI Installation Guide
 filename: UISettings.md
 permalink: /uisettings/
