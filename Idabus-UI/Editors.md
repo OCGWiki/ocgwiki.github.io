@@ -3,8 +3,8 @@ layout: docs
 
 title: Editors
 description: This is the IDABUS UI Installation Guide
-filename: installation.md
-permalink: /installation/
+filename: Editors.md
+permalink: /editors/
 
 nav_order: 7
 status: in progress
