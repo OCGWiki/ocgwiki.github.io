@@ -35,9 +35,9 @@ foreach($line in $azure_md_content)
     }
     
     ## replace '.attachements' with 'img'
-    if($null -ne (".attachements" | ? { $line -match $_ }))
+    if($null -ne (".attachments" | ? { $line -match $_ }))
     {
-        $line.Replace(".attachements", "img")
+        $line.Replace(".attachments", "img")
     }            
 }
 
@@ -74,5 +74,4 @@ else
     $github_md_content += $azure_md_content
 }
 
-
-
+$github_md_content | Out-File $out_file_name 
