@@ -4,7 +4,7 @@ layout: docs
 title: System Choice
 description:
 filename: ConfigureInstallation.md
-permalink: installation/configureinstallation/
+permalink: /guides/systemChoice/
 
 nav_order: 3
 status: in progress
