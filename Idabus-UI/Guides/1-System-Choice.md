@@ -14,13 +14,16 @@ toc: true
 
 # Scenario:
 
-When launching the IDABUS® UI web page for the first time, you will see the **System-Choice**. After shipping the dialog contains of three options by default:
+When launching the IDABUS® UI web page, the first dialog appearing is the **connection choice**. There you decide to which instance you want to connect to. Note that this will be skipped if there is only one connection to choose.
+On a newly installed system it will offer the following three options by default:
 - Contoso Dev _(meant to be an on-Premise system)_
 - Contoso VM _(meant to be an on-Premise system)_
 - OCG DE Demo _(meant to be a Cloud system)_
 
-![image.png](/.attachments/image-a10da482-9f75-401d-b51b-27eb310ce659.png)
+![image.png](/img/image-a10da482-9f75-401d-b51b-27eb310ce659.png)
 To select a system click on the right-arrow next to it.
+
+
 
 # Configuration:
 The System-Choice can be configured in the <span style="color: #8000FC">**"systems"**</span> key within the following JSON file:
@@ -37,8 +40,7 @@ If <span style="color: #8000FC">**"systems"**</span> does not yet exist in this 
 
  Key | Description | Values
  ----------|----------|---------
- enabled | If enabled the following array of items will be presented in the System-Choice dialog.
- If disabled no System-Choice is presented at all. | true/false
+ enabled | If enabled the following array of items will be presented in the System-Choice dialog. If disabled no System-Choice is presented at all. | true/false
  items | Collection of System-Objects. | [...]
 
 
