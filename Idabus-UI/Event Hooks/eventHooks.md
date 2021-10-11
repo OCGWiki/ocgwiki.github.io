@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: eventHooks.md
 permalink: /eventHooks/
 
-nav_order: 8
+nav_order: 9
 has_children: true
 status: in progress
 toc: true
@@ -19,7 +19,7 @@ Available event hooks
 
 - [Form view event hooks](/eventHooks/formView/)
 - [Tab view event hooks](/eventHooks/tabView/)
-- [Wizard event hooks](/eventHooks/wizard/) 
+- [Wizard event hooks](/eventHooks/wizard/)
 - [Menu event hooks](/eventHooks/menu/)
 - [Sidebar event hooks](/eventHooks/sidebar/)
 - [Card event hooks](/eventHooks/card/)

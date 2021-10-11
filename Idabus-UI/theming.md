@@ -6,7 +6,7 @@ description: This is the IDABUS UI Installation Guide
 filename: Theming.md
 permalink: /theming/
 
-nav_order: 8
+nav_order: 10
 status: in progress
 toc: true
 ---
@@ -23,7 +23,7 @@ This setting is defined
 You can define 5 colours used for different purposes, they are
  - primary colour - colour palette
  - accent colour - colour palette
- - warn colour - colour palette 
+ - warn colour - colour palette
  - primary text colour - simple colour
  - secondary text colour - simple colour
 
