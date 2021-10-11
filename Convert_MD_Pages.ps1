@@ -2,8 +2,6 @@
 $yey = 'yey'
 $ney = "ney"
 
-$Path = 'C:\Users\Irene\Test\out.txt'
-
 $Path2 = 'C:\Users\Irene\OneDrive - Oxford Computer Group GmbH\Dokumente\GitHub\Powershell script\Installation.md'
 
 $data = 'some text'
@@ -15,14 +13,15 @@ $data | Add-Content -Path $Path
 
 
 ## Variables ---------------
-
-$out_file_name = 'github_out.txt' #vllt auch automatisieren
-$toc = "false"
+\
+$Path = 'C:\Users\Irene\OneDrive - Oxford Computer Group GmbH\Dokumente\GitHub\ocgwiki.github.io\Idabus-UI\Views\Tab-View.md'
+$out_file_name = 'Tab-View.md' #vllt auch automatisieren
+$toc = "true"
 
 
 ### Functionality ------------------
 
-$azure_md_content = Get-Content -Path $Path2 
+$azure_md_content = Get-Content -Path $Path 
 $first_line = $azure_md_content | select -First 5
 
 
