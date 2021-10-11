@@ -34,10 +34,10 @@ If <span style="color: #8000FC">**"systems"**</span> does not yet exist in this 
 # Parameters
 ## Systems
 
- Key | Description | Values |
+ Key | Description | Values
  ---|---|---
  enabled | If enabled the following array of items will be presented in the System-Choice dialog.<br/><br/>If disabled no System-Choice is presented at all. | true/false
- items | Collection of System-Objects. | [...] 
+ items | Collection of System-Objects. | [...]
 <br/>
 
 ## System/Item
