@@ -4,7 +4,7 @@ layout: docs
 title: Boolean Editor
 description: This is the IDABUS UI Installation Guide
 filename: booleanEditor.md
-permalink: /booleanEditor/
+permalink: /editors/booleanEditor/
 
 nav_order: 3
 parent: Editors

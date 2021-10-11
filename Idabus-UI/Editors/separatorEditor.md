@@ -4,7 +4,7 @@ layout: docs
 title: Separator Editor
 description: This is the IDABUS UI Installation Guide
 filename: separatorEditor.md
-permalink: /separatorEditor/
+permalink: /editors/separatorEditor/
 
 nav_order: 9
 parent: Editors
@@ -49,40 +49,3 @@ toc: true
 # Event handler
 
 --
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

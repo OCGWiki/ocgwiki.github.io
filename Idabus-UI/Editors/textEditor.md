@@ -4,7 +4,7 @@ layout: docs
 title: Text Editor
 description: This is the IDABUS UI Installation Guide
 filename: textEditor.md
-permalink: /textEditor/
+permalink: /editors/textEditor/
 
 nav_order: 10
 parent: Editors
@@ -44,5 +44,4 @@ Triggered if the value of the text editor has been changed
 
 ## setAutoCompleteOptions(options: Observable<Array<{ text: string; value: string }>>)
 
-Sets options for auto complete as array of key/value pairs 
-
+Sets options for auto complete as array of key/value pairs

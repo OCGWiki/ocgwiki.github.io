@@ -4,7 +4,7 @@ layout: docs
 title: Date Editor
 description: This is the IDABUS UI Installation Guide
 filename: dateEditor.md
-permalink: /dateEditor/
+permalink: /editors/dateEditor/
 
 nav_order: 4
 parent: Editors

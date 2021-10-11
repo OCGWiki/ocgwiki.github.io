@@ -4,7 +4,7 @@ layout: docs
 title: Frame Editor
 description: This is the IDABUS UI Installation Guide
 filename: frameEditor.md
-permalink: /frameEditor/
+permalink: /editors/frameEditor/
 
 nav_order: 5
 parent: Editors
@@ -40,6 +40,3 @@ toc: true
 # Event handler
 
 --
-
-
-

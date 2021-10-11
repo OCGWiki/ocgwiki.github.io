@@ -4,7 +4,7 @@ layout: docs
 title: Button Editor
 description: This is the IDABUS UI Installation Guide
 filename: buttonEditor.md
-permalink: /buttonEditor/
+permalink: /editors/buttonEditor/
 
 nav_order: 2
 parent: Editors
@@ -33,6 +33,3 @@ toc: true
 
 ## onClick()
 creates a new Event with the following attributes: AttributeName, ObjectID (currentID), objectType
-
-
-

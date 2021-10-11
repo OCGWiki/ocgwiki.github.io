@@ -4,7 +4,7 @@ layout: docs
 title: Select Editor
 description: This is the IDABUS UI Installation Guide
 filename: selectEditor.md
-permalink: /selectEditor/
+permalink: /editors/selectEditor/
 
 nav_order: 8
 parent: Editors

@@ -4,7 +4,7 @@ layout: docs
 title: Identities Editor
 description: This is the IDABUS UI Installation Guide
 filename: identitiesEditor.md
-permalink: /identitiesEditor/
+permalink: /editors/identitiesEditor/
 
 nav_order: 7
 parent: Editors
@@ -95,6 +95,3 @@ triggers if identities are removed from the List
 
 ## onRemoveAll()
 triggers if all identities are removed from the List
-
-
-

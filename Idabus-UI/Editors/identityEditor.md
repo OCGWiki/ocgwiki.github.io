@@ -4,7 +4,7 @@ layout: docs
 title: Identity Editor
 description: This is the IDABUS UI Installation Guide
 filename: identityEditor.md
-permalink: /identityEditor/
+permalink: /editors/identityEditor/
 
 nav_order: 6
 parent: Editors
@@ -62,5 +62,3 @@ Triggers if the value of the identity editor has been double-clicked
 
 ## onBulkImport()
 Triggers if multiple elements are added
-
-

@@ -4,7 +4,7 @@ layout: docs
 title: XPath Editor
 description: This is the IDABUS UI Installation Guide
 filename: xpathEditor.md
-permalink: /xpathEditor/
+permalink: /editors/xpathEditor/
 
 nav_order: 11
 parent: Editors
@@ -48,10 +48,9 @@ toc: true
 triggers if the button "view results" is pushed and shows the results of the query
 
 ## onShowQuery()
-Currently it is hidden in the UI but it is implemented for future features. 
+Currently it is hidden in the UI but it is implemented for future features.
 
 ## onResetValue()
 triggers if the button "Reset value" is pushed and clears the Path filter
 
 ## onAttributeChange(attributes: Array<AttributeResource>)
-
