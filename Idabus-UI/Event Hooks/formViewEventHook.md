@@ -4,20 +4,20 @@ layout: docs
 title: Form View Event Hooks
 description: This is the IDABUS UI Installation Guide
 filename: formViewEventHook.md
-permalink: /formView/
+permalink: /eventHooks/formView/
 
 nav_order: 1
 parent: Event Hooks
 status: in progress
 toc: true
 ---
-Form views are usually used to show object attributes and details. Other object views like [tab view](/OCG-UI/Views/Tab-View) or [attribute view](/OCG-UI/Views/Attribute-View) are built on the top of the form view. Please refer to [Views](/OCG-UI/Views) to see more details
+Form views are usually used to show object attributes and details. Other object views like [tab view](/Views/Tab-View) or [attribute view](/Views/Attribute-View) are built on the top of the form view. Please refer to [Views](/Views) to see more details
 
 ## onViewAfterInit
 
 ### Trigger
 This event will be triggered after the form view has initialised all of its ui components including the editor components.
-This event hook can be used to set custom initial values after all attributes of the displayed object are loaded 
+This event hook can be used to set custom initial values after all attributes of the displayed object are loaded
 
 ### Parameter
 ```js

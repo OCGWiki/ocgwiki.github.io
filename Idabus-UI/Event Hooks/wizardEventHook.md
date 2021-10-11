@@ -4,14 +4,14 @@ layout: docs
 title: Wizard Event Hooks
 description: This is the IDABUS UI Installation Guide
 filename: wizardEventHook.md
-permalink: /wizardEventHook/
+permalink: /eventHooks/wizard/
 
 nav_order: 3
 parent: Event Hooks
 status: in progress
 toc: true
 ---
-Wizard view is a popup dialog or stepper. It can be dynamically created in the UI and used for object creation or others tasks, where a popup window is needed. Wizard view can contain all kind of [editors](/OCG-UI/Editors).
+Wizard view is a popup dialog or stepper. It can be dynamically created in the UI and used for object creation or others tasks, where a popup window is needed. Wizard view can contain all kind of [editors](/editors/).
 
 ## onWizardAfterInit
 

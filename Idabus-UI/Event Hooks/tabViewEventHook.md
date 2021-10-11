@@ -4,14 +4,15 @@ layout: docs
 title: Tab View Event Hooks
 description: This is the IDABUS UI Installation Guide
 filename: tabViewEventHook.md
-permalink: /tabView/
+permalink: /eventHooks/tabView/
 
 nav_order: 2
 parent: Event Hooks
 status: in progress
 toc: true
 ---
-Tab view controls only the tab headers in every [form view](/OCG-UI/Event-hooks/Form-view-event-hooks). The tab body is a container for the [Attribute View](/OCG-UI/Views/Attribute-View). Please refer to [Views](/OCG-UI/Views) to see more details.
+
+Tab view controls only the tab headers in every [form view](/eventHooks/formView/). The tab body is a container for the [Attribute View](/Views/Attribute-View/). Please refer to [Views](/Views/) to see more details.
 
 
 

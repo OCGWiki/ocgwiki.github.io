@@ -4,7 +4,7 @@ layout: docs
 title: Card Event Hooks
 description: This is the IDABUS UI Installation Guide
 filename: cardEventHook.md
-permalink: /cardEventHook/
+permalink: /eventHooks/card/
 
 nav_order: 6
 parent: Event Hooks

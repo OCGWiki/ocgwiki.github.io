@@ -15,14 +15,14 @@ toc: true
 ## What are event hooks
 Event hooks are reserved empty functions, which will be called if one of a pre-defined events is fired. Injecting code into the event hooks allows you to take control of how to response to such an event.
 
-Available event hooks 
+Available event hooks
 
-- [Form view event hooks](/OCG-UI/Event-hooks/Form-view-event-hooks) 
-- [Tab view event hooks](/OCG-UI/Event-hooks/Tab-view-event-hooks) 
-- [Wizard event hooks](/OCG-UI/Event-hooks/Wizard-event-hooks) 
-- [Menu event hooks](/OCG-UI/Event-hooks/Menu-event-hooks) 
-- [Sidebar event hooks](/OCG-UI/Event-hooks/Sidebar-event-hooks) 
-- [Card event hooks](/OCG-UI/Event-hooks/Card-event-hooks) 
+- [Form view event hooks](/eventHooks/formView/)
+- [Tab view event hooks](/eventHooks/tabView/)
+- [Wizard event hooks](/eventHooks/wizard/) 
+- [Menu event hooks](/eventHooks/menu/)
+- [Sidebar event hooks](/eventHooks/sidebar/)
+- [Card event hooks](/eventHooks/card/)
 
 
 

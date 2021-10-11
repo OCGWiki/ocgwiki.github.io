@@ -4,7 +4,7 @@ layout: docs
 title: Menu Event Hooks
 description: This is the IDABUS UI Installation Guide
 filename: menuEventHook.md
-permalink: /menuEventHook/
+permalink: /eventHooks/menu/
 
 nav_order: 4
 parent: Event Hooks
