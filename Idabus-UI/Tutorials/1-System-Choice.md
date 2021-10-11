@@ -3,7 +3,7 @@ layout: docs
 
 title: System Choice
 description:
-filename: ConfigureInstallation.md
+filename: 1-System-Choice.md
 permalink: /guides/systemChoice/
 
 nav_order: 3
