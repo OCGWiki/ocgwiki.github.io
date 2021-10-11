@@ -1,3 +1,17 @@
+---
+layout: docs
+
+title: Languages
+description:
+filename: 4-Languages.md
+permalink: /guides/languages/
+
+nav_order: 4
+status: in progress
+parent: Guides
+toc: true
+---
+
 # Scenario
 
 The IDABUS® UI supports multi-language capabilities. By default IDABUS® UI is shipped with the following three languages:

@@ -1,3 +1,16 @@
+---
+layout: docs
+
+title: All resources
+#description:
+filename: 5-All-Resources.md
+permalink: /guides/allResources/
+
+nav_order: 5
+status: in progress
+parent: Guides
+toc: true
+---
 #Scenario
 
 The All Resources view is separated in chapters (e.g, managedResources, processes, cloudResources, etc.) containing 0 to _**n**_ items/Action Card(s):

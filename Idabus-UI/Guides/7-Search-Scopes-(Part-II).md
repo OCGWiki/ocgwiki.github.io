@@ -1,3 +1,16 @@
+---
+layout: docs
+
+title: Search Scopes - Part 2
+description:
+filename: 7-Search-Scopes-(Part-II).md
+permalink: /guides/searchScopes2/
+
+nav_order: 7
+status: in progress
+parent: Guides
+toc: true
+---
 # Scenario
 
 **Search Scopes** are not only required in order to perform searches but also to define link targets for your specified Action Cards (configured in the <span style="color: #8000FC">**"allResources"**</span>-section).

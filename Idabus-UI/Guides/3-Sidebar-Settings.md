@@ -1,3 +1,17 @@
+---
+layout: docs
+
+title: Sidebar Settings
+description:
+filename: 3-Sidebar-Settings.md
+permalink: /guides/sidebarSettings/
+
+nav_order: 3
+status: in progress
+parent: Guides
+toc: true
+---
+
 # Scenario:
 
 The sidebar is available in two modes (when being expanded):

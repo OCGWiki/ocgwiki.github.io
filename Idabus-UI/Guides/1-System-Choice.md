@@ -2,12 +2,13 @@
 layout: docs
 
 title: System Choice
-description:
+#description:
 filename: 1-System-Choice.md
 permalink: /guides/systemChoice/
 
-nav_order: 3
+nav_order: 1
 status: in progress
+parent: Guides
 toc: true
 ---
 
@@ -35,10 +36,11 @@ If <span style="color: #8000FC">**"systems"**</span> does not yet exist in this 
 ## Systems
 
  Key | Description | Values
- ---|---|---
- enabled | If enabled the following array of items will be presented in the System-Choice dialog.<br/><br/>If disabled no System-Choice is presented at all. | true/false
+ ----------|----------|---------
+ enabled | If enabled the following array of items will be presented in the System-Choice dialog.
+ If disabled no System-Choice is presented at all. | true/false
  items | Collection of System-Objects. | [...]
-<br/>
+
 
 ## System/Item
 | Key | Description | Values |

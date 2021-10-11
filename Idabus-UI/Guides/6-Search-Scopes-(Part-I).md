@@ -1,3 +1,17 @@
+---
+layout: docs
+
+title: Search Scopes - Part 1
+description:
+filename: 6-Search-Scopes-(Part-I).md
+permalink: /guides/searchScopes1/
+
+nav_order: 6
+status: in progress
+parent: Guides
+toc: true
+---
+
 # Scenario
 
 Search Scopes are used to separate/filter and query for objects. The **Search all resources** search bar is located on the very top of the IDABUS® UI and first place to search for objects like (Persons, Groups, Units, etc.). A search automatically starts after a certain number of minimum characters are entered in the search field. The default amount of required characters is 3:
@@ -57,4 +71,3 @@ Searching for exactly _**'!eva'**_ will only find the first record.
 | enabled | Specifies whether or not this scope should be active and displayed in the **"Search all resources"**-results. | true/false |
 | query | Defines the normal query to be triggered. In order to search for all people´s first and last names the following search should be performed:<br/><br/>`/Person[starts-with(FirstName, '%SearchText%') or starts-with(LastName, '%SearchText%')]`<br/><br/>_**%SearchText%**_ will be replaced with the user´s input characters at runtime. | XPath |
 | exactQuery | Defines the exact query to be triggered when the user performs an exact search using the exclamation mark _**(!)**_. The main difference to a normal search is that an exact search can only use equivalents _**(=)**_ but no _**starts-with**_ or _**conatins**_.<br/><br/>`/Person[FirstName='%SearchText%' or LastName='%SearchText%']`<br/><br/>_**%SearchText%**_ will be replaced with the user´s input characters at runtime. | XPath |
-
