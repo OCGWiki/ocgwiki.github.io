@@ -15,6 +15,7 @@ toc: true
 # Scenario:
 
 When launching the IDABUS® UI web page, the first dialog appearing is the **connection choice**. There you decide to which instance you want to connect to. Note that this will be skipped if there is only one connection to choose.
+
 On a newly installed system it will offer the following three options by default:
 - Contoso Dev _(meant to be an on-Premise system)_
 - Contoso VM _(meant to be an on-Premise system)_
