@@ -2,11 +2,11 @@
 layout: docs
 
 title: UI Settings
-#description: 
+#description:
 filename: UISettings.md
 permalink: /uisettings/
 
-nav_order: 6
+nav_order: 10
 status: in progress
 toc: true
 ---

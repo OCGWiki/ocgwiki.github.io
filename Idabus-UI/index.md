@@ -23,7 +23,15 @@ In this Documentation you can learn how you can set up the IDABUS UI and adapt i
 ## Getting Started
 Read about the installation and the initial set up in the [Installation Guide](/installation/) Section.
 
-## How to adapt the UI to your needs
-There are multiple ways to adapt the IDABUS UI. Many things can be done via the UI, like adapting the dashboard(s), defining how the wizards and editors of objects look like and more.
+After the initial setup you will want to customize the instance to your needs in more detail. You can find Guides regarding that in our [Guides Section](/guides/)
 
-If you want to go deeper, you can read here about how to change the settings file to adapt the UI even more, and even how to add your own customized code.
+## How to adapt the UI to your needs
+There are multiple ways to adapt the IDABUS UI. Many things can be done via the UI, like adapting the dashboard(s), defining how the wizards and editors of objects look like and more. You can find more about this here:
+- [Editors](/editors/)
+- Dashboard - coming soond
+- Wizards - coming soon
+
+If you want to go deeper, you can learn about how to change the settings file to adapt the UI even more, and to add your own customized code here:
+- [UI Settings](/uisettings/)
+- [Event Hooks](/eventHooks)
+- [Theming](/theming/)

@@ -2,11 +2,11 @@
 layout: docs
 
 title: Event Hooks
-#description: 
+#description:
 filename: eventHooks.md
 permalink: /eventHooks/
 
-nav_order: 9
+nav_order: 15
 has_children: true
 status: in progress
 toc: true
