@@ -55,33 +55,37 @@ A Column-Definition looks like:
 
 # Parameters
 ## Search Scopes
+
 | Key | Description | Values |
 |--|--|--|
 | attributes | A simple array of MIM attribute names bound to the concurrent Object Type. This array is required. | string[] |
 | columns | This array is optional and can contain more precise column definitions for the columns specified in <span style="color: #8000FC">**"attributes"**</span>. | Column-Definition[] |
 
 ## Column-Definition
+
 | Key | Description | Values |
 |--|--|--|
 | field | Specifies the name of the attribute as specified in <span style="color: #8000FC">**"attributes"**</span> in order to apply the following column properties. | string |
 | sortable | If `true` the user will be able to click the column header to toggle sorting (unsorted > asc > desc). | true/false |
 | filterable | If `true` the user will be able to click a filter symbol in the column header to apply custom filtering on this column. To make filters work properly please also concern the correct data type for this attribute via <span style="color: #8000FC">**"filter"**</span> and <span style="color: #8000FC">**"filterOperators"**</span>. | true/false |
 | filter | Specifies the data type for this attribute/column if <span style="color: #8000FC">**"filterable"**</span> is set to `true`. If Text-Filtering is applied to a column containing numbers or dates, filtering won't work correctly! | Date/Number/Text |
-| filterOperators | If <span style="color: #8000FC">**"filterable"**</span> is set to `true` this property defines filter operators. Available operators are:<br/> `"contains", "starts-with" `, <span style="color:red">etc.</span> | string[] |
+| filterOperators | If <span style="color: #8000FC">**"filterable"**</span> is set to `true` this property defines filter operators. Available operators are:<br> `"contains", "starts-with" `, <span style="color:red">etc.</span> | string[] |
 | width | Specifies a dedicated width (px) for this column. | number |
 | showStatus | Specifies whether or not this column should indicate some status icon based upon the attribute value. | Status-Configuration |
 
 ## Status-Configuration
+
 If the <span style="color: #8000FC">**"showStatus"**</span> property is present for a specific column it is configured with the following parameters:
 | Key | Description | Values |
 |--|--|--|
 | trueValue | If the Object´s attribute value matches the string specified, a status icon is displayed prior to the <span style="color: #8000FC">**"trueText"**</span>-property. | string |
 | trueText | If the Object´s attribute value matches the string specified in <span style="color: #8000FC">**"trueValue"**</span> this string will be applied as the attributes value instead, otherwise <span style="color: #8000FC">**"falseText"**</span> is displayed. | translatable string |
-| trueColor | Specifies the icon color if <span style="color: #8000FC">**"trueValue"**</span> matches using a valid CSS Color code like:<br/>`#00ff00` or `green` | CSS Color |
+| trueColor | Specifies the icon color if <span style="color: #8000FC">**"trueValue"**</span> matches using a valid CSS Color code like:<br>`#00ff00` or `green` | CSS Color |
 | falseText | If the Object´s attribute value does not match the string specified in <span style="color: #8000FC">**"trueValue"**</span> this string will be applied as the attributes value instead, otherwise <span style="color: #8000FC">**"trueText"**</span> is displayed. | translatable string |
-| falseColor | Specifies the icon color if <span style="color: #8000FC">**"trueValue"**</span> does not match using a valid CSS Color code like:<br/>`#00ff00` or `green` | CSS Color |
+| falseColor | Specifies the icon color if <span style="color: #8000FC">**"trueValue"**</span> does not match using a valid CSS Color code like:<br>`#00ff00` or `green` | CSS Color |
 
 ## Users-List
+
 On a newly installed system a sample with the Status-Configuration can be seen in the Resource-List for users:
 
 ![image.png](/img/image-543460c4-3c38-40ce-b35a-06b9d74caaa1.png)

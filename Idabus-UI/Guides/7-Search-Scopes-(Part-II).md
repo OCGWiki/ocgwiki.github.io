@@ -44,11 +44,12 @@ Now, doing a Page-Refresh will show the expected overview/list of Office Equipme
 
 # Parameters
 ## Search Scopes
+
 | Key | Description | Values |
-|--|--|--|
-| name | This is the mapping name to the target defined as <span style="color: #8000FC">**"primaryAction"**</span>. Here:<br/>`EquipmentScope` | string |
-| type | Specifies the Object Type as defined in the MIM Portal. In this case:<br/>`Equipment` | string |
-| text | A translatable string that is shown to the user to identify this scope. For this single language system no localization is required, so the instant string is defined as:<br/>`Office Equipment` | translatable string |
-| enabled | Specifies whether or not this scope should be active and displayed in the **"Search all resources"**-results. In this case we only want to use the search scope as link target and do not want it to appear in the **"Search all resources"**-box, so set to:<br/>`false`| true/false |
-| typeQuery | This is the most critical parameter here because it defines the query for the list of Office Equipment to be loaded/displayed when the <span style="color: #8000FC">**"primaryAction"**</span> was triggered. We want all the office equipment to be displayed without any pre-filters, so it is defined as:<br/>`/Equipment`| XPath |
-| attributes | This array defines the attribute names of the target Object (Equipment) to be displayed in the list. In the example above we only show:<br/>`["DisplayName"]`| string[] |
+|-----|-------------|--------|
+| name | This is the mapping name to the target defined as <span style="color: #8000FC">**"primaryAction"**</span>. Here:<br>`EquipmentScope` | string |
+| type | Specifies the Object Type as defined in the MIM Portal. In this case:<br>`Equipment` | string |
+| text | A translatable string that is shown to the user to identify this scope. For this single language system no localization is required, so the instant string is defined as:<br>`Office Equipment` | translatable string |
+| enabled | Specifies whether or not this scope should be active and displayed in the **"Search all resources"**-results. In this case we only want to use the search scope as link target and do not want it to appear in the **"Search all resources"**-box, so set to:<br>`false`| true/false |
+| typeQuery | This is the most critical parameter here because it defines the query for the list of Office Equipment to be loaded/displayed when the <span style="color: #8000FC">**"primaryAction"**</span> was triggered. We want all the office equipment to be displayed without any pre-filters, so it is defined as:<br>`/Equipment`| XPath |
+| attributes | This array defines the attribute names of the target Object (Equipment) to be displayed in the list. In the example above we only show:<br>`["DisplayName"]`| string[] |
