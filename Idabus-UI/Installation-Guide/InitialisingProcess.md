@@ -20,6 +20,7 @@ toc: true
 # Process description
 
 ## 1. main.ts
+
 This is the first script called when starting the UI, which bootstraps the first module to be loaded.
 
 The main activities are,
@@ -27,6 +28,7 @@ The main activities are,
 - Bootstrap App module
 
 ## 2. App component (app.component.ts)
+
 This is the main entrance of the UI, the first component called after bootstrap process.
 
 The main activities are,
@@ -35,6 +37,7 @@ The main activities are,
   - For file uploader
 
 ## 3. Startup service (startup.service.ts)
+
 Things are prepared here to get ready to start the UI. Only absolutely necessary and fast finished jobs will be done here. Other jobs consuming long time will be done in splash window.
 
 The main activities are,
@@ -48,6 +51,7 @@ The main activities are,
   - splash if authenticated
 
 ### 3.1 Login (signin.component.ts)
+
 If no authentication cached, user will be navigated to the login page to provide his credential.
 
 The main activities are,
@@ -56,6 +60,7 @@ The main activities are,
 - Azure login: authentication using Azure AD account
 
 ## 4. Splash (splash.component.ts)
+
 This is the first page called after user has authenticated himself. Necessary and time consuming jobs will be done here to prepare the data and get ready for showing the UI.
 
 The main activities are,

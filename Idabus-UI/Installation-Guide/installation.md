@@ -4,7 +4,7 @@ layout: docs
 title: Installation
 description: This is the IDABUS UI Installation Guide
 filename: installation.md
-permalink: /installation/installation
+permalink: /installation/installation/
 
 nav_order: 1
 status: in progress
@@ -26,10 +26,10 @@ The files needed for the installation will be provided to you from your OCG cont
 
 ## Schema Extension
 Add the following attributes and bindings in MIM Portal.
-<br/>
+<br>
 >Alternatively you can import the OCG Schema file (MIM2016R2SP1_SchemaOnly_ChangeSet_V2.xml), which already includes the schema extension.
 
-<br/>
+<br>
 
 | Attribute Name | System Name | Type | Multivalued | Bind to |
 |--|--|--|--|--|
@@ -48,7 +48,7 @@ Make sure to run iisreset after extending schema
 
 ## Sets and MPRs
 Add the following Sets and MPRs in MIM Portal
-<br/>
+<br>
 >Alternatively you can import the OCG Sets and MPRs file (MIM2016R2SP2_UISetsMPRs_ChangeSet.xml), which already includes the Sets and MPRs.
 
 ### Sets
