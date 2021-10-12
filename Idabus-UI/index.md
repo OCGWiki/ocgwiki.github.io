@@ -1,7 +1,7 @@
 ---
 layout: docs
 
-title: Index
+title: Overview
 #description:
 filename: index.md
 permalink: /
