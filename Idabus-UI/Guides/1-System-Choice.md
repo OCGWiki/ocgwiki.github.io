@@ -12,7 +12,7 @@ parent: Guides
 toc: true
 ---
 
-# Scenario:
+# Scenario
 
 When launching the IDABUS® UI web page, the first dialog appearing is the **connection choice**, in the following referred to as **System-Choice**. Here you decide which instance you want to connect to. Note that this will be skipped if there is only one connection to choose.
 
@@ -26,7 +26,7 @@ To select a system click on the right-arrow next to it.
 
 
 
-# Configuration:
+# Configuration
 The System-Choice can be configured in the <span style="color: #8000FC">**"systems"**</span> key within the following JSON file:
 `C:\inetpub\Oxford Computer Group\IDABUS UI\portal\app\customisation\assets\config\customConfig.dev.json`
 <br />
