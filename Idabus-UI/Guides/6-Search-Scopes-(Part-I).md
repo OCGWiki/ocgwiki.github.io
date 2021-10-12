@@ -62,12 +62,13 @@ Searching for exactly _**'!eva'**_ will only find the first record.
 
 # Parameters
 ## Search Scopes
+
 | Key | Description | Values |
-|--|--|--|
-| name | Defines a name/key for this Search Scope.<br/>Example: `person` | string |
-| type | Specifies the Object Type as defined in the MIM Portal.<br/>Example: `Person` | string |
-| text | A translatable string that is shown to the user to identify this scope.<br/>Example: `l10n_users`| translatable string |
+|-----|-------------|--------|
+| name | Defines a name/key for this Search Scope.<br>Example: `person` | string |
+| type | Specifies the Object Type as defined in the MIM Portal.<br>Example: `Person` | string |
+| text | A translatable string that is shown to the user to identify this scope.<br>Example: `l10n_users`| translatable string |
 | icon | Specifies the [Google Material Icon](https://fonts.google.com/icons?style=baseline) to be used for this scope. | string |
 | enabled | Specifies whether or not this scope should be active and displayed in the **"Search all resources"**-results. | true/false |
-| query | Defines the normal query to be triggered. In order to search for all people´s first and last names the following search should be performed:<br/><br/>`/Person[starts-with(FirstName, '%SearchText%') or starts-with(LastName, '%SearchText%')]`<br/><br/>_**%SearchText%**_ will be replaced with the user´s input characters at runtime. | XPath |
-| exactQuery | Defines the exact query to be triggered when the user performs an exact search using the exclamation mark _**(!)**_. The main difference to a normal search is that an exact search can only use equivalents _**(=)**_ but no _**starts-with**_ or _**conatins**_.<br/><br/>`/Person[FirstName='%SearchText%' or LastName='%SearchText%']`<br/><br/>_**%SearchText%**_ will be replaced with the user´s input characters at runtime. | XPath |
+| query | Defines the normal query to be triggered. In order to search for all people´s first and last names the following search should be performed:<br><br>`/Person[starts-with(FirstName, '%SearchText%') or starts-with(LastName, '%SearchText%')]`<br><br>_**%SearchText%**_ will be replaced with the user´s input characters at runtime. | XPath |
+| exactQuery | Defines the exact query to be triggered when the user performs an exact search using the exclamation mark _**(!)**_. The main difference to a normal search is that an exact search can only use equivalents _**(=)**_ but no _**starts-with**_ or _**conatins**_.<br><br>`/Person[FirstName='%SearchText%' or LastName='%SearchText%']`<br><br>_**%SearchText%**_ will be replaced with the user´s input characters at runtime. | XPath |
