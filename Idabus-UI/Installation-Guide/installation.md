@@ -6,15 +6,16 @@ description: This is the IDABUS UI Installation Guide
 filename: installation.md
 permalink: /installation/installation
 
-nav_order: 2
+nav_order: 1
 status: in progress
+parent: Installation Guide
 toc: true
 ---
 
 # Installation
 Version: 4.2 or above
 
-The files are provided by OCG
+The files needed for the installation will be provided to you from your OCG contact.
 
 ## Prerequisites
 - MIM Service and Portal (2016 R2 or later)

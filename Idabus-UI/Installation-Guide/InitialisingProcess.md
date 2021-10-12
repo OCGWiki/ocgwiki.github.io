@@ -6,8 +6,9 @@ description: This is the IDABUS UI Installation Guide
 filename: InitialisingProcess.md
 permalink: /initialisingprocess/
 
-nav_order: 5
+nav_order: 3
 status: in progress
+parent: Installation Guide
 toc: true
 ---
 

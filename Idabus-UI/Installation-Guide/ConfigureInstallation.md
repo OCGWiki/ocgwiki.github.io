@@ -6,8 +6,9 @@ description: This is the IDABUS UI Installation Guide
 filename: ConfigureInstallation.md
 permalink: installation/configureinstallation/
 
-nav_order: 3
+nav_order: 1
 status: in progress
+parent: Installation Guide
 toc: true
 ---
 

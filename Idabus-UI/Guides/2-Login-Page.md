@@ -9,6 +9,7 @@ permalink: /guides/loginPage/
 nav_order: 2
 status: in progress
 parent: Guides
+has_children: true
 toc: true
 ---
 
