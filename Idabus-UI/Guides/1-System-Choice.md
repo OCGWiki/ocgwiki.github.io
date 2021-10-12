@@ -41,7 +41,7 @@ If <span style="color: #8000FC">**"systems"**</span> does not yet exist in this 
 
 Key | Description | Values
 ----------|----------|---------
-enabled | If _enabled_ the following array of items will be presented in the System-Choice dialog. <br>If _disabled_ no System-Choice is presented at all.| true/false
+enabled | If _enabled_ the following array of items will be presented in the System-Choice dialog. <br><br>If _disabled_ no System-Choice is presented at all.| true/false
 items | Collection of System-Objects. | [...]
 
 
