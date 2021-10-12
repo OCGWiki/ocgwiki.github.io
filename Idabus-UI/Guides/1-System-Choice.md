@@ -50,7 +50,7 @@ Key | Description | Values
 ----|-------------|---------
 name | Just an identifier for this System-Object. | string
 displayName | Specifies the title of the system. | string
-type | cloud = The <span style="color: #8000FC">**"msalSettings"**</span>from the configuration file are taken to authenticate users and access data.<br/><br/>onPrem = The <span style="color: #8000FC">**"dataServiceUrl"**</span> from the configuration file is taken to authenticate users and access data. | cloud/onPrem
+type | cloud = The <span style="color: #8000FC">**"msalSettings"**</span>from the configuration file are taken to authenticate users and access data.<br><br>onPrem = The <span style="color: #8000FC"> **"dataServiceUrl"** </span> from the configuration file is taken to authenticate users and access data. | cloud/onPrem
 description | Specifies a translatable description that will be shown below the title. | translatable string
 icon | Any [Google Material Icon](https://fonts.google.com/icons?style=baseline) | string
 enabled | A way to enable/disable this system connection. | true/false
