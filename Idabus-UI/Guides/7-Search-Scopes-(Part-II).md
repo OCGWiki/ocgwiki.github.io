@@ -17,25 +17,25 @@ toc: true
 
 Let´s assume we have added a new Action Card for **"Equipment"** to the [All Resources View](https://oxcoteam.visualstudio.com/OCG%20UI/_wiki/wikis/OCG-UI.wiki/732/(5)-All-Resources):
 
-![image.png](/.attachments/image-4e0b7433-0911-4ec4-b94d-98f6950c3f0c.png)
+![image.png](/img/image-4e0b7433-0911-4ec4-b94d-98f6950c3f0c.png)
 
 The configuration for the equipment card looks as followed:
 
-![image.png](/.attachments/image-14e258ca-1346-40ff-b08a-55159a5dfde8.png)
+![image.png](/img/image-14e258ca-1346-40ff-b08a-55159a5dfde8.png)
 
 ## PrimaryAction
 
 The <span style="color: #8000FC">**"primaryAction"**</span> specifies a search scope to be routed to when clicking on the <span style="color: #8000FC">**"primaryIcon"**</span>. As a user we expect to see a list of available **Equipment-Objects** to be displayed after clicking on the printer icon but effectively get the following:
 
-![image.png](/.attachments/image-e3afd976-3817-4a06-a0c2-184ca7c90c42.png)
+![image.png](/img/image-e3afd976-3817-4a06-a0c2-184ca7c90c42.png)
 
 The <span style="color: red;">No configuration was found</span> message appears because no available search scope named **EquipmentScope** was found in the configuration file. So let´s define this missing configuration by adding the following key/values to the search scopes:
 
-![image.png](/.attachments/image-23f8e409-7e76-45b4-b335-a15eb5846a5c.png)
+![image.png](/img/image-23f8e409-7e76-45b4-b335-a15eb5846a5c.png)
 
 Now, doing a Page-Refresh will show the expected overview/list of Office Equipment:
 
-![image.png](/.attachments/image-c3fe09de-7790-425f-90e1-888825036330.png)
+![image.png](/img/image-c3fe09de-7790-425f-90e1-888825036330.png)
 
 # Configuration
 

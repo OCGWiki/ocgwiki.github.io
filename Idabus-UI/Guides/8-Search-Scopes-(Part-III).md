@@ -38,7 +38,7 @@ This configuration is done quick and easy by just providing an array of strings 
 
 Saving the file and refreshing the page will now show the following list:
 
-![image.png](/.attachments/image-cab9de39-f426-4661-9a49-fac5d153a25f.png)
+![image.png](/img/image-cab9de39-f426-4661-9a49-fac5d153a25f.png)
 
 ## Complex Array of Column-Definitions
 
@@ -51,7 +51,7 @@ This configuration is more precise to how columns should appear in the list and 
 
 A Column-Definition looks like:
 
-![image.png](/.attachments/image-38922511-5a2d-4ea4-bdad-e8533c08f47b.png)
+![image.png](/img/image-38922511-5a2d-4ea4-bdad-e8533c08f47b.png)
 
 # Parameters
 ## Search Scopes
@@ -84,4 +84,4 @@ If the <span style="color: #8000FC">**"showStatus"**</span> property is present 
 ## Users-List
 On a newly installed system a sample with the Status-Configuration can be seen in the Resource-List for users:
 
-![image.png](/.attachments/image-543460c4-3c38-40ce-b35a-06b9d74caaa1.png)
+![image.png](/img/image-543460c4-3c38-40ce-b35a-06b9d74caaa1.png)
