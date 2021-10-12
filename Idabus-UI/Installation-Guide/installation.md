@@ -2,7 +2,7 @@
 layout: docs
 
 title: Installation
-description: This is the IDABUS UI Installation Article
+#description: This is the IDABUS UI Installation Article
 filename: installation.md
 permalink: /installation/installation/
 

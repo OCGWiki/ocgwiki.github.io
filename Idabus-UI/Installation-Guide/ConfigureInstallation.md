@@ -2,7 +2,7 @@
 layout: docs
 
 title: Configure and verify installation
-#description: 
+#description:
 filename: ConfigureInstallation.md
 permalink: installation/configureInstallation/
 

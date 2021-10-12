@@ -2,7 +2,7 @@
 layout: docs
 
 title: Installation Guide
-description: This is the IDABUS UI Installation Guide
+#description: This is the IDABUS UI Installation Guide.
 filename: InstallationGuide.md
 permalink: /installation/
 
