@@ -7,7 +7,7 @@ filename: 0-Guides.md
 permalink: /guides/
 
 nav_order: 3
-status: todo
+status: In progress
 has_children: true
 toc: true
 ---
