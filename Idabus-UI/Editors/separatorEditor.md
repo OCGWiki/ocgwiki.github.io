@@ -2,7 +2,7 @@
 layout: docs
 
 title: Separator Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: separatorEditor.md
 permalink: /editors/separatorEditor/
 

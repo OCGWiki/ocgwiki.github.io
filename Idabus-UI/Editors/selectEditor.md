@@ -2,7 +2,7 @@
 layout: docs
 
 title: Select Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: selectEditor.md
 permalink: /editors/selectEditor/
 

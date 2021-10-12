@@ -2,7 +2,7 @@
 layout: docs
 
 title: Button Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: buttonEditor.md
 permalink: /editors/buttonEditor/
 

@@ -2,7 +2,7 @@
 layout: docs
 
 title: Identity Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: identityEditor.md
 permalink: /editors/identityEditor/
 

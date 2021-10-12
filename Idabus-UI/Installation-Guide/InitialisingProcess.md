@@ -2,9 +2,9 @@
 layout: docs
 
 title: Initialising Process
-description: This is the IDABUS UI Installation Guide
+#description:
 filename: InitialisingProcess.md
-permalink: /initialisingprocess/
+permalink: /installation/initialisingprocess/
 
 nav_order: 3
 status: in progress

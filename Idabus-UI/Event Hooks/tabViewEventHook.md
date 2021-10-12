@@ -2,7 +2,7 @@
 layout: docs
 
 title: Tab View Event Hooks
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: tabViewEventHook.md
 permalink: /eventHooks/tabView/
 

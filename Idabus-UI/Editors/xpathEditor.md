@@ -2,7 +2,7 @@
 layout: docs
 
 title: XPath Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: xpathEditor.md
 permalink: /editors/xpathEditor/
 

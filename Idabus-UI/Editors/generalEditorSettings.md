@@ -2,7 +2,7 @@
 layout: docs
 
 title: General Editor Settings
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: generalEditorSettings.md
 permalink: /editors/generalEditorSettings/
 

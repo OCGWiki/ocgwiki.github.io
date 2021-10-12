@@ -2,7 +2,7 @@
 layout: docs
 
 title: Theming
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: Theming.md
 permalink: /theming/
 

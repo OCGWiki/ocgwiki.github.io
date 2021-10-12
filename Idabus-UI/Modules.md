@@ -2,7 +2,7 @@
 layout: docs
 
 title: Modules
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: Modules.md
 permalink: /modules/
 

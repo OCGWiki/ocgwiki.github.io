@@ -2,7 +2,7 @@
 layout: docs
 
 title: Text Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: textEditor.md
 permalink: /editors/textEditor/
 

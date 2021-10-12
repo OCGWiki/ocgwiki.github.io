@@ -2,7 +2,7 @@
 layout: docs
 
 title: Card Event Hooks
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: cardEventHook.md
 permalink: /eventHooks/card/
 

@@ -2,7 +2,7 @@
 layout: docs
 
 title: Wizard Event Hooks
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: wizardEventHook.md
 permalink: /eventHooks/wizard/
 

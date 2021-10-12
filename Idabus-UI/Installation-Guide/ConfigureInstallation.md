@@ -2,9 +2,9 @@
 layout: docs
 
 title: Configure and verify installation
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: ConfigureInstallation.md
-permalink: installation/configureinstallation/
+permalink: installation/configureInstallation/
 
 nav_order: 2
 status: in progress

@@ -2,7 +2,7 @@
 layout: docs
 
 title: Boolean Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: booleanEditor.md
 permalink: /editors/booleanEditor/
 

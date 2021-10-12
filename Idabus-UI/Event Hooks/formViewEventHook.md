@@ -2,7 +2,7 @@
 layout: docs
 
 title: Form View Event Hooks
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: formViewEventHook.md
 permalink: /eventHooks/formView/
 

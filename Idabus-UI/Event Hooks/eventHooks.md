@@ -2,7 +2,7 @@
 layout: docs
 
 title: Event Hooks
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: eventHooks.md
 permalink: /eventHooks/
 

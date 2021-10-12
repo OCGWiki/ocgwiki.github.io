@@ -2,7 +2,7 @@
 layout: docs
 
 title: Frame Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: frameEditor.md
 permalink: /editors/frameEditor/
 

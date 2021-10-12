@@ -2,7 +2,7 @@
 layout: docs
 
 title: Date Editor
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: dateEditor.md
 permalink: /editors/dateEditor/
 

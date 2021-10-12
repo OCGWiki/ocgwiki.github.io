@@ -2,7 +2,7 @@
 layout: docs
 
 title: Menu Event Hooks
-description: This is the IDABUS UI Installation Guide
+#description: 
 filename: menuEventHook.md
 permalink: /eventHooks/menu/
 
