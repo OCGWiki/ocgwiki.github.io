@@ -12,7 +12,7 @@ parent: Guides
 toc: true
 ---
 
-#Scenario
+# Scenario
 
 The All Resources view is separated in chapters (e.g, managedResources, processes, cloudResources, etc.) containing 0 to _**n**_ items/Action Card(s):
 
