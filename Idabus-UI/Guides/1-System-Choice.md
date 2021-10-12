@@ -41,7 +41,7 @@ If <span style="color: #8000FC">**"systems"**</span> does not yet exist in this 
 
 Key | Description | Values
 ----------|----------|---------
-enabled | If enabled the following array of items will be presented in the System-Choice dialog. <br><br>If disabled no System-Choice is presented at all.| true/false
+enabled | If _enabled_ the following array of items will be presented in the System-Choice dialog. <br>If _disabled_ no System-Choice is presented at all.| true/false
 items | Collection of System-Objects. | [...]
 
 
@@ -49,7 +49,7 @@ items | Collection of System-Objects. | [...]
 Key | Description | Values
 ----|-------------|---------
 name | Just an identifier for this System-Object. | string
-|isplayName | Specifies the title of the system. | string
+displayName | Specifies the title of the system. | string
 type | cloud = The <span style="color: #8000FC">**"msalSettings"**</span>from the configuration file are taken to authenticate users and access data.<br/><br/>onPrem = The <span style="color: #8000FC">**"dataServiceUrl"**</span> from the configuration file is taken to authenticate users and access data. | cloud/onPrem
 description | Specifies a translatable description that will be shown below the title. | translatable string
 icon | Any [Google Material Icon](https://fonts.google.com/icons?style=baseline) | string
