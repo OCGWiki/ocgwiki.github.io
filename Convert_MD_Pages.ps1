@@ -21,7 +21,7 @@ $toc = "true"
 
 ### Functionality ------------------
 
-$azure_md_content = Get-Content -Path $Path 
+$azure_md_content = Get-Content -Path $Path
 $first_line = $azure_md_content | select -First 5
 
 
@@ -33,17 +33,17 @@ foreach($line in $azure_md_content)
         $line.Trim("[[_TOC_]]")
         toc = "true"
     }
-    
+
     ## replace '.attachements' with 'img'
     if($null -ne (".attachments" | ? { $line -match $_ }))
     {
         $line.Replace(".attachments", "img")
-    }            
+    }
 }
 
 # Header ----------
 
-$basic_header = 
+$basic_header =
 "---
 layout: docs
 
@@ -63,7 +63,7 @@ $github_md_content = @()
 if($null -ne ("---" | ? { $github_md_content -match $_ }))  # If first line has "---" we assume it has a header
 {
     #has header
-    'has header'    
+    'has header'
     $github_md_content += $azure_md_content
 }
 else
@@ -74,4 +74,8 @@ else
     $github_md_content += $azure_md_content
 }
 
-$github_md_content | Out-File $out_file_name 
+# needs wokr!
+$github_md_content | Out-File $out_file_name
+
+# todos:
+# have a root path attribute in the docs layout and in azure a specific attribute name for it (for example $rootpath$)

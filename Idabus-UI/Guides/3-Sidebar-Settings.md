@@ -25,7 +25,7 @@ The sidebar contains the following elements (top to bottom):
 - Expand/Collapse-Button
 - Configurable Routes (Dashboard, Advanced Search, etc.)
 - Version-Information:
-  - **UI version**: Completely customizable _(shipped as 1.3.0)_
+  - **UI version**: Can be adapted whenever you make an individual UI customization _(shipped as 1.3.0)_
   - **Core version**: Internal Core-Build-Version from OCG _(shipped as 4.x)_
   - **Version build**: Internal OCG versioning _(shipped as 002)_
   - **Service version**: Version of the OCG DataService connected via <span style="color: #8000FC">**"dataServiceUrl"**</span> _(shipped as 4.3.1)_
@@ -44,9 +44,9 @@ and following sections:
 
 | Key | Description | Values |
 |-----|-------------|--------|
-| logoSplash | A relative path to an image file that is accessible within the customization folder and be shown on the splash screen of IDABUS® UI:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabuslogosplash.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
-| logoLarge | A relative path to an image file that is accessible within the customization folder and be shown in the sidebar as the large logo:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabuslogo.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
-| logoSmall | A relative path to an image file that is accessible within the customization folder and be shown in the sidebar as the small logo:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabusfavicon.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
+| logoSplash | A relative path to an image file that is accessible within the customization folder and shown on the splash screen of the IDABUS® UI:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabuslogosplash.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
+| logoLarge | A relative path to an image file that is accessible within the customization folder and shown in the sidebar as large logo:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabuslogo.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
+| logoSmall | A relative path to an image file that is accessible within the customization folder and shown in the sidebar as small logo:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabusfavicon.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
 
 ## Sidebar-Settings
 
