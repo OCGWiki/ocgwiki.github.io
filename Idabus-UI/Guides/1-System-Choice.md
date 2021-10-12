@@ -47,7 +47,7 @@ items | Collection of System-Objects. | [...]
 
 ## System/Item
 Key | Description | Values
---------|-------------|---------
+----|-------------|---------
 name | Just an identifier for this System-Object. | string
 displayName | Specifies the title of the system. | string
 
