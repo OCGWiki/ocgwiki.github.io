@@ -23,8 +23,10 @@ The IDABUS® UI supports multi-language capabilities. It is shipped with the fol
 The default language is English (en-US). A user can change this individually in the following places:
 
 - Initial-Button (top right):
+
 ![image.png](/img/image-5f88373f-5d80-40bf-b71b-12955c8c36f0.png)
 - Settings > Personal settings > Language:
+
 ![image.png](/img/image-ba9b495f-6eaf-4804-8f9e-529d4ba7db19.png)
 
 # Configuration
