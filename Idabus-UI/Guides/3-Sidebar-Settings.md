@@ -12,13 +12,13 @@ parent: Guides
 toc: true
 ---
 
-# Scenario:
+# Scenario
 
 The sidebar is available in two modes (when being expanded):
 - Floating _(overlapping)_
 - Unfloating _(side-by-side)_
 
-![image.png](/.attachments/image-acc4fc37-42ae-486a-9c4b-570bab793c36.png)
+![image.png](/img/image-acc4fc37-42ae-486a-9c4b-570bab793c36.png)
 
 The sidebar contains the following elements (top to bottom):
 - Logo-Image(s) (small and big)
@@ -30,7 +30,7 @@ The sidebar contains the following elements (top to bottom):
 \- **Version build**: Internal OCG versioning _(shipped as 002)_
 \- **Service version**: Version of the OCG DataService connected via <span style="color: #8000FC">**"dataServiceUrl"**</span> _(shipped as 4.3.1)_
 
-# Configuration:
+# Configuration
 The sidebar settings are stored and configurable in the following file
 `C:\inetpub\Oxford Computer Group\IDABUS UI\portal\app\customisation\assets\config\customConfig.dev.json`
 and following sections:
