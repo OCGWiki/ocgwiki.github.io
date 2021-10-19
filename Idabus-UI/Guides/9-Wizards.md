@@ -24,7 +24,7 @@ and is displayed screen-centered when the user clicks on the plus-icon of an Act
 
 After all <span style="color: red;">required fields</span> are entered by the user the **Create** button will be activated and the resource is being created in MIM if clicked.
 
-With the <span style="color: #8000FC">**"navigateAfterCreation"**</span>-option the user can control whether or not the IDABUS® UI should navigate to the [Detail View](/How-To/Tutorials/10-Detail-Views) of the newly created resource to show more detailed information about it. For this the user needs to activate the **right** portion of this switch before creating the resource. The **left** portion (_default_) keeps the IDABUS® UI at the concurrent location. The _default_ can be pre-defined in the `customConfig.dev.json` file.
+With the <span style="color: #8000FC">**"navigateAfterCreation"**</span>-option the user can control whether or not the IDABUS® UI should navigate to the [Detail View](/guides/detailViews/) of the newly created resource to show more detailed information about it. For this the user needs to activate the **right** portion of this switch before creating the resource. The **left** portion (_default_) keeps the IDABUS® UI at the concurrent location. The _default_ can be pre-defined in the `customConfig.dev.json` file.
 
 # Configuration
 
