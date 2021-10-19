@@ -3,10 +3,10 @@ layout: docs
 
 title: Search Scopes - Part 3
 description:
-filename: 7-Search-Scopes-(Part-III).md
+filename: 8-Search-Scopes-(Part-III).md
 permalink: /guides/searchScopes3/
 
-nav_order: 7
+nav_order: 8
 status: in progress
 parent: Guides
 toc: true
@@ -38,7 +38,7 @@ This configuration is done quick and easy by just providing an array of strings 
 
 Saving the file and refreshing the page will now show the following list:
 
-![image.png](/img/image-cab9de39-f426-4661-9a49-fac5d153a25f.png)
+![image.png](/img/image-6cbadc42-3e0a-4331-be17-3c5b215b94f4.png)
 
 ## Complex Array of Column-Definitions
 
