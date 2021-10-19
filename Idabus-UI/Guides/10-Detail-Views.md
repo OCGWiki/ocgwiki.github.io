@@ -73,16 +73,16 @@ The administrator can now start adding **Tabs** and/or **Attributes** to this de
 
 The following **Control Types** are available:
 
-- [**Textbox**](/OCG-UI/Editors/Text-Editor) _(for Strings)_
-- [**Checkbox**](/OCG-UI/Editors/Boolean-Editor) _(for Booleans)_
-- [**Select**](/OCG-UI/Editors/Select-Editor) _(can be DropDown or RadioButton)_
-- [**Date**](/OCG-UI/Editors/Date-Editor) _(for Dates and/or Times)_
-- [**Identity-Picker**](/OCG-UI/Editors/Identity-Editor) _(for References)_
-- [**Identity-List**](/OCG-UI/Editors/Identities-Editor) _(for Memberships)_
-- [**Button**](/OCG-UI/Editors/Button-Editor) _(for custom Angular methods - <span style="color: red;">Advanced Training required!</span>)_
-- [**XPath-Editor**](/OCG-UI/Editors/XPath-Editor) _(for criteria-based Filters)_
-- [**Separator**](/OCG-UI/Editors/Separator-Editor) _(for on-screen separation-purposes)_
-- [**Frame**](/OCG-UI/Editors/Frame-Editor) _(for custom Angular components - <span style="color: red;">Advanced Training required!</span>)_
+- [**Textbox**](/Editors/textEditor) _(for Strings)_
+- [**Checkbox**](/Editors/booleanEditor) _(for Booleans)_
+- [**Select**](/Editors/selectEditor) _(can be DropDown or RadioButton)_
+- [**Date**](/Editors/dateEditor) _(for Dates and/or Times)_
+- [**Identity-Picker**](/Editors/identityEditor) _(for References)_
+- [**Identity-List**](/Editors/identitiesEditor) _(for Memberships)_
+- [**Button**](/Editors/buttonEditor) _(for custom Angular methods - <span style="color: red;">Advanced Training required!</span>)_
+- [**XPath-Editor**](/Editors/xPathEditor) _(for criteria-based Filters)_
+- [**Separator**](/Editors/separatorEditor) _(for on-screen separation-purposes)_
+- [**Frame**](/Editors/frameEditor) _(for custom Angular components - <span style="color: red;">Advanced Training required!</span>)_
 <br>
 
 3\. Complete the operation by clicking the save icon ![image.png](/img/image-3fe151b9-b712-480d-9ea6-ce4082cd908a.png).
