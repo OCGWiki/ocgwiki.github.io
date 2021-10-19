@@ -1,7 +1,7 @@
 ---
 layout: docs
 
-title: Wizards
+title: Dashboard
 description:
 filename: 11-Dashboard.md
 permalink: /guides/dashboard/

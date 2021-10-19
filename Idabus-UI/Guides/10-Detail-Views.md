@@ -1,7 +1,7 @@
 ---
 layout: docs
 
-title: Wizards
+title: Detail Views
 description:
 filename: 10-Detail-Views.md
 permalink: /guides/detailViews/
