@@ -9,7 +9,7 @@ permalink: /guides/dashboard/
 nav_order: 10
 status: in progress
 parent: Guides
-toc: true
+toc: false
 ---
 
 # Scenario

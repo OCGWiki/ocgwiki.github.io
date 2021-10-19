@@ -20,7 +20,7 @@ A wizard is defined as a target for the <span style="color: #8000FC">**"secondar
 
 ![image.png](/img/image-1ccccd36-7c00-4b5e-b372-ecbd90e7fdad.png)
 
-and is displayed screen-centered when the user clicks on the plus-icon of an Action Card in the [All Resources](/How-To/Tutorials/5-All-Resources) view. This actually attempts to find a wizard within the IDABUS® UI configuration having the name specified by <span style="color: #8000FC">**"secondaryAction"**</span>.
+and is displayed screen-centered when the user clicks on the plus-icon of an Action Card in the [All Resources](/guides/allResources/) view. This actually attempts to find a wizard within the IDABUS® UI configuration having the name specified by <span style="color: #8000FC">**"secondaryAction"**</span>.
 
 After all <span style="color: red;">required fields</span> are entered by the user the **Create** button will be activated and the resource is being created in MIM if clicked.
 
