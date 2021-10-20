@@ -14,10 +14,10 @@ toc: true
 
 # Scenario
 
-In the last [chapter](https://oxcoteam.visualstudio.com/OCG%20UI/_wiki/wikis/OCG-UI.wiki/735/7-Search-Scopes-(Part-II)) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:
+In the last [Part II](/guides/searchScopes2/)) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:
 
-<IMG  src="https://oxcoteam.visualstudio.com/ced9e2ae-43cb-4ef0-a5f1-a2ae9538ed67/_apis/git/repositories/27b84974-5e85-464a-80c1-b37e3320b6bb/Items?path=/.attachments/image-c3fe09de-7790-425f-90e1-888825036330.png&amp;download=false&amp;resolveLfs=true&amp;%24format=octetStream&amp;api-version=5.0-preview.1&amp;sanitize=true&amp;versionDescriptor.version=wikiMaster" alt="image.png"/>
-<br/><br/>
+![image.png](/img/image-c3fe09de-7790-425f-90e1-888825036330.png)
+
 
 The Resource-List displays only one column _**DisplayName**_. In the following steps we'll add more columns to this list.
 
@@ -33,7 +33,7 @@ There are two ways to configure columns, or let´s say to display more MIM attri
 
 ## Simple Array of Strings
 
-This configuration is done quick and easy by just providing an array of strings containing attribute names bound to the specified Object Type. All columns will be displayed in same width and in their order provided in the array. To add _**Description**_ and _**Creator**_ information to the list change the <span style="color: #8000FC">**"attributes"**</span>-array in the <span style="color: #8000FC">**"searchScopes"**</span>-section for **EquipmentScope** to:<br/>
+This configuration is done quickly by just providing an array of strings containing attribute names bound to the specified Object Type. All columns will be displayed with the same width and in the order provided in the array. To add _**Description**_ and _**Creator**_ information to the list change the <span style="color: #8000FC">**"attributes"**</span>-array in the <span style="color: #8000FC">**"searchScopes"**</span>-section for **EquipmentScope** to:<br>
 `["DisplayName", "Description", "Creator"]`
 
 Saving the file and refreshing the page will now show the following list:
@@ -49,7 +49,7 @@ This configuration is more precise to how columns should appear in the list and 
 - a specific column <span style="color: #8000FC">**"width"**</span>
 - status indicators using the <span style="color: #8000FC">**"showStatus"**</span> configuration
 
-A Column-Definition looks like:
+A Column-Definition looks like this:
 
 ![image.png](/img/image-38922511-5a2d-4ea4-bdad-e8533c08f47b.png)
 
@@ -58,7 +58,7 @@ A Column-Definition looks like:
 
 | Key | Description | Values |
 |--|--|--|
-| attributes | A simple array of MIM attribute names bound to the concurrent Object Type. This array is required. | string[] |
+| attributes | A simple array of MIM attribute names bound to the current Object Type. This array is required. | string[] |
 | columns | This array is optional and can contain more precise column definitions for the columns specified in <span style="color: #8000FC">**"attributes"**</span>. | Column-Definition[] |
 
 ## Column-Definition
@@ -67,22 +67,22 @@ A Column-Definition looks like:
 |--|--|--|
 | field | Specifies the name of the attribute as specified in <span style="color: #8000FC">**"attributes"**</span> in order to apply the following column properties. | string |
 | sortable | If `true` the user will be able to click the column header to toggle sorting (unsorted > asc > desc). | true/false |
-| filterable | If `true` the user will be able to click a filter symbol in the column header to apply custom filtering on this column. To make filters work properly please also concern the correct data type for this attribute via <span style="color: #8000FC">**"filter"**</span> and <span style="color: #8000FC">**"filterOperators"**</span>. | true/false |
-| filter | Specifies the data type for this attribute/column if <span style="color: #8000FC">**"filterable"**</span> is set to `true`. If Text-Filtering is applied to a column containing numbers or dates, filtering won't work correctly! | Date/Number/Text |
-| filterOperators | If <span style="color: #8000FC">**"filterable"**</span> is set to `true` this property defines filter operators. Available operators are:<br> `"contains", "starts-with" `, <span style="color:red">etc.</span> | string[] |
+| filterable | If `true` the user will be able to click a filter symbol in the column header to apply custom filtering on this column. To make filters work properly, the correct data type of the attribute needs o be specified in <span style="color: #8000FC">**"filter"**. | true/false |
+| filter | Specifies the data type for this attribute/column if <span style="color: #8000FC">**"filterable"**</span> is set to `true`. If Text-Filtering is applied to a column containing numbers or dates, filtering won't work correctly! | text/ number/ boolean/ date |
+| filterOperators | <span style="color:red">This is not needed anymore with v.4.7 <br><br> </span> If <span style="color: #8000FC">**"filterable"**</span> is set to `true` this property defines filter operators. <br> Available operators are: `"contains", "starts-with", "equals", etc.` <br>(_See advanced search filter for all possibilities_)| string[] |
 | width | Specifies a dedicated width (px) for this column. | number |
-| showStatus | Specifies whether or not this column should indicate some status icon based upon the attribute value. | Status-Configuration |
+| showStatus | Specifies whether or not this column should indicate a status based on the attribute value. | Status-Configuration |
 
 ## Status-Configuration
 
-If the <span style="color: #8000FC">**"showStatus"**</span> property is present for a specific column it is configured with the following parameters:
+If the <span style="color: #8000FC">**"showStatus"**</span> property is present for a specific column, it is configured with the following parameters:
 | Key | Description | Values |
 |--|--|--|
-| trueValue | If the Object´s attribute value matches the string specified, a status icon is displayed prior to the <span style="color: #8000FC">**"trueText"**</span>-property. | string |
-| trueText | If the Object´s attribute value matches the string specified in <span style="color: #8000FC">**"trueValue"**</span> this string will be applied as the attributes value instead, otherwise <span style="color: #8000FC">**"falseText"**</span> is displayed. | translatable string |
-| trueColor | Specifies the icon color if <span style="color: #8000FC">**"trueValue"**</span> matches using a valid CSS Color code like:<br>`#00ff00` or `green` | CSS Color |
-| falseText | If the Object´s attribute value does not match the string specified in <span style="color: #8000FC">**"trueValue"**</span> this string will be applied as the attributes value instead, otherwise <span style="color: #8000FC">**"trueText"**</span> is displayed. | translatable string |
-| falseColor | Specifies the icon color if <span style="color: #8000FC">**"trueValue"**</span> does not match using a valid CSS Color code like:<br>`#00ff00` or `green` | CSS Color |
+| trueValue | If the Object´s attribute value matches the string specified, the status will be shown as true. otherwise it will be shown as false. | string |
+| trueText | If the Object´s attribute value matches the string specified in <span style="color: #8000FC">**"trueValue"**</span> this string is shown as status.| localizable string |
+| trueColor | Specifies the icon color for the _true_ status using a valid CSS Color code like:<br>`#00ff00` or `green` | CSS Color |
+| falseText | If the Object´s attribute value does not match the string specified in <span style="color: #8000FC">**"trueValue"**</span> this string is shown as status. | localizable string |
+| falseColor | Specifies the icon color for the _false_ status using a valid CSS Color code like:<br>`#ff0000` or `red` | CSS Color |
 
 ## Users-List
 

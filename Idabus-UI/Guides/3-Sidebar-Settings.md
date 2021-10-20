@@ -18,7 +18,7 @@ The sidebar is available in two modes (when being expanded):
 - Floating _(overlapping)_
 - Unfloating _(side-by-side)_
 
-![image.png](/img/image-acc4fc37-42ae-486a-9c4b-570bab793c36.png)
+![image.png](/img/image-c5690ab5-c4b1-4070-bfb9-fe9c5534b50a.png)
 
 The sidebar contains the following elements (top to bottom):
 - Logo-Image(s) (small and big)
@@ -64,4 +64,4 @@ and following sections:
 | path | Specifies the target route to be launched when the user clicks on the sidebar element. <span style="color: red">_(Advanced Training required)_</span> | Route|
 | title | A translatable string that is shown as tooltip for this sidebar element. | translatable string|
 | icon | Specifies the [Google Material Icon](https://fonts.google.com/icons?style=baseline) to be used for this sidebar item. | string |
-| enabled | If false the sidebar element will be hidden. | true/false |
+| enabled | If false, the sidebar item will be hidden. | true/false |
