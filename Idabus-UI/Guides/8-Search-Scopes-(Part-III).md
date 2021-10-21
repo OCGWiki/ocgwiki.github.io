@@ -14,7 +14,7 @@ toc: true
 
 # Scenario
 
-In the last [Part II](/guides/searchScopes2/)) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:
+In [Part II](/guides/searchScopes2/) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:
 
 ![image.png](/img/image-c3fe09de-7790-425f-90e1-888825036330.png)
 
@@ -76,6 +76,7 @@ A Column-Definition looks like this:
 ## Status-Configuration
 
 If the <span style="color: #8000FC">**"showStatus"**</span> property is present for a specific column, it is configured with the following parameters:
+
 | Key | Description | Values |
 |--|--|--|
 | trueValue | If the Object´s attribute value matches the string specified, the status will be shown as true. otherwise it will be shown as false. | string |
