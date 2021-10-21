@@ -16,7 +16,7 @@ toc: true
 
 Search Scopes are used to separate/filter and query for objects. The **Search all resources** or **Simple Search** search bar is located on the very top of the IDABUS® UI and first place to search for objects like (Persons, Groups, Units, etc.). A search automatically starts after a certain number of minimum characters are entered in the search field. The default amount of required characters is 3:
 
-![image.png](/.attachments/image-f27024b0-fa31-43c9-9afa-d560b65ed01c.png)
+![image.png](/img/image-f27024b0-fa31-43c9-9afa-d560b65ed01c.png)
 
 By default the following **Search Scopes** are available:
 
@@ -41,7 +41,7 @@ By default the following **Search Scopes** are available:
 
 If a search is triggered the **Search all resources** textbox drops a result panel showing up matches separated by **Search Scopes**:
 
-![image.png](/.attachments/image-755f2754-da67-415c-b8f0-cacdb96966a0.png)
+![image.png](/img/image-755f2754-da67-415c-b8f0-cacdb96966a0.png)
 
 The image above shows 6 active search scopes (Person/User, Azure B2B, Groups, PAM groups, Organizational Units and Roles). For the keyword _**'test'**_ entered in the search field only the Roles-Scope found a single match called _**'Tester'**_ while the PAM groups are still being queried.
 
