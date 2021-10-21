@@ -28,7 +28,7 @@ After the initial setup you will want to customize the instance to your needs in
 ## How to adapt the UI to your needs
 There are multiple ways to adapt the IDABUS UI. Many things can be done via the UI, like adapting the dashboard(s), defining how the wizards and editors of objects look like and more. You can find more about this here:
 - [Editors](/editors/)
-- Dashboard - coming soond
+- Dashboard - coming soon
 - Wizards - coming soon
 
 If you want to go deeper, you can learn about how to change the settings file to adapt the UI even more, and to add your own customized code here:
