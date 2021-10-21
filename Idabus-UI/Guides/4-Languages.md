@@ -52,6 +52,7 @@ _<span style="color: red;">It is highly recommanded to NOT change any values wit
 | culture | The culture code for the language <br><br> Example: `fr-FR` | string |
 | enabled | Disabled languages are not available to be selected from the UI. Only enabled languages are present. | true/false |
 | icon | Specifies the relative path to any picture representing the language (e.g, flags).<br><br>Example: `"assets/img/french.png"` | relative path |
+_(Find supported culture codes [here](https://docs.microsoft.com/en-us/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes))_
 
 # Additional Recommendations
 
