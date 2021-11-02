@@ -3,25 +3,27 @@ layout: default
 ---
  <article class="article-content">
    <header class="article-content__header dock-header">
-     <h1 >{{page.title}}</h1>
    </header>
-   <div>
-     {% if page.status == 'todo' %}
-       Coming soon...
-     {% elsif page.toc == true %}
+   {% if page.toc == true %}
+   <span>
      <details open markdown="block">
        <summary>
          <h4> Table of contents </h4>
        </summary>
-       {{
-         1. TOC
-         {:toc}
-        }}
-     </details>
+        1. TOC
+        {:toc}
+      </details>
 
      ---
 
+     </span>
     {% endif %}
-    {{ content }}
-   </div>
- </article>
+
+    <div>
+      {% if page.status == 'todo' %}
+        Coming soon...
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </div>
+  </article>
