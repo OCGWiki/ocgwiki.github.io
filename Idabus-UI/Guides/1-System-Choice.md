@@ -46,6 +46,7 @@ If <span style="color: #8000FC">**"systems"**</span> does not yet exist in this 
 
 ![image.png](/img/image-67918518-a557-4308-bb37-947807f0b792.png)
 
+
 # Parameters
 ## Systems
 
@@ -68,6 +69,7 @@ icon | Any [Google Material Icon](https://fonts.google.com/icons?style=baseline)
 enabled | A way to enable/disable this system connection. Only enabled connections can be seen by the users.  | true/false
 config | Can contain any configuration from the config itself in order to overwrite system-specific values. Only exceptions are <span style="color: #8000FC"> **"systems"**</span> and the <span style="color: #8000FC"> **"msalSettings"**</span> | {}
 
+---
 
 # Additional Recommendations
 
