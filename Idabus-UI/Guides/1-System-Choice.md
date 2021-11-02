@@ -14,8 +14,6 @@ toc: false
 
 {% include toc.md %}
 
----
-
 # Scenario
 
 When launching the IDABUS® UI web page, the first dialog appearing is the **connection choice**, in the following referred to as **System-Choice**. Here you decide which instance you want to connect to. The  **System-Choice** can also be deactivated and the dialog will be skipped.
