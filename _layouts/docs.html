@@ -1,29 +1,34 @@
 ---
 layout: default
 ---
+
  <article class="article-content">
+<!--
    <header class="article-content__header dock-header">
+      // for header stuff
    </header>
-   {% if page.toc == true %}
-   <span>
-     <details open markdown="block">
-       <summary>
-         <h4> Table of contents </h4>
-       </summary>
-        1. TOC
-        {:toc}
-      </details>
+//-->
 
-     ---
+  {% if page.status == 'todo' %}
+    Coming soon...
+  {% else %}
+   <!-- if status not todo -->
+    {% if page.toc == true %}
+     <span>
+       <details open markdown="block">
+         <summary>
+           <h4> Table of contents </h4>
+         </summary>
+          1. TOC
+          {:toc}
+        </details>
 
-     </span>
+       ---
+
+       </span>
     {% endif %}
-
     <div>
-      {% if page.status == 'todo' %}
-        Coming soon...
-      {% else %}
-        {{ content }}
-      {% endif %}
+      {{ content }}
     </div>
+  {% endif %}
   </article>
