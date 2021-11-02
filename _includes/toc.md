@@ -1,9 +1,12 @@
 <details open markdown="block">
   <summary>
-    <h4> Table of contents </h4>
-  </summary>  
-  1.Toc
-   {:toc}
- </details>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
   ---
+
+17:17
