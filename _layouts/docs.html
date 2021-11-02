@@ -12,17 +12,10 @@ layout: default
     Coming soon...
   {% else %}
     {% unless page.toc == false %}
-     <span>
-       <details open markdown="block">
-         <summary>
-           <h4> Table of contents </h4>
-         </summary>
-          {% include toc.html html=content sanitize=true class="inline_toc" %}
-
-          ---
-
-        </details>
-       </span>
+    17:02
+    <div>
+      {% include toc.md %}
+    </div>
     {% endunless %}
     <div>
       {{ content }}
