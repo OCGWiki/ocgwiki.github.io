@@ -19,8 +19,9 @@ layout: default
          {% include toc.html html=content sanitize=true  class="inline_toc" %}
        </div>
      {% endif %}
+     <br>
      {{ content }}
-     
+
      {% if page.has_children = true %}
      {{page.back_to_top = true}}
      {% endif %}
