@@ -2,7 +2,7 @@
 layout: docs
 
 title: Wizards
-description:
+#description: 
 filename: 9-Wizards.md
 permalink: /guides/wizards/
 

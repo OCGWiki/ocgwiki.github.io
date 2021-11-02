@@ -10,9 +10,7 @@ nav_order: 1
 status: in progress  #when status is todo, the page is not shown yet
 ---
 
-Welcome to the IDABUS® UI Documentation
-
-## About the IDABUS® UI
+## Welcome to the IDABUS® UI Documentation
 
 The Microsoft® Identity Manager provides its own user interface for the administration of objects within the Identity & Access Management (IAM) system. The configuration options (design, layout and function) of this standard interface are greatly enhanced by the IDABUS® User Interface (IDABUS® UI), formerly known as the OCG UI.
 

@@ -2,7 +2,7 @@
 layout: docs
 
 title: Login Page
-description: Describes the login possibilities
+#description: 
 filename: 2-Login_Page.md
 permalink: /guides/loginPage/
 

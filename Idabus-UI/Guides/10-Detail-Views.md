@@ -2,7 +2,7 @@
 layout: docs
 
 title: Detail Views
-description:
+#description: 
 filename: 10-Detail-Views.md
 permalink: /guides/detailViews/
 

@@ -2,7 +2,7 @@
 layout: docs
 
 title: Dashboard
-description:
+#description: 
 filename: 11-Dashboard.md
 permalink: /guides/dashboard/
 

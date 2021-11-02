@@ -2,7 +2,7 @@
 layout: docs
 
 title: Localization / Languages
-description:
+#description: 
 filename: 4-Languages.md
 permalink: /guides/languages/
 
