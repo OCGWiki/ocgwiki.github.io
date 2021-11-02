@@ -18,12 +18,8 @@ layout: default
          <h3>Table of contents:</h3>
          {% include toc.html html=content sanitize=true  class="inline_toc" %}
        </div>
+       <br>
      {% endif %}
-     <br>
      {{ content }}
-
-     {% if page.has_children = true %}
-     {{page.back_to_top = true}}
-     {% endif %}
    </div>
  </article>
