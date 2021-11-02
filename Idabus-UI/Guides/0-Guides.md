@@ -9,7 +9,6 @@ permalink: /guides/
 nav_order: 3
 status: In progress
 has_children: true
-toc: false
 ---
 
 # How-to Guides

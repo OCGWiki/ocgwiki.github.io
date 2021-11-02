@@ -2,15 +2,16 @@
 layout: docs
 
 title: General Editor Settings
-#description: 
+#description:
 filename: generalEditorSettings.md
 permalink: /editors/generalEditorSettings/
 
 parent: Editors
 nav_order: 1
 status: in progress
-toc: true
 ---
+
+{% include toc.md %}
 
 # General editor configurations
 

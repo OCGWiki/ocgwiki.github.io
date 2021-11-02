@@ -2,15 +2,16 @@
 layout: docs
 
 title: Button Editor
-#description: 
+#description:
 filename: buttonEditor.md
 permalink: /editors/buttonEditor/
 
 nav_order: 2
 parent: Editors
 status: in progress
-toc: true
 ---
+
+{% include toc.md %}
 
 # Configuration
 

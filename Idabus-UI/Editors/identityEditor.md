@@ -2,15 +2,15 @@
 layout: docs
 
 title: Identity Editor
-#description: 
+#description:
 filename: identityEditor.md
 permalink: /editors/identityEditor/
 
 nav_order: 6
 parent: Editors
 status: in progress
-toc: true
 ---
+{% include toc.md %}
 
 # Configuration
 

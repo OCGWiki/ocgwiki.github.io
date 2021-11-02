@@ -2,15 +2,15 @@
 layout: docs
 
 title: Separator Editor
-#description: 
+#description:
 filename: separatorEditor.md
 permalink: /editors/separatorEditor/
 
 nav_order: 9
 parent: Editors
 status: in progress
-toc: true
 ---
+{% include toc.md %}
 
 # Configuration
 

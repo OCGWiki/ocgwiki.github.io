@@ -2,15 +2,16 @@
 layout: docs
 
 title: Boolean Editor
-#description: 
+#description:
 filename: booleanEditor.md
 permalink: /editors/booleanEditor/
 
 nav_order: 3
 parent: Editors
 status: in progress
-toc: true
 ---
+
+{% include toc.md %}
 
 # Configuration
 

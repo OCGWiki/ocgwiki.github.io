@@ -2,15 +2,16 @@
 layout: docs
 
 title: Date Editor
-#description: 
+#description:
 filename: dateEditor.md
 permalink: /editors/dateEditor/
 
 nav_order: 4
 parent: Editors
 status: in progress
-toc: true
 ---
+
+{% include toc.md %}
 
 # Configuration
 

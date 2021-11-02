@@ -12,6 +12,8 @@ status: in progress
 toc: false
 ---
 
+{% include toc.md %}
+
 # Editors
 
 Editors are reusable components, which can be used to show and edit attribute values.

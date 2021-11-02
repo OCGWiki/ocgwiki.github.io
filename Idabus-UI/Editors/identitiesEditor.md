@@ -2,15 +2,16 @@
 layout: docs
 
 title: Identities Editor
-#description: 
+#description:
 filename: identitiesEditor.md
 permalink: /editors/identitiesEditor/
 
 nav_order: 7
 parent: Editors
 status: in progress
-toc: true
 ---
+{% include toc.md %}
+
 # Configuration
 
 |Property name| Default value | Annotation |

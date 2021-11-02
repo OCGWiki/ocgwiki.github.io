@@ -2,15 +2,16 @@
 layout: docs
 
 title: Select Editor
-#description: 
+#description:
 filename: selectEditor.md
 permalink: /editors/selectEditor/
 
 nav_order: 8
 parent: Editors
 status: in progress
-toc: true
 ---
+{% include toc.md %}
+
 # Configuration
 
 |Property name| Default value | Annotation |

@@ -9,7 +9,6 @@ permalink: /guides/systemChoice/
 nav_order: 1
 status: in progress
 parent: Guides
-toc: false
 ---
 
 {% include toc.md %}

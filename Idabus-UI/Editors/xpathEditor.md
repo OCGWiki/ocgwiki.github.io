@@ -2,15 +2,15 @@
 layout: docs
 
 title: XPath Editor
-#description: 
+#description:
 filename: xpathEditor.md
 permalink: /editors/xpathEditor/
 
 nav_order: 11
 parent: Editors
 status: in progress
-toc: true
 ---
+{% include toc.md %}
 
 # Configuration
 

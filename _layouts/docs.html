@@ -10,16 +10,7 @@ layout: default
 
   {% if page.status == 'todo' %}
     Coming soon...
-  {% else %}
-    {% unless page.toc == false %}
-
-    <div>
-
-    {% include toc.md %}
-
-    17:50
-    </div>
-    {% endunless %}
+  {% else %}    
     <div>
       {{ content }}
     </div>

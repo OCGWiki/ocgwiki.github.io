@@ -2,15 +2,16 @@
 layout: docs
 
 title: Text Editor
-#description: 
+#description:
 filename: textEditor.md
 permalink: /editors/textEditor/
 
 nav_order: 10
 parent: Editors
 status: in progress
-toc: true
 ---
+{% include toc.md %}
+
 # Configuration
 
 |Property name| Default value | Annotation |
