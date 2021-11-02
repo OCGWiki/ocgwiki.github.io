@@ -2,7 +2,7 @@
 layout: docs
 
 title: Sidebar Event Hooks
-#description: 
+#description:
 filename: sidebarEventHook.md
 permalink: /eventHooks/sidebar/
 
@@ -11,6 +11,7 @@ parent: Event Hooks
 status: in progress
 toc: true
 ---
+{% include toc.md %}
 
 Sidebar is a menu bar on the left side of the UI. Sidebar items can be configured in the config.json file and the action handler can be defined through the event hook.
 

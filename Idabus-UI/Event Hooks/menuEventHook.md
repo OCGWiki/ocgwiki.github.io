@@ -2,15 +2,16 @@
 layout: docs
 
 title: Menu Event Hooks
-#description: 
+#description:
 filename: menuEventHook.md
 permalink: /eventHooks/menu/
 
 nav_order: 4
 parent: Event Hooks
 status: in progress
-toc: true
 ---
+{% include toc.md %}
+
 Menus can be built dynamically in OCG UI. You can define a configuration in the config.json file and then use the event hook to load the configuration and build the menu items. After that you can again use the event hook to define the behavior of the menu items.
 
 ## onBuildMenuEvent

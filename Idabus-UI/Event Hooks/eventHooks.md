@@ -9,8 +9,8 @@ permalink: /eventHooks/
 nav_order: 15
 has_children: true
 status: in progress
-toc: true
 ---
+{% include toc.md %}
 
 ## What are event hooks
 Event hooks are reserved empty functions, which will be called if one of a pre-defined events is fired. Injecting code into the event hooks allows you to take control of how to response to such an event.

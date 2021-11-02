@@ -2,15 +2,16 @@
 layout: docs
 
 title: Form View Event Hooks
-#description: 
+#description:
 filename: formViewEventHook.md
 permalink: /eventHooks/formView/
 
 nav_order: 1
 parent: Event Hooks
 status: in progress
-toc: true
 ---
+{% include toc.md %}
+
 Form views are usually used to show object attributes and details. Other object views like [tab view](/Views/Tab-View) or [attribute view](/Views/Attribute-View) are built on the top of the form view. Please refer to [Views](/Views) to see more details
 
 ## onViewAfterInit

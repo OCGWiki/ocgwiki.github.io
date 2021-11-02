@@ -2,7 +2,7 @@
 layout: docs
 
 title: Tab View Event Hooks
-#description: 
+#description:
 filename: tabViewEventHook.md
 permalink: /eventHooks/tabView/
 
@@ -11,6 +11,7 @@ parent: Event Hooks
 status: in progress
 toc: true
 ---
+{% include toc.md %}
 
 Tab view controls only the tab headers in every [form view](/eventHooks/formView/). The tab body is a container for the [Attribute View](/Views/Attribute-View/). Please refer to [Views](/Views/) to see more details.
 
