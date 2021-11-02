@@ -20,6 +20,11 @@ layout: default
        </div>
        <br>
      {% endif %}
+     {% if page.has_children = true %}
+     {{page.back_to_top = true}}
+     {% endif %}
+     
      {{ content }}
+
    </div>
  </article>
