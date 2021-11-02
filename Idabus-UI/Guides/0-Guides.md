@@ -1,8 +1,8 @@
 ---
-layout: docs
+layout: default
 
 title: Guides
-description: The Index page for the guides
+#description:
 filename: 0-Guides.md
 permalink: /guides/
 
