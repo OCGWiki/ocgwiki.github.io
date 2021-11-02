@@ -12,5 +12,5 @@ has_children: true
 toc: false
 ---
 
-# How to Guides
+# How-to Guides
 Here you will be able to find some more detailed how-to guides to different topics.

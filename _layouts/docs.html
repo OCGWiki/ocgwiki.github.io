@@ -3,17 +3,15 @@ layout: default
 ---
 
  <article class="article-content">
-<!--
+
    <header class="article-content__header dock-header">
-      // for header stuff
+      <h1>{page.title}</h1>
    </header>
-//-->
 
   {% if page.status == 'todo' %}
     Coming soon...
   {% else %}
-   <!-- if status not todo -->
-    {% if page.toc == true %}
+    {% unless page.toc == false %}
      <span>
        <details open markdown="block">
          <summary>
@@ -26,7 +24,7 @@ layout: default
        ---
 
        </span>
-    {% endif %}
+    {% endunless %}
     <div>
       {{ content }}
     </div>
