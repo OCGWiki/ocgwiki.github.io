@@ -10,6 +10,7 @@ nav_order: 12
 status: in progress
 toc: true
 ---
+{% include toc.md %}
 
 # Global setting
 

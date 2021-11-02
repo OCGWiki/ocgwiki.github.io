@@ -10,6 +10,7 @@ nav_order: 16
 status: in progress
 toc: true
 ---
+{% include toc.md %}
 
 # Localisation module
 Loads translation files (in json format) into project and provides methods to implement translation.

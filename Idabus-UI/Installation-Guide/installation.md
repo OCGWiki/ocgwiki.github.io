@@ -13,7 +13,6 @@ toc: true
 ---
 {% include toc.md %}
 
-# Installation
 Version: 4.2 or above
 
 The files needed for the installation will be provided to you from your OCG contact.
