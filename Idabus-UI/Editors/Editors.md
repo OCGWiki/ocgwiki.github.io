@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: default
 
 title: Editors
 #description:
@@ -12,7 +12,8 @@ status: in progress
 toc: false
 ---
 
-## What are editors
+# Editors
+
 Editors are reusable components, which can be used to show and edit attribute values.
 
 With editors attribute values can be represented in different ways (like check box, combo box, date time picker etc.) and their behaviors (like validation, suggestion, event handler etc.) can be completely customized.
