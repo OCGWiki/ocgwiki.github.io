@@ -9,7 +9,7 @@ permalink: /installation/
 nav_order: 2
 status: in progress
 has_children: true
-toc: true
+toc: false
 ---
 
 In this Section you can find a collection of articles that will help you through the installation process of the IDABUS® UI Installation.

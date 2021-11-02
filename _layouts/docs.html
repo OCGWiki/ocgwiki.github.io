@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<<head>
+  <link rel="shortcut icon" type="image/png"
+      href="{{ "/assets/icons/idabuslogo.png"  | absolute_url }}">
+</head>
+
  <article class="article-content">
    <header class="article-content__header dock-header">
      <h1 >{{title}}</h1>
@@ -15,7 +20,7 @@ layout: default
      <div>
      {% if page.status == 'todo' %}
        Coming soon...
-     {% else if page.toc == 'true' %}
+     {% else if page.toc == true %}
        <div>
          <h3>Table of contents:</h3>
          {% include toc.html html=content sanitize=true  class="inline_toc" %}
