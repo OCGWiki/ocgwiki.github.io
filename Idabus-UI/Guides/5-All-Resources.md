@@ -1,7 +1,7 @@
 ---
 layout: docs
 
-title: All resources
+title: All Resources
 #description:
 filename: 5-All-Resources.md
 permalink: /guides/allResources/
