@@ -31,7 +31,7 @@ There are multiple ways to adapt the IDABUS UI. Many things can be done via the 
 - Dashboard - coming soon
 - Wizards - coming soon
 
-If you want to go deeper, you can learn about how to change the settings file to adapt the UI even more, and to add your own customized code here:
+If you want to go deeper, you can learn more about changing the settings file to adapt the UI, and to add your own customized code here:
 - [UI Settings](/uisettings/)
 - [Event Hooks](/eventHooks)
 - [Theming](/theming/)
