@@ -9,14 +9,15 @@ layout: default
      {% if page.status == 'todo' %}
        Coming soon...
      {% elsif page.toc == true %}
-       <div>
-         <h3>Table of contents:</h3>
-         {% include toc.html html=content sanitize=true  class="inline_toc" %}
-       </div>
-       <br>
-     {% endif %}    
-
-     {{ content }}
-
+     <details open markdown="block">
+       <summary>
+         Table of contents
+       </summary>
+       {: .text-delta }
+       1. TOC
+       {:toc}
+     </details>
+    {% endif %}
+    {{ content }}
    </div>
  </article>
