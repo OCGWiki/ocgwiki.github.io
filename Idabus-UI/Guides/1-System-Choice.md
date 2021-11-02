@@ -9,8 +9,9 @@ permalink: /guides/systemChoice/
 nav_order: 1
 status: in progress
 parent: Guides
-toc: true
+toc: false
 ---
+
 # toc
 {:toc}
 
