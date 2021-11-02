@@ -2,7 +2,7 @@
 layout: docs
 
 title: Localization / Languages
-#description: 
+#description:
 filename: 4-Languages.md
 permalink: /guides/languages/
 
@@ -11,6 +11,7 @@ status: in progress
 parent: Guides
 toc: true
 ---
+{% include toc.md %}
 
 # Scenario
 

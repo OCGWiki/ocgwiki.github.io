@@ -2,7 +2,7 @@
 layout: docs
 
 title: Login Page
-#description: 
+#description:
 filename: 2-Login_Page.md
 permalink: /guides/loginPage/
 
@@ -11,6 +11,7 @@ status: in progress
 parent: Guides
 toc: true
 ---
+{% include toc.md %}
 
 # Scenario
 

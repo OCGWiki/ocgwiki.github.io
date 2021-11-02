@@ -2,7 +2,7 @@
 layout: docs
 
 title: Sidebar Settings
-#description: 
+#description:
 filename: 3-Sidebar-Settings.md
 permalink: /guides/sidebarSettings/
 
@@ -11,6 +11,7 @@ status: in progress
 parent: Guides
 toc: true
 ---
+{% include toc.md %}
 
 # Scenario
 

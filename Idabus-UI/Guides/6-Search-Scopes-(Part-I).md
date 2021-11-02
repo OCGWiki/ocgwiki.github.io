@@ -2,7 +2,7 @@
 layout: docs
 
 title: Search Scopes - Part 1
-#description: 
+#description:
 filename: 6-Search-Scopes-(Part-I).md
 permalink: /guides/searchScopes1/
 
@@ -11,6 +11,7 @@ status: in progress
 parent: Guides
 toc: true
 ---
+{% include toc.md %}
 
 # Scenario
 

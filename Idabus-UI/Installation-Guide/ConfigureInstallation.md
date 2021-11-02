@@ -11,6 +11,7 @@ status: in progress
 parent: Installation Guide
 toc: true
 ---
+{% include toc.md %}
 
 # Configure OCG Data Service
 
