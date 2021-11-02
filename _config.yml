@@ -3,3 +3,14 @@ remote_theme: pmarsceill/just-the-docs
 title: Idabus UI Wiki
 description: Feel free to look around and give some feedback!
 color_scheme: ocg_theme
+url: "https://ocgwiki.github.io/"
+
+logo: "/assets/icons/idabuslogo.png"
+
+# Footer content
+# appears at the bottom of every page's main content
+footer_content: "IDABUS UI Wiki by Oxford Computer Group"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
