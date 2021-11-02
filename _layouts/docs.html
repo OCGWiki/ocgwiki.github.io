@@ -17,12 +17,11 @@ layout: default
          <summary>
            <h4> Table of contents </h4>
          </summary>
-          1. TOC
-          {:toc}
+          {% include toc.html html=content sanitize=true class="inline_toc" %}
+
+          ---
+
         </details>
-
-       ---
-
        </span>
     {% endunless %}
     <div>
