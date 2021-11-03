@@ -3,7 +3,7 @@ theme: "just-the-docs"
 title: Idabus UI Wiki
 description: Feel free to look around and give some feedback!
 color_scheme: ocg_theme
-url: "https://ocgwiki.github.io/"
+#url: "https://ocgwiki.github.io"
 
 logo: "/assets/icons/logoMitText.png"
 
