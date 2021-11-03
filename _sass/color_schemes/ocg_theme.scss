@@ -1,2 +1,9 @@
-$link-color: $blue-100 !default;
-$btn-primary-color: $blue-200 !default;
+//Constants
+$idabus_blue-000: #009dcc;
+$idabus_blue-100: #078cb8;
+$idabus_blue-200: #067da3;
+$idabus_blue--100: #089ccc;
+
+//settings
+$link-color: $idabus_blue-000;
+$btn-primary-color: $idabus_blue-200;
