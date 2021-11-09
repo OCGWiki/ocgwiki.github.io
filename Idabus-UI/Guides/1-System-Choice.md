@@ -60,8 +60,6 @@ icon | Any [Google Material Icon](https://fonts.google.com/icons?style=baseline)
 enabled | A way to enable/disable this system connection. Only enabled connections can be seen by the users.  | true/false
 config | Can contain any configuration from the config itself in order to overwrite system-specific values. Only exceptions are <span style="color: #8000FC"> **"systems"**</span> and the <span style="color: #8000FC"> **"msalSettings"**</span> | {}
 
----
-
 # Additional Recommendations
 
 1. If you want the UI to connect to one system only, set <span style="color: #8000FC"> systems.enabled</span> to false. Then the whole <span style="color: #8000FC"> systems</span> block will be disregarded.
