@@ -7,7 +7,7 @@ filename: 11a-State-Card.md
 permalink: /guides/dashboard/stateCard/
 
 nav_order: 1
-status: todo #Can't be accessed while on 'todo'
+status: in progress
 parent: Dashboard
 grand_parent: Guides
 toc: false
