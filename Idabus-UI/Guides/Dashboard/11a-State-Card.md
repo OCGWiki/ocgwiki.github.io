@@ -10,8 +10,11 @@ nav_order: 1
 status: in progress
 parent: Dashboard
 grand_parent: Guides
-toc: false
+toc: true
 ---
+
+{% include toc.md %}
+
 # Scenario
 
 The configuration for **State cards** can be seen in the following screenshot:
