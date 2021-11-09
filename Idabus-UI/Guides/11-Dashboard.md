@@ -20,7 +20,7 @@ The **Dashboard** is reached via sidebar link ![image.png](/img/image-6066fb7e-6
 
 Widgets can be added, modified, removed, re-positioned and resized. The following widget types are available:
 
-- [**State card**](/guides/dashboard/stateCard/)
+- [**State card**](/guides/dashboard//a\)-State-card)
 - **Resource table**
 - **Resource chart**
 - **Approvals**
