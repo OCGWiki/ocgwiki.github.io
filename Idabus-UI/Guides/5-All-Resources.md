@@ -14,7 +14,7 @@ toc: true
 
 {% include toc.md %}
 
-# Scenario
+#Scenario
 
 The All Resources view is separated in chapters (e.g, managedResources, processes, cloudResources, etc.) containing 0 to _**n**_ items/Action Card(s):
 
@@ -48,6 +48,6 @@ Action Card(s) are defined as followed:
 | title | Specifies a title for this Action Card.| localizable string |
 | description | Specifies a description for this Action Card. | localizable string |
 | primaryIcon | Any [Google Material Icon](https://fonts.google.com/icons?style=baseline). | string |
-| primaryAction | Specifies a [search scope](/OCG-UI/How-To/Tutorials/7-Search-Scopes-\(Part-II\)) to be routed to when clicking on the <span style="color: #8000FC">**"primaryIcon"**</span>.| string |
+| primaryAction | Specifies a [search scope](/guides/searchScopes2/) to be routed to when clicking on the <span style="color: #8000FC">**"primaryIcon"**</span>.| string |
 | secondaryAction | The name of the wizard that will be called when you click the plus sign.. | string |
 | enabled | If _disabled_, the Action Card will be hidden in the UI.<br>If _enabled_ the Action Card will be rendered as far as the appropriate permissionSets and actionSets properties are sattisfied. | true/false |

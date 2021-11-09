@@ -11,6 +11,7 @@ status: in progress
 parent: Guides
 toc: true
 ---
+
 {% include toc.md %}
 
 # Scenario
@@ -21,7 +22,7 @@ The IDABUS® UI supports multi-language capabilities. Out of the box it is shipp
 - German _(de-DE)_
 - Chinese _(zh-CN)_
 
-At the first login, the UI sets the language to the default language of the browser if it is among the supported languages (see Configuration above). If the browser uses an unsupported language, the UI fall back to the default language English (en-US/en).
+At the first login, the UI sets the language to the default language of the browser if it is among the supported languages (see Configuration above). If the browser uses an unsupported language, the UI fall back to the default language English (en-US/en). 
 
 A user can change their language settings individually in the following places:
 
@@ -35,9 +36,9 @@ A user can change their language settings individually in the following places:
 
 # Configuration
 
-Languages can be modified, added, removed, enabled and disabled. The keys/values for these languages are stored in JSON-files within the following folder:
+Languages can be modified, added, removed, enabled and disabled. The keys/values for these languages are stored in JSON-files within the following folder: 
 `C:\inetpub\Oxford Computer Group\IDABUS UI\portal\app\customisation\assets\translate` <br>
-_(Note in a newly installed instance the files would be empty)_
+_(Note in a newly installed instance the files would be empty)_ 
 
 The folder above can contain customized languages files and/or keys. The Core-Translation key/value-pairs are available at:
 `C:\inetpub\Oxford Computer Group\IDABUS UI\portal\assets\translate` <br>
@@ -55,6 +56,7 @@ _<span style="color: red;">It is highly recommanded to NOT change any values wit
 | icon | Specifies the relative path to any picture representing the language (e.g, flags).<br><br>Example: `"assets/img/french.png"` | relative path |
 
 _(Find [supported culture codes here](https://docs.microsoft.com/en-us/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes))_
+
 
 # Additional Recommendations
 

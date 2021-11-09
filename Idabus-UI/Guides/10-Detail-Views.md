@@ -11,6 +11,7 @@ status: in progress
 parent: Guides
 toc: true
 ---
+
 {% include toc.md %}
 
 # Scenario
@@ -43,7 +44,7 @@ This view can be hidden or visible showing the generated initials (**MA**) and c
 
 ## Structure View
 
-This view can be hidden or visible showing **Parent/Child-Relations** about the selected resource within a tree structure. This is useful to quickly see and access organizational unit information about the selected resource.
+This view can be hidden or visible showing **Parent/Child-Relations** about the selected resource within a tree structure. This is useful to quickly see and access organizational unit information about the selected resource. 
 <br>
 
 # Configration
@@ -80,10 +81,10 @@ The following **Control Types** are available:
 - [**Date**](/Editors/dateEditor) _(for Dates and/or Times)_
 - [**Identity-Picker**](/Editors/identityEditor) _(for References)_
 - [**Identity-List**](/Editors/identitiesEditor) _(for Memberships)_
-- [**Button**](/Editors/buttonEditor) _(for custom Angular methods - <span style="color: red;">Advanced Training required!</span>)_
+- [**Button**](/Editors/buttonEditor) _(for custom Angular methods - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
 - [**XPath-Editor**](/Editors/xPathEditor) _(for criteria-based Filters)_
 - [**Separator**](/Editors/separatorEditor) _(for on-screen separation-purposes)_
-- [**Frame**](/Editors/frameEditor) _(for custom Angular components - <span style="color: red;">Advanced Training required!</span>)_
+- [**Frame**](/Editors/frameEditor) _(for custom Angular components - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
 <br>
 
 3\. Complete the operation by clicking the save icon ![image.png](/img/image-3fe151b9-b712-480d-9ea6-ce4082cd908a.png).

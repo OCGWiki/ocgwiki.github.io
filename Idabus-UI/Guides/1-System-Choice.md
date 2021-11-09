@@ -49,7 +49,7 @@ items | Collection of System-Objects to choose from in the connection selection.
 
 ## System/Item
 
-Key | Description | Values
+Key | Description | Values 
 ----|-------------|---------
 name | An unique identifier for this System-Object. <br><br> **REQUIRED** | string
 displayName | Specifies the system title that will be shown in the selection. | (localizable) string
@@ -62,7 +62,7 @@ config | Can contain any configuration from the config itself in order to overwr
 
 # Additional Recommendations
 
-1. If you want the UI to connect to one system only, set <span style="color: #8000FC"> systems.enabled</span> to false. Then the whole <span style="color: #8000FC"> systems</span> block will be disregarded.
+1. If you want the UI to connect to one system only, set <span style="color: #8000FC"> systems.enabled</span> to false. Then the whole <span style="color: #8000FC"> systems</span> block will be disregarded. 
 2. If you want to add a second system after setting up only one connection, you can just:
 2.1 Set <span style="color: #8000FC"> systems.enabled</span> to true
 2.2 Create an item for the already existing system with <span style="color: #8000FC"> config</span>: {}

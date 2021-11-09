@@ -11,6 +11,7 @@ status: in progress
 parent: Guides
 toc: true
 ---
+
 {% include toc.md %}
 
 # Scenario
@@ -37,5 +38,5 @@ The authentication is driven by two top-level parameters within the following JS
 
 | Key | Description | Values |
 |-----|-------------|--------|
-| dataServiceUrl| The Url to the DataService (binding and port) as hosted on IIS including the suffix `/api`. | URL |
-| domain | The NetBIOS name of the domain. | string |
+| dataServiceUrl| The Url to the DataService (binding and port) as hosted on IIS including the suffix `/api`. <br><br> **REQUIRED** | URL |
+| domain | The NetBIOS name of the domain. <br><br> **REQUIRED** | string |

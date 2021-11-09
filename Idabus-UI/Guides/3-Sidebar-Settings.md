@@ -11,6 +11,7 @@ status: in progress
 parent: Guides
 toc: true
 ---
+
 {% include toc.md %}
 
 # Scenario
@@ -25,11 +26,11 @@ The sidebar contains the following elements (top to bottom):
 - Logo-Image(s) (small and big)
 - Expand/Collapse-Button
 - Configurable Routes (Dashboard, Advanced Search, etc.)
-- Version-Information:
-  - **UI version**: Can be adapted whenever you make an individual UI customization _(shipped as 1.3.0)_
-  - **Core version**: Internal Core-Build-Version from OCG _(shipped as 4.x)_
-  - **Version build**: Internal OCG versioning _(shipped as 002)_
-  - **Service version**: Version of the OCG DataService connected via <span style="color: #8000FC">**"dataServiceUrl"**</span> _(shipped as 4.3.1)_
+- Version-Information _(as displayed in the screenshot)_:
+  - **UI version**: Can be adapted whenever you make an individual UI customization  _(displayed as 1.3.0)_
+  - **Core version**: Internal Core-Build-Version from OCG _(displayed as 4.6.0)_
+  - **Version build**: Internal OCG versioning _(displayed as 002)_
+  - **Service version**: Version of the OCG DataService connected via <span style="color: #8000FC">**"dataServiceUrl"**</span> _(displayed as 4.3.1)_
 
 # Configuration
 The sidebar settings are stored and configurable in the following file
