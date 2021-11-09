@@ -9,6 +9,7 @@ permalink: /guides/dashboard/
 nav_order: 10
 status: in progress
 parent: Guides
+has_children: true
 toc: false
 ---
 # Scenario
@@ -19,7 +20,7 @@ The **Dashboard** is reached via sidebar link ![image.png](/img/image-6066fb7e-6
 
 Widgets can be added, modified, removed, re-positioned and resized. The following widget types are available:
 
-- [**State card**](/OCG-UI/How-To/Tutorials/11-Dashboard/a\)-State-card)
+- [**State card**](/guides/dashboard/stateCard/)
 - **Resource table**
 - **Resource chart**
 - **Approvals**
