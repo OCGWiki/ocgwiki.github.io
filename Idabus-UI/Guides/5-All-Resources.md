@@ -9,6 +9,7 @@ permalink: /guides/allResources/
 nav_order: 5
 status: in progress
 parent: Guides
+toc: true
 ---
 
 {% include toc.md %}

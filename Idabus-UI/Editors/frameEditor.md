@@ -9,6 +9,7 @@ permalink: /editors/frameEditor/
 nav_order: 5
 parent: Editors
 status: in progress
+toc: true
 ---
 
 {% include toc.md %}

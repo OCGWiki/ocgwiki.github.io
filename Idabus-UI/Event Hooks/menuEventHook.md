@@ -9,6 +9,7 @@ permalink: /eventHooks/menu/
 nav_order: 4
 parent: Event Hooks
 status: in progress
+toc: true
 ---
 {% include toc.md %}
 

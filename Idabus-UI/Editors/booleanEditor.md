@@ -9,6 +9,7 @@ permalink: /editors/booleanEditor/
 nav_order: 3
 parent: Editors
 status: in progress
+toc: true
 ---
 
 {% include toc.md %}

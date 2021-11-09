@@ -9,6 +9,7 @@ permalink: /installation/
 nav_order: 2
 status: in progress
 has_children: true
+toc: false
 ---
 # Installation Guide
 

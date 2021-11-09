@@ -9,6 +9,7 @@ permalink: /editors/identityEditor/
 nav_order: 6
 parent: Editors
 status: in progress
+toc: true
 ---
 {% include toc.md %}
 

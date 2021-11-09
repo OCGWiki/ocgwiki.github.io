@@ -9,6 +9,7 @@ permalink: /editors/separatorEditor/
 nav_order: 9
 parent: Editors
 status: in progress
+toc: true
 ---
 {% include toc.md %}
 

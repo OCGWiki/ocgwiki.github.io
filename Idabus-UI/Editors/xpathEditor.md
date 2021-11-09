@@ -9,6 +9,7 @@ permalink: /editors/xpathEditor/
 nav_order: 11
 parent: Editors
 status: in progress
+toc: true
 ---
 {% include toc.md %}
 

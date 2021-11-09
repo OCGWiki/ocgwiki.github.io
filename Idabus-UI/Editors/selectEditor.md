@@ -9,6 +9,7 @@ permalink: /editors/selectEditor/
 nav_order: 8
 parent: Editors
 status: in progress
+toc: true
 ---
 {% include toc.md %}
 

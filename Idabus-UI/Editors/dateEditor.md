@@ -9,6 +9,7 @@ permalink: /editors/dateEditor/
 nav_order: 4
 parent: Editors
 status: in progress
+toc: true
 ---
 
 {% include toc.md %}
