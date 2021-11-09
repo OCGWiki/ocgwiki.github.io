@@ -1,14 +1,14 @@
 ---
 layout: docs
 
-title: <add title here>
-#desription: <add description if needed>
+title: Search Scopes - Part 2
+#description:
 filename: 7-Search-Scopes-(Part-II).md
-permalink: <add permalink>
+permalink: /guides/searchScopes2/
 
-nav_order: <input nav order>
-status: todo #Can't be accessed while on 'todo'
-#parent: <add parent if is child>
+nav_order: 7
+status: in progress
+parent: Guides
 toc: true
 ---
 

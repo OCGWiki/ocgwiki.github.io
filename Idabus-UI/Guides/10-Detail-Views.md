@@ -1,14 +1,14 @@
 ---
 layout: docs
 
-title: <add title here>
-#desription: <add description if needed>
+title: Detail Views
+#description:
 filename: 10-Detail-Views.md
-permalink: <add permalink>
+permalink: /guides/detailViews/
 
-nav_order: <input nav order>
-status: todo #Can't be accessed while on 'todo'
-#parent: <add parent if is child>
+nav_order: 10
+status: in progress
+parent: Guides
 toc: true
 ---
 

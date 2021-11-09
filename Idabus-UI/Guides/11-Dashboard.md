@@ -1,19 +1,16 @@
 ---
 layout: docs
 
-title: <add title here>
-#desription: <add description if needed>
+title: Dashboard
+#description:
 filename: 11-Dashboard.md
-permalink: <add permalink>
+permalink: /guides/dashboard/
 
-nav_order: <input nav order>
-status: todo #Can't be accessed while on 'todo'
-#parent: <add parent if is child>
-toc: true
+nav_order: 10
+status: in progress
+parent: Guides
+toc: false
 ---
-
-{% include toc.md %}
-
 # Scenario
 
 The **Dashboard** is reached via sidebar link ![image.png](/img/image-6066fb7e-6ac8-4447-ac57-9c89b59d6621.png) and build upon a collection of customizable widgets:

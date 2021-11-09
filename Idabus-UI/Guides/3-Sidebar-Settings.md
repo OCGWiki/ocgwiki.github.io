@@ -1,14 +1,14 @@
 ---
 layout: docs
 
-title: <add title here>
-#desription: <add description if needed>
+title: Sidebar Settings
+#description:
 filename: 3-Sidebar-Settings.md
-permalink: <add permalink>
+permalink: /guides/sidebarSettings/
 
-nav_order: <input nav order>
-status: todo #Can't be accessed while on 'todo'
-#parent: <add parent if is child>
+nav_order: 3
+status: in progress
+parent: Guides
 toc: true
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: docs
 
-title: <add title here>
-#desription: <add description if needed>
+title: Localization / Languages
+#description:
 filename: 4-Languages.md
-permalink: <add permalink>
+permalink: /guides/languages/
 
-nav_order: <input nav order>
-status: todo #Can't be accessed while on 'todo'
-#parent: <add parent if is child>
+nav_order: 4
+status: in progress
+parent: Guides
 toc: true
 ---
 
