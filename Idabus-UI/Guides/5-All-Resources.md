@@ -1,20 +1,20 @@
 ---
 layout: docs
 
-title: All Resources
-#description:
+title: <add title here>
+#desription: <add description if needed>
 filename: 5-All-Resources.md
-permalink: /guides/allResources/
+permalink: <add permalink>
 
-nav_order: 5
-status: in progress
-parent: Guides
+nav_order: <input nav order>
+status: todo #Can't be accessed while on 'todo'
+#parent: <add parent if is child>
 toc: true
 ---
 
 {% include toc.md %}
 
-# Scenario
+#Scenario
 
 The All Resources view is separated in chapters (e.g, managedResources, processes, cloudResources, etc.) containing 0 to _**n**_ items/Action Card(s):
 

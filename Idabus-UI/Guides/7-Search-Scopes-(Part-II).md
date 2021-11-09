@@ -1,16 +1,17 @@
 ---
 layout: docs
 
-title: Search Scopes - Part 2
-#description:
+title: <add title here>
+#desription: <add description if needed>
 filename: 7-Search-Scopes-(Part-II).md
-permalink: /guides/searchScopes2/
+permalink: <add permalink>
 
-nav_order: 7
-status: in progress
-parent: Guides
+nav_order: <input nav order>
+status: todo #Can't be accessed while on 'todo'
+#parent: <add parent if is child>
 toc: true
 ---
+
 {% include toc.md %}
 
 # Scenario
@@ -45,6 +46,7 @@ Now, doing a Page-Refresh will show the expected overview/list of Office Equipme
 `C:\inetpub\Oxford Computer Group\IDABUS UI\portal\app\customisation\assets\config\customConfig.dev.json`
 
 # Parameters
+
 ## Search Scopes
 
 | Key | Description | Values |
@@ -54,4 +56,4 @@ Now, doing a Page-Refresh will show the expected overview/list of Office Equipme
 | text | A localizable string that is shown to the user to identify this scope. <br><br> In this example we use a single language system where no localization is required, so the instant string is defined as: `Office Equipment` | localizable string |
 | enabled | Specifies if this scope should be displayed in the **"Search all resources"**-results. <br><br> In this example we only want to use the search scope as link target and do not want it to appear in the **"Search all resources"**-box, so we set it to:<br>`false`| true/false |
 | typeQuery | This is the most critical parameter as it defines the query for the list of Office Equipment to be loaded/displayed when the <span style="color: #8000FC">**"primaryAction"**</span> is triggered. <br><br> In this example:  We want all the office equipment to be displayed without any pre-filters, so it is defined as: `/Equipment`| XPath |
-| attributes | This array defines the attribute names of the target Object (Equipment) displayed in the list. <br><br> In this example we only chose one attribute: `["DisplayName"]` <br> ( _More will be set in  [Part III](/guides/searchScopes3/)_ )| string[] |
+| attributes | This array defines the attribute names of the target Object (Equipment) displayed in the list. <br><br> In this example we only chose one attribute: `["DisplayName"]` <br> (_More will be set in [Part III](/OCG-UI/How-To/Tutorials/8-Search-Scopes-\(Part-III\))_)| string[] | 

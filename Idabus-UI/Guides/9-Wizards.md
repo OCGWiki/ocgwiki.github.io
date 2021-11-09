@@ -1,16 +1,17 @@
 ---
 layout: docs
 
-title: Wizards
-#description:
+title: <add title here>
+#desription: <add description if needed>
 filename: 9-Wizards.md
-permalink: /guides/wizards/
+permalink: <add permalink>
 
-nav_order: 9
-status: in progress
-parent: Guides
+nav_order: <input nav order>
+status: todo #Can't be accessed while on 'todo'
+#parent: <add parent if is child>
 toc: true
 ---
+
 {% include toc.md %}
 
 # Scenario
@@ -32,7 +33,7 @@ With the <span style="color: #8000FC">**"navigateAfterCreation"**</span> option 
 The wizard needs to be defined at two places:
 - within the IDABUS® UI settings page that can be reached by clicking on the _**gear**_-icon in the sidebar:
 
-![image.png](/.attachments/image-9d4c25fa-c966-40aa-b162-86a25a252390.png)
+![image.png](/img/image-9d4c25fa-c966-40aa-b162-86a25a252390.png)
 
 - within the <span style="color: #8000FC">**"allResources"**</span> config-section for the **Equipment** Action Card  <br>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\app\customisation\assets\config\customConfig.dev.json`
 
@@ -46,13 +47,13 @@ After the wizard was created (as shown in the picture above) it can be configure
 - [**Date**](/Editors/dateEditor) _(for Dates and/or Times)_
 - [**Identity-Picker**](/Editors/identityEditor) _(for References)_
 - [**Identity-List**](/Editors/identitiesEditor) _(for Memberships)_
-- [**Button**](/Editors/buttonEditor) _(for custom Angular methods - <span style="color: red;">Advanced Training required!</span>)_
+- [**Button**](/Editors/buttonEditor) _(for custom Angular methods - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
 - [**XPath-Editor**](/Editors/xPathEditor) _(for criteria-based Filters)_
 - [**Separator**](/Editors/separatorEditor) _(for on-screen separation-purposes)_
-- [**Frame**](/Editors/frameEditor) _(for custom Angular components - <span style="color: red;">Advanced Training required!</span>)_
+- [**Frame**](/Editors/frameEditor) _(for custom Angular components - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
 <br>
 
-To add attributes to the wizard please follow the steps in the following image and a don't forget to click **Save changes** when done:
+To add attributes to the wizard please follow the steps in the following image and don't forget to click **Save changes** when done:
 
 ![image.png](/img/image-abb1c1f1-3766-4b6a-8830-47259056a5e2.png)
 

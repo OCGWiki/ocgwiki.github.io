@@ -1,16 +1,18 @@
 ---
 layout: docs
 
-title: Dashboard
-#description:
+title: <add title here>
+#desription: <add description if needed>
 filename: 11-Dashboard.md
-permalink: /guides/dashboard/
+permalink: <add permalink>
 
-nav_order: 10
-status: in progress
-parent: Guides
-toc: false
+nav_order: <input nav order>
+status: todo #Can't be accessed while on 'todo'
+#parent: <add parent if is child>
+toc: true
 ---
+
+{% include toc.md %}
 
 # Scenario
 
@@ -20,11 +22,11 @@ The **Dashboard** is reached via sidebar link ![image.png](/img/image-6066fb7e-6
 
 Widgets can be added, modified, removed, re-positioned and resized. The following widget types are available:
 
-- **State card**
+- [**State card**](/OCG-UI/How-To/Tutorials/11-Dashboard/a\)-State-card)
 - **Resource table**
 - **Resource chart**
 - **Approvals**
-- **Frame view** <span style="color: red;">_(Advanced Training required!)_</span>
+- **Frame view** _[<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings)_
 
 # Configuration
 
@@ -36,4 +38,8 @@ To modify the **Dashboard** view switch into **Edit-Mode** via clicking ![image.
 - **removed** via the _**Trash**_ icon
 - **added** via the _**Plus**_ icon
 
-When adding a new widget it appears at the page bottom with its default template and needs to be configured subsequently using the _**Settings**_ icon.
+When adding a new widget the following dialog appears:
+
+![image.png](/img/image-49c4b752-a4d9-4819-aca4-60e7c4740347.png)
+
+The chosen widget will be displayed at the page bottom with its default template and needs to be configured subsequently using the _**Settings**_ icon.

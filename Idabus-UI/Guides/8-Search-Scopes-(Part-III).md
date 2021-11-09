@@ -1,21 +1,22 @@
 ---
 layout: docs
 
-title: Search Scopes - Part 3
-#description:
+title: <add title here>
+#desription: <add description if needed>
 filename: 8-Search-Scopes-(Part-III).md
-permalink: /guides/searchScopes3/
+permalink: <add permalink>
 
-nav_order: 8
-status: in progress
-parent: Guides
+nav_order: <input nav order>
+status: todo #Can't be accessed while on 'todo'
+#parent: <add parent if is child>
 toc: true
 ---
+
 {% include toc.md %}
 
 # Scenario
 
-In [Part II](/guides/searchScopes2/) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:
+In [Part II](/OCG-UI/How-To/Tutorials/7-Search-Scopes-\(Part-II\)) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:
 
 ![image.png](/img/image-c3fe09de-7790-425f-90e1-888825036330.png)
 
