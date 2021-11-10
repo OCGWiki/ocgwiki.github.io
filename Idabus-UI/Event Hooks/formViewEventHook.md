@@ -56,7 +56,7 @@ This event will be triggered if any of the editors (text-editor, identity-picker
 This event hook can be used as event handler for the editors.
 
 ### Parameter
-Same as [onViewAfterInit](#onViewAfterInit)
+Same as [onViewAfterInit](#onviewafterinit)
 
 ### Parameter example
 ![objectviewevent.png](/img/objectviewevent-9aa0c020-35e5-494e-9f75-a391bc318924.png)
@@ -73,7 +73,7 @@ This event will be triggered after the save button of a resource detail view is 
 This event hook can be used to do some finale work before a resource will be saved.
 
 ### Parameter
-Same as [onViewAfterInit](#onViewAfterInit)
+Same as [onViewAfterInit](#onviewafterinit)
 
 ### Parameter example
 ![onviewbeforesave.png](/img/onviewbeforesave-81063eb2-31c7-4302-84a3-062adcf3d40f.png)
