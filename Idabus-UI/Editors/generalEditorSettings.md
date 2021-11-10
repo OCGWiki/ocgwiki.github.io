@@ -53,7 +53,7 @@ toc: true
 ## config
 Type: EditorConfig
 
-The configuration object for the editor. It includes all the introduced entries in [General editor configurations](#General-editor-configurations)
+The configuration object for the editor. It includes all the introduced entries in [General editor configurations](#general-editor-configurations)
 
 ## editorAttribute
 Type: AttributeResource
@@ -182,9 +182,9 @@ Used to set error state and message on the editor
 # Implementations
 
 ## Validator
-[Custom validators](https://blog.thoughtram.io/angular/2016/03/14/custom-validators-in-angular-2.html#building-a-custom-validator)
-[Custom validator example in Material Input](https://stackoverflow.com/questions/46696879/angular2-material-custom-validation-for-angular-material-input)
+- [Custom validators](https://blog.thoughtram.io/angular/2016/03/14/custom-validators-in-angular-2.html#building-a-custom-validator)
+- [Custom validator example in Material Input](https://stackoverflow.com/questions/46696879/angular2-material-custom-validation-for-angular-material-input)
 
 ## ControlValueAccessor
-[Custom form control](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html)
-[Custom form control example compatible with reactive forms and Material](https://itnext.io/creating-a-custom-form-field-control-compatible-with-reactive-forms-and-angular-material-cf195905b451)
+- [Custom form control](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html) 
+- [Custom form control example compatible with reactive forms and Material](https://itnext.io/creating-a-custom-form-field-control-compatible-with-reactive-forms-and-angular-material-cf195905b451)

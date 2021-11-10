@@ -15,7 +15,7 @@ toc: true
 {% include toc.md %}
 
 
-# Configuration
+## Configuration
 
 |Property name| Default value | Annotation |
 |--|--|--|
@@ -36,25 +36,23 @@ toc: true
 |tableConfig.resizable|true|Specifies, that the table is dynamically adjusted according to the elements that need to be displayed |
 |tableConfig.tableHeight|300|Specifies the height for this table|
 
-# Configuration in UI
+## Configuration in UI
 ![image.png](/img/image-e24b7a89-5f1a-4127-bcc8-f8b0939b2ffb.png)
 ![image.png](/img/image-f707ffc1-84c1-4777-85c1-58f062d25fc0.png)
 ![image.png](/img/image-53b9746a-b14c-4731-bd3f-2da5800c1ffe.png)
 
-![]()
+## Event handler
 
-# Event handler
+### onChangeObs()
 
-## onChangeObs()
-
-## onShowResults()
+### onShowResults()
 triggers if the button "view results" is pushed and shows the results of the query
 
-## onShowQuery()
+#### onShowQuery()
 Currently it is hidden in the UI but it is implemented for future features. 
 
 ## onResetValue()
 triggers if the button "Reset value" is pushed and clears the Path filter
 
-## onAttributeChange(attributes: Array<AttributeResource>)
+### onAttributeChange(attributes: Array<AttributeResource>)
 
