@@ -11,7 +11,9 @@ parent: Editors
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
+
 
 # Configuration
 
@@ -46,4 +48,5 @@ Triggered if the value of the text editor has been changed
 
 ## setAutoCompleteOptions(options: Observable<Array<{ text: string; value: string }>>)
 
-Sets options for auto complete as array of key/value pairs
+Sets options for auto complete as array of key/value pairs 
+

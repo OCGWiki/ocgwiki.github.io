@@ -11,7 +11,9 @@ parent: Editors
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
+
 
 # Configuration
 
@@ -49,9 +51,10 @@ toc: true
 triggers if the button "view results" is pushed and shows the results of the query
 
 ## onShowQuery()
-Currently it is hidden in the UI but it is implemented for future features.
+Currently it is hidden in the UI but it is implemented for future features. 
 
 ## onResetValue()
 triggers if the button "Reset value" is pushed and clears the Path filter
 
 ## onAttributeChange(attributes: Array<AttributeResource>)
+

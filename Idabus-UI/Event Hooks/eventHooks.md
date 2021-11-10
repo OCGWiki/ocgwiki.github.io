@@ -11,19 +11,20 @@ has_children: true
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
 
 ## What are event hooks
 Event hooks are reserved empty functions, which will be called if one of a pre-defined events is fired. Injecting code into the event hooks allows you to take control of how to response to such an event.
 
-Available event hooks
-
-- [Form view event hooks](/eventHooks/formView/)
-- [Tab view event hooks](/eventHooks/tabView/)
-- [Wizard event hooks](/eventHooks/wizard/)
-- [Menu event hooks](/eventHooks/menu/)
-- [Sidebar event hooks](/eventHooks/sidebar/)
-- [Card event hooks](/eventHooks/card/)
+| Available event hooks |
+|--|
+| [Form view event hooks](/eventHooks/formView/) |
+| [Tab view event hooks](/eventHooks/wizard/) |
+| [Wizard event hooks](/eventHooks/wizard/) |
+| [Menu event hooks](/eventHooks/menu/) |
+| [Sidebar event hooks](/eventHooks/sidebar/) |
+| [Card event hooks](/eventHooks/card/) |
 
 
 

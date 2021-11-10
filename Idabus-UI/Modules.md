@@ -10,7 +10,9 @@ nav_order: 16
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
+
 
 # Localisation module
 Loads translation files (in json format) into project and provides methods to implement translation.
@@ -66,7 +68,7 @@ Includes core components which can be reused for other components
 # App module
 
 Entrance of the UI, includes components implemented for MIM or IDABUS
->> Font-Awesome icons can be loaded here
+> Font-Awesome icons can be loaded here
 
 # Custom module
 

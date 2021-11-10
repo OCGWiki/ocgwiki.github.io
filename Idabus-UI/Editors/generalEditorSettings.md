@@ -14,6 +14,7 @@ toc: true
 
 {% include toc.md %}
 
+
 # General editor configurations
 
 |Property name| Default value | Annotation |
@@ -42,14 +43,13 @@ toc: true
 
 # Configuration in UI
 
-**General tab**
+### General tab
 ![general_editor_settings_1.png](/img/general_editor_settings_1-4a584168-03d6-4f30-824c-e32b958c48de.png)
 
-**Display tab**
+### Display tab
 ![general_editor_settings_2.png](/img/general_editor_settings_2-2d0b8949-85f9-445c-a13a-2c3202d20cda.png)
 
 # Inputs (Properties)
-
 ## config
 Type: EditorConfig
 

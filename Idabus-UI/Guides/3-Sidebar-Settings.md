@@ -46,9 +46,9 @@ and following sections:
 
 | Key | Description | Values |
 |-----|-------------|--------|
-| logoSplash | A relative path to an image file that is accessible within the customization folder and shown on the splash screen of the IDABUS® UI:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabuslogosplash.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
-| logoLarge | A relative path to an image file that is accessible within the customization folder and shown in the sidebar as large logo:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabuslogo.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
-| logoSmall | A relative path to an image file that is accessible within the customization folder and shown in the sidebar as small logo:<br/>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br/><br/>Example: `app/customization/assets/img/idabusfavicon.png`<br/><br/>If the `img` folder is not yet present, please create it. | relative path |
+| logoSplash | A relative path to an image file that is accessible within the customization folder and shown on the splash screen of the IDABUS® UI:<br>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br><br>Example: `app/customization/assets/img/idabuslogosplash.png`<br><br>If the `img` folder is not yet present, please create it. | relative path |
+| logoLarge | A relative path to an image file that is accessible within the customization folder and shown in the sidebar as large logo:<br>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br><br>Example: `app/customization/assets/img/idabuslogo.png`<br><br>If the `img` folder is not yet present, please create it. | relative path |
+| logoSmall | A relative path to an image file that is accessible within the customization folder and shown in the sidebar as small logo:<br>`C:\inetpub\Oxford Computer Group\IDABUS UI\portal\`<br><br>Example: `app/customization/assets/img/idabusfavicon.png`<br><br>If the `img` folder is not yet present, please create it. | relative path |
 
 ## Sidebar-Settings
 
