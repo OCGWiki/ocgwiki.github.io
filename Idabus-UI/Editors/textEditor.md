@@ -15,7 +15,7 @@ toc: true
 {% include toc.md %}
 
 
-# Configuration
+## Configuration
 
 |Property name| Default value | Annotation |
 |--|--|--|
@@ -29,24 +29,24 @@ toc: true
 |rows|1|specifies the amount of lines to be displayed for this text editor|
 |savePrefix|false|if enabled, value of text editor will be saved with prefix |
 
-# Configuration in UI
+## Configuration in UI
 
 ![image.png](/img/image-7bc7e7eb-7e16-4f54-ac8f-fe9ef6a0b4ac.png)
 ![image.png](/img/image-86c70040-9d00-4c19-9a8d-9b52ff103825.png)
 
-# Event handler
+## Event handler
 
-## onFocuse()
+### onFocuse()
 
 Triggered if the text editor get focus
 
-## onChange()
+### onChange()
 
 Triggered if the value of the text editor has been changed
 
-# Public method
+## Public method
 
-## setAutoCompleteOptions(options: Observable<Array<{ text: string; value: string }>>)
+### setAutoCompleteOptions(options: Observable<Array<{ text: string; value: string }>>)
 
 Sets options for auto complete as array of key/value pairs 
 

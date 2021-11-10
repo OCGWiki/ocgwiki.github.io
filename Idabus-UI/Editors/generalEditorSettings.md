@@ -53,7 +53,7 @@ toc: true
 ## config
 Type: EditorConfig
 
-The configuration object for the editor. It includes all the introduced entries in [General editor configurations](#General-editor-configurations)
+The configuration object for the editor. It includes all the introduced entries in [General editor configurations](#general-editor-configurations)
 
 ## editorAttribute
 Type: AttributeResource

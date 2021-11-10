@@ -71,7 +71,7 @@ Add the following Sets and MPRs in MIM Portal
 
 - UI - Standard View
 
-| ![set2_1.png](/img/set2_1-461f9eaa-e937-4f4d-8603-a761e9de4d0f.png =800x) |
+| ![set2_1.png](/img/set2_1-461f9eaa-e937-4f4d-8603-a761e9de4d0f.png) |
 |----|
 | ![set2_2.png](/img/set2_2-b2ea6469-5736-429d-ad38-a89765fddd93.png) |
 
