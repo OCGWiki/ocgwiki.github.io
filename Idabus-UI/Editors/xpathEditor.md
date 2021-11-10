@@ -41,8 +41,6 @@ toc: true
 ![image.png](/img/image-f707ffc1-84c1-4777-85c1-58f062d25fc0.png)
 ![image.png](/img/image-53b9746a-b14c-4731-bd3f-2da5800c1ffe.png)
 
-![]()
-
 ## Event handler
 
 ### onChangeObs()
