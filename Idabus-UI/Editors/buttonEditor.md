@@ -14,6 +14,7 @@ toc: true
 
 {% include toc.md %}
 
+
 # Configuration
 
 |Property name| Default value | Annotation |
@@ -29,9 +30,12 @@ toc: true
 
 # Configuration in UI
 
-![UIButton.png](/img/UIButton-b7f0a407-ae60-40a8-a688-526e85542da9.png)
+![UIButton.png](/img/UIButton-b7f0a407-ae60-40a8-a688-526e85542da9.png =1200x)
 
 # Event handler
 
 ## onClick()
 creates a new Event with the following attributes: AttributeName, ObjectID (currentID), objectType
+
+
+

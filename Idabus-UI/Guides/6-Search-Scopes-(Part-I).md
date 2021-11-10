@@ -39,7 +39,7 @@ By default the following **Search Scopes** are available:
 - ManagementPolicyRule _(disabled)_
 - RequestBasedWorkflowTrigger _(disabled)_
 - Workflow _(disabled)_
-<br/><br/>
+<br><br>
 
 If a search is triggered the **Search all resources** textbox drops a result panel showing up matches separated by **Search Scopes**:
 

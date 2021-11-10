@@ -11,7 +11,9 @@ parent: Editors
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
+
 
 # Configuration
 
@@ -63,3 +65,5 @@ Triggers if the value of the identity editor has been double-clicked
 
 ## onBulkImport()
 Triggers if multiple elements are added
+
+

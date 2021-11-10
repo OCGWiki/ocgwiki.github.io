@@ -10,7 +10,9 @@ nav_order: 12
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
+
 
 # Global setting
 
@@ -24,7 +26,7 @@ This setting is defined
 You can define 5 colours used for different purposes, they are
  - primary colour - colour palette
  - accent colour - colour palette
- - warn colour - colour palette
+ - warn colour - colour palette 
  - primary text colour - simple colour
  - secondary text colour - simple colour
 

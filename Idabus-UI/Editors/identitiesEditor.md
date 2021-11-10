@@ -11,7 +11,9 @@ parent: Editors
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
+
 
 # Configuration
 
@@ -97,3 +99,6 @@ triggers if identities are removed from the List
 
 ## onRemoveAll()
 triggers if all identities are removed from the List
+
+
+
