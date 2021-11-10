@@ -61,16 +61,18 @@ Add the following Sets and MPRs in MIM Portal
 
 ### Sets
 
-| **OCG UI: All UI Sets** |
-|----|
+- OCG UI: All UI Sets 
+
 | ![dashboard.png](/img/set1_1-ce13d3a9-4e8c-46fa-b8b9-78648d7a5c44.png) |
+|----|
 | ![set1_2.png](/img/set1_2-ed2975d7-1f18-4ece-aaed-485d39955a95.png) |
 
 <br>
 
-| **UI - Standard View** |
+- UI - Standard View
+
+| ![set2_1.png](/img/set2_1-461f9eaa-e937-4f4d-8603-a761e9de4d0f.png =800x) |
 |----|
-| ![set2_1.png](/img/set2_1-461f9eaa-e937-4f4d-8603-a761e9de4d0f.png) |
 | ![set2_2.png](/img/set2_2-b2ea6469-5736-429d-ad38-a89765fddd93.png) |
 
 Input "uibase" in the "OCG Object Type" attribute
@@ -79,30 +81,30 @@ Copy the content of "ui-config-example.json" from the installation package in th
 
 ### MPRs
 
-| **OCG UI: Users can control UI attributes of their own** |
-|----------------------------------------------------------|
+- OCG UI: Users can control UI attributes of their own 
+
 | ![mpr1_1.png](/img/mpr1_1-46f6627a-f187-4535-b079-aee9841be685.png) |
+|---|
 | ![mpr1_2.png](/img/mpr1_2-17d0823f-b01f-43b1-bf97-e76c870cb139.png) |
 
-<br>
 
-| **OCG UI: Users can control UI Sets of their own** |
-|------------------------------------------------|
+- OCG UI: Users can control UI Sets of their own
+
 | ![mpr2_1.png](/img/mpr2_1-e43805a4-63fd-4a7f-ba61-9d58ca12dcb5.png) |
+|----|
 | ![mpr2_2.png](/img/mpr2_2-62ba0349-ff1f-48cc-bf99-756a3a4e1f43.png) |
 
-<br>
+ - OCG UI: Users can read UI Sets
 
-| **OCG UI: Users can read UI Sets** |
-|------------------------------------|
 | ![mpr3_1.png](/img/mpr3_1-bd8bd82d-4492-4f97-b8fb-5d215386b3af.png) |
+|----|
 | ![mpr3_2.png](/img/mpr3_2-a0e760e7-c8c4-4264-b056-d7ce47f03c9b.png) |
 
-<br>
 
-| **OCG UI: Users can read selected attributes of Sets, where they are a member of** |
-|-------|
+- OCG UI: Users can read selected attributes of Sets, where they are a member of
+
 | ![mpr4_1.png](/img/mpr4_1-0304ac7a-fd30-4a01-9233-34e90706d48e.png) | 
+|----|
 | ![mpr4_2.png](/img/mpr4_2-a00acf35-691a-428a-a316-dfd8e9bae919.png) |
 
 

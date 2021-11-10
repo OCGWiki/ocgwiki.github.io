@@ -69,7 +69,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## Available systems
 > You can use the same OCG UI web app to access different systems or environments (eg. development and production environments). You can also disable the system selection to make the first landing page to be the login page
 
-![config_systems.png](/img/config_systems-1c9b230d-2871-403c-aa25-beed8e1101d3.png =800x)
+![config_systems.png](/img/config_systems-1c9b230d-2871-403c-aa25-beed8e1101d3.png)
 
 |Key|Description|
 |--|--|
@@ -97,7 +97,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## Search scopes
 > Search scopes can be used to configure resource list view and the results shown in simple search
 
-![config_search_scopes.png](/img/config_search_scopes-bca4980a-fc50-49c6-b4f7-250a1bcf4a94.png =800x)
+![config_search_scopes.png](/img/config_search_scopes-bca4980a-fc50-49c6-b4f7-250a1bcf4a94.png)
 
 |Key|Description|
 |--|--|
@@ -113,7 +113,7 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 ## All resources
 > Configuration in this section are used to setup the resources page. You can enable, disable items, define their appearance or restrict their behaviors
 
-![config_all_resources.png](/img/config_all_resources-8200d487-67ba-4b69-b88a-d942fa1cb26d.png =800x)
+![config_all_resources.png](/img/config_all_resources-8200d487-67ba-4b69-b88a-d942fa1cb26d.png)
 
 |Key|Description|
 |--|--|
@@ -148,6 +148,8 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "config.dev.json
 >Swagger doesn't support Internet Explorer
 
 
-| ![verify1_1.png](/img/verify1_1-e1c9eccc-51bc-40cd-af40-b4ea93a3b453.png) | ![verify1_2.png](/img/verify1_2-46ecad22-2c2f-4257-8f13-1c92b56848fd.png) |
-|--|--|
+| ![verify1_1.png](/img/verify1_1-e1c9eccc-51bc-40cd-af40-b4ea93a3b453.png) |
+|---|
+| ![verify1_2.png](/img/verify1_2-46ecad22-2c2f-4257-8f13-1c92b56848fd.png) |
+
 

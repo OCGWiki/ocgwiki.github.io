@@ -18,7 +18,7 @@ toc: true
 
 # Diagram
 
-![init_process.png](/img/init_process-61f4f0ae-76a0-4bcd-8f48-568dbbf0487f.png =800x)
+![init_process.png](/img/init_process-61f4f0ae-76a0-4bcd-8f48-568dbbf0487f.png)
 
 # Process description
 
