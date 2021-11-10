@@ -11,9 +11,11 @@ parent: Event Hooks
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
 
 Menus can be built dynamically in OCG UI. You can define a configuration in the config.json file and then use the event hook to load the configuration and build the menu items. After that you can again use the event hook to define the behavior of the menu items.
+
 
 ## onBuildMenuEvent
 
@@ -48,7 +50,7 @@ This event will be triggered after a menu is opened and all menu items are loade
 This event hook can be used to enable / disable or show / hide menu items according to specific conditions.
 
 ### Parameter
-Same as [onBuildMenuEvent](#onBuildMenuEvent)
+Same as [onBuildMenuEvent](#onbuildmenuevent)
 
 ### Parameter example
 ![onopenmenu.png](/img/onopenmenu-f24433ef-c6e7-46c1-808c-617488131038.png)
@@ -65,7 +67,7 @@ This event will be triggered after a menu item is clicked.
 This event hook can be used to define the handler for the click action.
 
 ### Parameter
-Same as [onBuildMenuEvent](#onBuildMenuEvent)
+Same as [onBuildMenuEvent](#onbuildmenuevent)
 
 ### Parameter example
 ![onmenuevent.png](/img/onmenuevent-67a5aa03-740a-431b-9520-1c54630b42c0.png)

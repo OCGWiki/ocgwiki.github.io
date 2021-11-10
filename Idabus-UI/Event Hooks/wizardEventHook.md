@@ -11,9 +11,12 @@ parent: Event Hooks
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
 
 Wizard view is a popup dialog or stepper. It can be dynamically created in the UI and used for object creation or others tasks, where a popup window is needed. Wizard view can contain all kind of [editors](/editors/).
+
+
 
 ## onWizardAfterInit
 
@@ -45,7 +48,7 @@ This event will be triggered if any of the editors (text-editor, identity-picker
 This event hook can be used as event handler for the editors.
 
 ### Parameter
-Same as [onWizardAfterInit](#onWizardAfterInit)
+Same as [onWizardAfterInit](#onwizardafterinit)
 
 ### Parameter example
 ![onwizardeditorevent.png](/img/onwizardeditorevent-17a6ef16-230e-42ed-b9c5-b5267604d4a0.png)
@@ -63,7 +66,7 @@ This event will be triggered after the submit button of the wizard is clicked bu
 This event hook can be used to check the values to be submitted and has a chance to prevent the popup window from closing.
 
 ### Parameter
-Same as [onWizardAfterInit](#onWizardAfterInit)
+Same as [onWizardAfterInit](#onwizardafterinit)
 
 ### Parameter example
 ![onwizardbeforeclose.png](/img/onwizardbeforeclose-e8080fc5-a7c0-4be4-9513-6f2fdb3ee0ca.png)
@@ -85,7 +88,7 @@ This event will be triggered after the submit button of the wizard is clicked an
 This event hook can be used to handle the submitted resource (ex. create, update etc.).
 
 ### Parameter
-Same as [onWizardAfterInit](#onWizardAfterInit)
+Same as [onWizardAfterInit](#onwizardafterinit)
 
 ### Parameter example
 ![onwizardafterclose.png](/img/onwizardafterclose-ce155e7b-16be-4ea6-9cab-c2caaf36532c.png)
