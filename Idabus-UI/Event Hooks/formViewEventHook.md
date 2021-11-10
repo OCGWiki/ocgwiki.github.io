@@ -11,15 +11,18 @@ parent: Event Hooks
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
 
-Form views are usually used to show object attributes and details. Other object views like [tab view](/Views/Tab-View) or [attribute view](/Views/Attribute-View) are built on the top of the form view. Please refer to [Views](/Views) to see more details
+Form views are usually used to show object attributes and details. Other object views like tab view or attribute view are built on top of the form view.
+
+
 
 ## onViewAfterInit
 
 ### Trigger
 This event will be triggered after the form view has initialised all of its ui components including the editor components.
-This event hook can be used to set custom initial values after all attributes of the displayed object are loaded
+This event hook can be used to set custom initial values after all attributes of the displayed object are loaded 
 
 ### Parameter
 ```js

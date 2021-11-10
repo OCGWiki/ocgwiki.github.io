@@ -11,9 +11,12 @@ parent: Event Hooks
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
 
 Wizard view is a popup dialog or stepper. It can be dynamically created in the UI and used for object creation or others tasks, where a popup window is needed. Wizard view can contain all kind of [editors](/editors/).
+
+
 
 ## onWizardAfterInit
 
