@@ -7,7 +7,7 @@ filename: 1-System-Choice.md
 permalink: /guides/systemChoice/
 
 nav_order: 1
-status: in progress
+status: done 
 parent: Guides
 toc: true
 ---

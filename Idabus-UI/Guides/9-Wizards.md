@@ -14,6 +14,7 @@ toc: true
 
 {% include toc.md %}
 
+
 # Scenario
 
 In the previous chapters about **Search Scopes** we defined a new Action Card for Office Equipment and configured the search scopes to show a list of available Office Equipment and related attributes information. Now we want to create a **Wizard** for our Office Equipment in order to add/create new Object Resources in MIM.

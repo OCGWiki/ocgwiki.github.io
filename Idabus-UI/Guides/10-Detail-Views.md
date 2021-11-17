@@ -14,6 +14,7 @@ toc: true
 
 {% include toc.md %}
 
+
 # Scenario
 
 A **Detail View** shows attribute information about a specific Object/Resource separated in three units named:

@@ -7,7 +7,7 @@ filename: 11b-Resource-Table.md
 permalink: /guides/dashboard/resourceTable/
 
 nav_order:  2
-status: todo #still empty
+status: todo
 parent: Dashboard
 grand_parent: Guides
 toc: false

@@ -7,12 +7,13 @@ filename: 3-Sidebar-Settings.md
 permalink: /guides/sidebarSettings/
 
 nav_order: 3
-status: in progress
+status: done 
 parent: Guides
 toc: true
 ---
 
 {% include toc.md %}
+
 
 # Scenario
 

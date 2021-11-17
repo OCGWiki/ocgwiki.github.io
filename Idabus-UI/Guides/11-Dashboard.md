@@ -12,6 +12,7 @@ parent: Guides
 has_children: true
 toc: false
 ---
+
 # Scenario
 
 The **Dashboard** is reached via sidebar link ![image.png](/img/image-6066fb7e-6ac8-4447-ac57-9c89b59d6621.png) and build upon a collection of customizable widgets:

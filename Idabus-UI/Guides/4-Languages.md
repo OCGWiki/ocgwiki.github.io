@@ -7,12 +7,13 @@ filename: 4-Languages.md
 permalink: /guides/languages/
 
 nav_order: 4
-status: in progress
+status: done 
 parent: Guides
 toc: true
 ---
 
 {% include toc.md %}
+
 
 # Scenario
 
