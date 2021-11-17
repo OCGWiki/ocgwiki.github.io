@@ -14,7 +14,6 @@ toc: true
 
 {% include toc.md %}
 
-
 # Installation
 
 Version: 4.2 or above
@@ -62,7 +61,7 @@ Add the following Sets and MPRs in MIM Portal
 
 ### Sets
 
-- OCG UI: All UI Sets 
+- OCG UI: All UI Sets
 
 | ![dashboard.png](/img/set1_1-ce13d3a9-4e8c-46fa-b8b9-78648d7a5c44.png) |
 |----|
@@ -82,7 +81,7 @@ Copy the content of "ui-config-example.json" from the installation package in th
 
 ### MPRs
 
-- OCG UI: Users can control UI attributes of their own 
+- OCG UI: Users can control UI attributes of their own
 
 | ![mpr1_1.png](/img/mpr1_1-46f6627a-f187-4535-b079-aee9841be685.png) |
 |---|
@@ -104,7 +103,7 @@ Copy the content of "ui-config-example.json" from the installation package in th
 
 - OCG UI: Users can read selected attributes of Sets, where they are a member of
 
-| ![mpr4_1.png](/img/mpr4_1-0304ac7a-fd30-4a01-9233-34e90706d48e.png) | 
+| ![mpr4_1.png](/img/mpr4_1-0304ac7a-fd30-4a01-9233-34e90706d48e.png) |
 |----|
 | ![mpr4_2.png](/img/mpr4_2-a00acf35-691a-428a-a316-dfd8e9bae919.png) |
 
@@ -152,11 +151,8 @@ This is a configuration object of type ocgConfiguration, defines how long the ba
 >**In real production environment you may need additional settings in IIS like Host Name; Application Pool with Service Account, which has SPN registered; Negotiate only Authentication, etc.**
 
 
-| ![iis1_1.png](/img/iis1_1-b89c9e6f-3e03-4526-9166-9db6e12c35a6.png) | 
+| ![iis1_1.png](/img/iis1_1-b89c9e6f-3e03-4526-9166-9db6e12c35a6.png) |
 |----------|
 |![iis1_2.png](/img/iis1_2-73d6118a-c561-4c2e-a619-77cb0bcd2b08.png) |
-| ![iis1_3.png](/img/iis1_3-e45e5ef9-db9d-44ff-8f76-b2c5a5968708.png) | 
+| ![iis1_3.png](/img/iis1_3-e45e5ef9-db9d-44ff-8f76-b2c5a5968708.png) |
 | ![iis1_4.png](/img/iis1_4-98c5e49d-a8a7-4eee-a52d-a5a58a033991.png) |
-
-
-
