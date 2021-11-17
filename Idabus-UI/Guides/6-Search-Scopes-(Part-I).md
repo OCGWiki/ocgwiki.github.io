@@ -14,6 +14,8 @@ toc: true
 
 {% include toc.md %}
 
+
+
 # Scenario
 
 Search Scopes are used to separate/filter and query for objects. The **Search all resources** or **Simple Search** search bar is located on the very top of the IDABUS® UI and first place to search for objects like (Persons, Groups, Units, etc.). A search automatically starts after a certain number of minimum characters are entered in the search field. The default amount of required characters is 3:

@@ -14,6 +14,7 @@ toc: true
 
 {% include toc.md %}
 
+
 # Scenario
 
 In [Part II](/guides/searchScopes2/) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:

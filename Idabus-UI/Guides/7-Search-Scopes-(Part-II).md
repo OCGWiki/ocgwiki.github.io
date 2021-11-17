@@ -14,6 +14,7 @@ toc: true
 
 {% include toc.md %}
 
+
 # Scenario
 
 **Search Scopes** are not only required in order to perform searches but also to define link targets for your specified Action Cards (configured in the <span style="color: #8000FC">**"allResources"**</span>-section).

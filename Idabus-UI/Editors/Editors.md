@@ -18,15 +18,15 @@ With editors attribute values can be represented in different ways (like checkbo
 
 Furthermore, the access rights is a built-in feature in the editors. You don't have to worry about if the login user has read or write access to the attribute values. If he has no corresponding access rights, the editors will be hidden or turned to readonly mode automatically.
 
-| Available editors |
-|--|
-| [Button Editor](/Editors/buttonEditor) |
-| [Boolean Editor](/Editors/booleanEditor) |
-| [Date Editor](/Editors/dateEditor) |
-| [Frame Editor](/Editors/frameEditor) |
-| [Identity Editor](/Editors/identityEditor) |
-| [Identities Editor](/Editors/identitiesEditor) |
-| [Select Editor](/Editors/selectEditor) |
-| [Separator Editor](/Editors/separatorEditor) |
-| [Text Editor](/Editors/textEditor) |
-| [XPath Editor](/Editors/xPathEditor) |
+### Available editors 
+
+- [Button Editor](/Editors/buttonEditor) 
+- [Boolean Editor](/Editors/booleanEditor) 
+- [Date Editor](/Editors/dateEditor) 
+- [Frame Editor](/Editors/frameEditor) 
+- [Identity Editor](/Editors/identityEditor) 
+- [Identities Editor](/Editors/identitiesEditor) 
+- [Select Editor](/Editors/selectEditor) 
+- [Separator Editor](/Editors/separatorEditor) 
+- [Text Editor](/Editors/textEditor) 
+- [XPath Editor](/Editors/xPathEditor) 

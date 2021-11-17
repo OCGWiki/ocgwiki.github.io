@@ -14,7 +14,8 @@ toc: true
 {% include toc.md %}
 
 
-# Localisation module
+
+# Localization module
 Loads translation files (in json format) into project and provides methods to implement translation.
 
 Translation files should be named with its language route name, ex. **en.json** for english and **de.json** for german.
@@ -49,13 +50,13 @@ Language route name can be defined in configuration,
 
 ## Loading order
 - assets/translate/core/
-localisation resources for core components
+localization resources for core components
 
 - assets/translate/shared/
-localisation resources for shared components
+localization resources for shared components
 
 - app/customisation/assets/translate/
-localisation resources for custom components
+localization resources for custom components
 
 If a same translation (same translation key) is defined in multiple translation files, the translation in the later loaded file will overwrite the translation in the former loaded file.
 
