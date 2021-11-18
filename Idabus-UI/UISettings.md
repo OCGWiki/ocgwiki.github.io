@@ -10,7 +10,10 @@ nav_order: 10
 status: in progress
 toc: true
 ---
+
 {% include toc.md %}
+
+
 
 # Overview
 
@@ -22,7 +25,7 @@ Users who have multiple UI Sets can switch between them and take a certain UI Se
 
 The following diagram shows how UI Set works:
 
-![set_based_ui_settings.png](/img/set_based_ui_settings-f3e6edf0-55cb-4f94-8e93-868140addca7.png)
+![set_based_ui_settings.png](/img/set_based_ui_settings-f3e6edf0-55cb-4f94-8e93-868140addca7.png =800x)
 
 1. User is Member of an UI Set - The UI Set is available for this user
 2. UI Set is defined as primary UI Set on user - The UI Set is applied for this user, after he has logged into the system
