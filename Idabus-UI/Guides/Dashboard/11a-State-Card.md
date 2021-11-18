@@ -15,6 +15,7 @@ toc: true
 
 {% include toc.md %}
 
+
 # Scenario
 
 The configuration for **State cards** can be seen in the following screenshot:
