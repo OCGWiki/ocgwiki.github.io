@@ -4,7 +4,7 @@ layout: docs
 title: Utils Service
 #desription: <add description if needed>
 filename: utilsService.md
-permalink: <add permalink>
+permalink: /utilsService/ #adapt if needed
 
 nav_order: <input nav order>
 status: in Progress
