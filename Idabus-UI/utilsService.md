@@ -16,8 +16,9 @@ toc: true
 
 
 ## buildDataServiceUrl 
-builds data service url with controller and method name <br>
-Parameters: 
+
+builds data service url with controller and method name 
+
 | Parameter | Datatype | Description |
 |--|--|--|
 | **baseUrl** | `string` | url of the data service  |
@@ -29,7 +30,9 @@ Parameters:
 **Example**: `buildDataServiceUrl(this.baseUrl,'resources/${id}');`
 
 ## Encrypt  
+
 encrypt string with a given key
+
 | Parameter | Datatype | Description | Default value |
 |--|--|--|--|
 | **message** | `string` | string to encrypt | |
@@ -37,7 +40,9 @@ encrypt string with a given key
 
 
 ## Decrypt  
+
 decrypt string with a given key
+
 | Parameter | Datatype | Description | Default value | 
 |--|--|--|--|
 | **message** | `string` | decrypt to encrypt |  |
@@ -45,13 +50,17 @@ decrypt string with a given key
 
 
 ## DeepCopy 
+
 copies object with all its properties
+
 | Parameter | Datatype | Description |
 |--|--|--|
 | **obj** | any | object to be copied |
 
-## EvalScript  
+## EvalScript 
+ 
 gets resources with the given query
+
 | Parameter | Datatype | Description | 
 |--|--|--|
 | **text** | `string` | xpath query to search resources |
@@ -61,7 +70,9 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 
 
 ## evaluate 
+
 gets resources with the given query
+
 | Parameters | Datatype | Description | Default Value |
 |--|--|--|--|
 | **query** | `string` | xpath query to search resources |  |
