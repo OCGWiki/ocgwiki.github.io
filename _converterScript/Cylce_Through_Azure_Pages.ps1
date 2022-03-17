@@ -1,6 +1,6 @@
-﻿# 
+﻿#
 # PS File Created by Irene Herrero 2021
-# This script will konvert the azure wiki md files to github wiki md files. 
+# This script will konvert the azure wiki md files to github wiki md files.
 #
 
 # --------------------------------------
@@ -11,23 +11,23 @@ $githubRepository = "C:\Users\Irene\OneDrive - Oxford Computer Group GmbH\Dokume
 # add bool to only update existing pages
 $onlyUpdateExisting = $true
 
-$copyPictures = $false
-$testing = $true
+$copyPictures = $true
+$testing = $false
 
 # -------------------------------------
 # Function
 
 Try{
-    Get-ChildItem $azurePath -Recurse -Filter *.md | 
+    Get-ChildItem $azurePath -Recurse -Filter *.md |
     Foreach-Object {
         $path = $_.FullName
         Write-Host $path
         & ".\Convert_Azure_To_Github_Page.ps1" -azurePath $path -githubRepository $githubRepository -onlyUpdateExisting $onlyUpdateExisting
-        
+
         if($testing){
             Write-Host 'Press any key to continue...';
-            $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');       
-        } 
+            $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+        }
     }
 
     if($copyPictures)
@@ -38,11 +38,11 @@ Try{
         Copy-item -Force -Recurse -Verbose $sourceDirectory -Destination $destinationDirectory
     }
 }
-catch {    
+catch {
     $ErrorMessage = $_.Exception.Message
     $FailedItem = $_.Exception.ItemName
     Write-Host "An error occured"
-    Write-Host "Failed item: $FailedItem." 
+    Write-Host "Failed item: $FailedItem."
     Write-Host "The error message: $ErrorMessage"
     Write-Host "Line was" $_.InvocationInfo.ScriptLineNumber
 

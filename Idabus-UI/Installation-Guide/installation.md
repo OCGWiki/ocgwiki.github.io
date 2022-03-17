@@ -19,8 +19,6 @@ toc: true
 
 Version: 4.2 or above
 
-You can find all installation packages and tools in Teams unter OCGDE Technisch -> MIM UI -> Files -> OCG UI v4 -> Releases
-
 
 
 ## Prerequisites
@@ -106,7 +104,7 @@ Copy the content of "ui-config-example.json" from the installation package in th
 
 | ![mpr4_1.png](/img/mpr4_1-0304ac7a-fd30-4a01-9233-34e90706d48e.png) | 
 |----|
-| ![mpr4_2.png](/img/mpr4_2-a00acf35-691a-428a-a316-dfd8e9bae919.png) |
+| ![mpr4_2.png](/img/mpr4_2-05c6bf39-0a87-416d-a9db-96b2dafe3dea.png) |
 
 
 
