@@ -9,10 +9,10 @@
 $azurePath = "C:\Users\Irene\OneDrive - Oxford Computer Group GmbH\Dokumente\GitHub\OCG-UI.wiki\OCG-UI"
 $githubRepository = "C:\Users\Irene\OneDrive - Oxford Computer Group GmbH\Dokumente\GitHub\ocgwiki.github.io\Idabus-UI"
 # add bool to only update existing pages
-$onlyUpdateExisting = $true
+$onlyUpdateExisting = $false
 
 $copyPictures = $true
-$testing = $false
+$testing = $true
 
 # -------------------------------------
 # Function

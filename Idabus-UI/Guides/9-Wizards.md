@@ -42,16 +42,16 @@ The wizard needs to be defined at two places:
 
 After the wizard was created (as shown in the picture above) it can be configured with attributes, dependencies, requirements, conditions, etc. using best suited control to guarentee the data quaility you need. Except for the **Resource type** all other properties can be changed. The following controls for data types are available:
 
-- [**Textbox**](/Editors/textEditor) _(for Strings)_
-- [**Checkbox**](/Editors/booleanEditor) _(for Booleans)_
-- [**Select**](/Editors/selectEditor) _(can be DropDown or RadioButton)_
-- [**Date**](/Editors/dateEditor) _(for Dates and/or Times)_
-- [**Identity-Picker**](/Editors/identityEditor) _(for References)_
-- [**Identity-List**](/Editors/identitiesEditor) _(for Memberships)_
-- [**Button**](/Editors/buttonEditor) _(for custom Angular methods - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
-- [**XPath-Editor**](/Editors/xPathEditor) _(for criteria-based Filters)_
-- [**Separator**](/Editors/separatorEditor) _(for on-screen separation-purposes)_
-- [**Frame**](/Editors/frameEditor) _(for custom Angular components - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
+- [**Textbox**](/editors/textEditor) _(for Strings)_
+- [**Checkbox**](/editors/booleanEditor) _(for Booleans)_
+- [**Select**](/editors/selectEditor) _(can be DropDown or RadioButton)_
+- [**Date**](/editors/dateEditor) _(for Dates and/or Times)_
+- [**Identity-Picker**](/editors/identityEditor) _(for References)_
+- [**Identity-List**](/editors/identitiesEditor) _(for Memberships)_
+- [**Button**](/editors/buttonEditor) _(for custom Angular methods - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
+- [**XPath-Editor**](/editors/xPathEditor) _(for criteria-based Filters)_
+- [**Separator**](/editors/separatorEditor) _(for on-screen separation-purposes)_
+- [**Frame**](/editors/frameEditor) _(for custom Angular components - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
 <br>
 
 To add attributes to the wizard please follow the steps in the following image and don't forget to click **Save changes** when done:
