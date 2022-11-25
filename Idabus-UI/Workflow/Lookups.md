@@ -12,9 +12,6 @@ parent: Workflow
 toc: false
 ---
 
-{% include toc.md %}
-
-
 
 # Lookups
 Lookups are placeholders, which can be used in workflow activities. The value of the lookups will be evaluated in the run time of the workflow

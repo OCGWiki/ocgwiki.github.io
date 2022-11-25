@@ -27,6 +27,7 @@ Version: 4.2 or above
 - [.Net Core 3.1 Hosting Bundle](https://dotnet.microsoft.com/download/dotnet/3.1)
 - [IIS Rewrite Module (install through Web Platform Installer)](https://www.iis.net/downloads?tabid=34&g=6&i=1691)
 - [Lithnet PowerShell Module](https://github.com/lithnet/resourcemanagement-powershell/wiki/Installing-the-module)
+- [.Net Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631) (if not yet installed with windows update)
 - MIMWAL Workflow (for backup workflow)
 
 ## Schema Extension
@@ -110,7 +111,7 @@ Copy the content of "ui-config-example.json" from the installation package in th
 
 ## Backup Workflow for UI settings
 
->Refer to [Sets based UI Settings](/OCG-UI/Sets-based-UI-Settings) to learn how UI setting works. This section only shows how to deploy workflows to backup different UI settings
+>Refer to [Sets based UI Settings](/uisettings/) to learn how UI setting works. This section only shows how to deploy workflows to backup different UI settings
 
 ### Get [MIMWAL](https://github.com/microsoft/MIMWAL/wiki) version and token
 
@@ -141,20 +142,21 @@ This is a configuration object of type ocgConfiguration, defines how long the ba
 
 ## Publish OCG Data Service and OCG UI
 
->OCG UI v4.2 need the OCG Data Service v2.0.0 or above
 1. Copy the OCGUI folder from the installation package to C:\inetpub
 2. Add a website "OCGUI" in IIS with 8088 as port number, "C:\inetpub\OCGUI" as physical path and ".Net v4.5" as application pool
-3. Convert "portal" to application
+3. Convert "service" to application
 4. Enable "Anonymous Authentication" and "Windows Authentication" for "OCGUI" website
-5. Enable "Anonymous Authentication" and "Windows Authentication" for "portal" application
+5. Enable "Anonymous Authentication" and "Windows Authentication" for "service" application
+6. Exclude */service from the URL of OCGUI using URL Rewrite
 >**In real production environment you may need additional settings in IIS like Host Name; Application Pool with Service Account, which has SPN registered; Negotiate only Authentication, etc.**
 
 
 | ![iis1_1.png](/img/iis1_1-b89c9e6f-3e03-4526-9166-9db6e12c35a6.png) | 
 |----------|
-|![iis1_2.png](/img/iis1_2-73d6118a-c561-4c2e-a619-77cb0bcd2b08.png) |
-| ![iis1_3.png](/img/iis1_3-e45e5ef9-db9d-44ff-8f76-b2c5a5968708.png) | 
-| ![iis1_4.png](/img/iis1_4-98c5e49d-a8a7-4eee-a52d-a5a58a033991.png) |
+| ![ocgui_iis_structure.png](/img/ocgui_iis_structure-9bc6b903-cb2b-4c78-af1e-2d365fcb20ae.png) |
+|![ocgui_iis_auth1.png](/img/ocgui_iis_auth1-f5b8a699-5a57-4cb7-976a-ba0c1a48133c.png)|
+|![ocgui_iis_auth2.png](/img/ocgui_iis_auth2-e1086009-975c-4183-8582-db97d4f7d130.png)|
+|![ocgui_iis_urlrewrite.png](/img/ocgui_iis_urlrewrite-dd46b5c8-743b-4a4f-aa06-81440d7516c8.png)|
 
 
 

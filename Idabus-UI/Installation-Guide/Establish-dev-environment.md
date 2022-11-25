@@ -3,7 +3,7 @@ layout: docs
 
 title: Establish Development Environment
 #desription: <add description if needed>
-filename: Establish-dev-environment.md
+filename: Establish-DEV-Environment.md
 permalink: /installation/establishDevEnvironment/
 
 nav_order: 4
@@ -43,7 +43,7 @@ They are used to isolate the code developed on customer side but at the same tim
 
 ## Clone the OCG UI project
 
-In VS Code press F1 and input Clone to search the clone command and then clone the OCG UI project from DevOps to a local repository (e.g. C:\ocg\dev\repos)
+In VS Code press F1 and input Clone to search the clone command and then clone the OCG UI project from DevOps to a local repository (e.g. C:\ocg\dev\repos) 
 
 Ignore the message if asked to open the cloned repository (do not open anything)
 
