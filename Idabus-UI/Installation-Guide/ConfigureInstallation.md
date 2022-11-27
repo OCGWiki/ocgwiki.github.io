@@ -6,7 +6,7 @@ title: Configure and verify installation
 filename: ConfigureInstallation.md
 permalink: installation/configureInstallation/
 
-nav_order: 2
+nav_order: 4
 status: in progress
 parent: Installation Guide
 toc: true

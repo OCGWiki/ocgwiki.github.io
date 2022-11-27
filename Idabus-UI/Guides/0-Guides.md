@@ -6,7 +6,7 @@ title: Guides
 filename: 0-Guides.md
 permalink: /guides/
 
-nav_order: 3
+nav_order: 25
 status: In progress
 has_children: true
 ---

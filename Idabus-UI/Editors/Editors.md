@@ -6,7 +6,7 @@ title: Editors
 filename: Editors.md
 permalink: /editors/
 
-nav_order: 7
+nav_order: 50
 has_children: true
 status: in progress
 toc: false

@@ -6,7 +6,7 @@ title: Establish Development Environment
 filename: Establish-DEV-Environment.md
 permalink: /installation/establishDevEnvironment/
 
-nav_order: 4
+nav_order: 8
 status: in progress
 parent: Installation Guide
 toc: true

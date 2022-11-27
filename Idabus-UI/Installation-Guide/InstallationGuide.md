@@ -6,7 +6,7 @@ title: Installation Guide
 filename: InstallationGuide.md
 permalink: /installation/
 
-nav_order: 2
+nav_order: 10
 status: in progress
 has_children: true
 toc: false

@@ -6,7 +6,7 @@ title: UI Settings
 filename: UISettings.md
 permalink: /uisettings/
 
-nav_order: 10
+nav_order: 50
 status: in progress
 toc: true
 ---

@@ -6,7 +6,7 @@ title: Installation
 filename: installation.md
 permalink: /installation/installation/
 
-nav_order: 1
+nav_order: 20
 status: in progress
 parent: Installation Guide
 toc: true

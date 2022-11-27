@@ -6,7 +6,7 @@ title: Modules
 filename: Modules.md
 permalink: /modules/
 
-nav_order: 16
+nav_order: 30
 status: in progress
 toc: true
 ---

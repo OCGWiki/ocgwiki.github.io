@@ -6,7 +6,7 @@ title: Theming
 filename: Theming.md
 permalink: /theming/
 
-nav_order: 12
+nav_order: 90
 status: in progress
 toc: true
 ---
