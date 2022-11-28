@@ -60,7 +60,6 @@
 	    "/OCG-UI/Establish-dev-environment": "/installation/establishDevEnvironment/",
 	    "/OCG-UI/Workflow/Functions": "/workflow/functions/",
 	    "/OCG-UI/Workflow/Lookups": "/workflow/lookups/",
-      "/OCG-UI/DOCS/Sets-based-UI-Settings": "/uisettings/",
       "/OCG-UI/DOCS/Global-configuration/Sidebar-settings": "/gobalconfig/sidebarsettings/",
       "/OCG-UI/DOCS/Global-configuration/Image-settings": "/gobalconfig/imagesettings/",
       "/OCG-UI/DOCS/Global-configuration/Language-Files": "/gobalconfig/languagefiles/",
@@ -68,14 +67,16 @@
       "/OCG-UI/DOCS/Global-configuration/System-settings": "/gobalconfig/systemsettings/",
       "/OCG-UI/DOCS/Global-configuration/Resources-settings": "/gobalconfig/resourcessettings/",
       "/OCG-UI/DOCS/Global-configuration/Configuration-files": "/gobalconfig/configfiles/",
+      "/OCG-UI/DOCS/Global-configuration/Generic-enums": "/globalconfig/genericenums/"
 
   },
   "replacables2": {
       "/OCG-UI/How-To/Tutorials/11-Dashboard": "/guides/dashboard/",
-      "/OCG-UI/DOCS/Editors": "/editors/",
+      "/OCG-UI/DOCS/Sets-based-UI-Settings/Editors": "/editors/",
       "/OCG-UI/Event-hooks": "/eventHooks/",
 	    "OCG-UI/Workflow": "/workflow",
-      "/OCG-UI/DOCS/Global-configuration": "/gobalconfig/"
+      "/OCG-UI/DOCS/Global-configuration": "/gobalconfig/",
+      "/OCG-UI/DOCS/Sets-based-UI-Settings": "/uisettings/"
   },
   "replacables3":{
       ".attachments": "img",

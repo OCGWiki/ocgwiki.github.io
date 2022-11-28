@@ -6,7 +6,7 @@ title: Event Hooks
 filename: eventHooks.md
 permalink: /eventHooks/
 
-nav_order: 70
+nav_order: 80
 has_children: true
 status: in progress
 toc: true
