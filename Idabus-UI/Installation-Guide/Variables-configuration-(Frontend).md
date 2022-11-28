@@ -9,9 +9,9 @@ permalink: /installation/configureInstallation/variablesconfig-frontend/
 nav_order: 4
 status: in progress
 parent: Configure and verify installation
+grand_parent: Installation Guide
 toc: true
 ---
-
 
 {% include toc.md %}
 

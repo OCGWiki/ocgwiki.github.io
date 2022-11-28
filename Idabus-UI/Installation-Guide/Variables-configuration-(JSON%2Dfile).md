@@ -9,6 +9,7 @@ permalink: /installation/configureInstallation/variablesconfig-json/
 nav_order: 8
 status: in progress
 parent: Configure and verify installation
+grand_parent: Installation Guide
 toc: true
 ---
 
