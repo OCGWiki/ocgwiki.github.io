@@ -8,6 +8,7 @@ permalink: /uisettings/
 
 nav_order: 50
 status: in progress
+has_children: true
 toc: true
 ---
 

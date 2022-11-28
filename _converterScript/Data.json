@@ -67,7 +67,8 @@
       "/OCG-UI/DOCS/Global-configuration/System-settings": "/gobalconfig/systemsettings/",
       "/OCG-UI/DOCS/Global-configuration/Resources-settings": "/gobalconfig/resourcessettings/",
       "/OCG-UI/DOCS/Global-configuration/Configuration-files": "/gobalconfig/configfiles/",
-      "/OCG-UI/DOCS/Global-configuration/Generic-enums": "/globalconfig/genericenums/"
+      "/OCG-UI/DOCS/Global-configuration/Generic-enums": "/globalconfig/genericenums/",
+      "/OCG-UI/DOCS/Sets-based-UI-Settings/Placeholders": "/uisettings/placeholders/"
 
   },
   "replacables2": {
