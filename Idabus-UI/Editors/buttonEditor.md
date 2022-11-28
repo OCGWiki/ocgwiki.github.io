@@ -35,6 +35,7 @@ toc: true
 # Event handler
 
 ## onClick()
+
 creates a new Event with the following attributes: AttributeName, ObjectID (currentID), objectType
 
 

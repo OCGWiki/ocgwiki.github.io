@@ -44,18 +44,23 @@ toc: true
 # Configuration in UI
 
 ### General tab
+
 ![general_editor_settings_1.png](/img/general_editor_settings_1-4a584168-03d6-4f30-824c-e32b958c48de.png)
 
 ### Display tab
+
 ![general_editor_settings_2.png](/img/general_editor_settings_2-2d0b8949-85f9-445c-a13a-2c3202d20cda.png)
 
 # Inputs (Properties)
+
 ## config
+
 Type: EditorConfig
 
 The configuration object for the editor. It includes all the introduced entries in [General editor configurations](#general-editor-configurations)
 
 ## editorAttribute
+
 Type: AttributeResource
 
 The attribute to be shown in the editor. It includes all the attribute details defined as,
@@ -101,36 +106,43 @@ export class AttributeResource {
 ```
 
 ## configMode
+
 Type: boolean
 
 Indicate configuration mode
 
 ## creationMode
+
 Type: boolean
 
 Indicate creation mode
 
 ## viewMode
+
 Type: string
 
 Indicate view mode, allowed values are tab or widget
 
 ## currentID
+
 Type: string
 
 The object id of the resource object
 
 ## currentType
+
 Type: string
 
 The object type of the resource object
 
 ## currentResource
+
 Type: Resource
 
 The resource object
 
 ## parameters
+
 Type: { [name: string]: string } (dictionary)
 
 Additional parameters can be passed to the editor
@@ -182,9 +194,11 @@ Used to set error state and message on the editor
 # Implementations
 
 ## Validator
+
 - [Custom validators](https://blog.thoughtram.io/angular/2016/03/14/custom-validators-in-angular-2.html#building-a-custom-validator)
 - [Custom validator example in Material Input](https://stackoverflow.com/questions/46696879/angular2-material-custom-validation-for-angular-material-input)
 
 ## ControlValueAccessor
+
 - [Custom form control](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html) 
 - [Custom form control example compatible with reactive forms and Material](https://itnext.io/creating-a-custom-form-field-control-compatible-with-reactive-forms-and-angular-material-cf195905b451)

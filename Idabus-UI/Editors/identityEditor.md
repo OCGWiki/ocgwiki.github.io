@@ -43,27 +43,35 @@ toc: true
 # Event handler
 
 ## onFocuse()
+
 Triggers if the identity editor gets focus
 
 ## onOpen()
+
 Opens Kendo window to find an identity
 
 ## onFilterChange()
+
 Triggers when letters of seach string are changed
 
 ## onEmptySearch()
+
 Triggers when clicked on magnifying glass to find all possible options for identity editor
 
 ## onImport()
+
 Triggers if single value is added
 
 ## onChange()
+
 Triggers if the value of the identity editor has been changed
 
 ## onDoubleClick()
+
 Triggers if the value of the identity editor has been double-clicked
 
 ## onBulkImport()
+
 Triggers if multiple elements are added
 
 
