@@ -43,6 +43,7 @@ Search scope settings will be used in simple search and resource list page. It i
 ## displayedAttributesInSearch
 
 Only apply to simple search, defines which attributes should be displayed. If not defined, display name will be used as the main and only attribute to show in the simple search
+
 |Key|Type|Default|Description|
 |--|--|--|--|
 |main|string||the main attribute displayed at the beginning, only one attribute can be defined as main attribute|
@@ -61,9 +62,10 @@ Only apply to simple search, defines which attributes should be displayed. If no
 |attributes|string[]||defines attributes to be displayed as column on the resource list page, this setting will be overridden through the columns setting|
 |availableAttributes|string[]||defines a set of attributes shown in the attribute picker on the resource list page, if not defined, all attributes of the defined resource type are available in the attribute picker|
 
-## columns
+## Columns
 
 Using columns setting to make a more specific setting to the columns shown on the resource list page
+
 |Key|Type|Default|Description|
 |--|--|--|--|
 |field|string||attribute name to display|
@@ -87,6 +89,7 @@ Using columns setting to make a more specific setting to the columns shown on th
 ### fallbackStatus
 
 If no states defined in the showStatus matches, the fallbackStatus will be displayed
+
 |Key|Type|Default|Description|
 |--|--|--|--|
 |text|string|text of the status, if not defined, no text will be displayed|
