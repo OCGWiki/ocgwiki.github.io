@@ -56,41 +56,12 @@ Only apply to simple search, defines which attributes should be displayed. If no
 |--|--|--|--|
 |typeQuery|xpath||defines a xpath query used for listing all the wanted resources in resource list page. use **%SearchText%** for the input text and **[#LoginID]** for resource id of the current login user|
 |selectable|boolean||defines whether the result displayed in resource list is selectable, if set to false, no records can be selected and thus, no actions can be applied (readonly like)|
-|linkActions|native &#124; navigate &#124; sideView|defines which navigation option can be displayed in the identity link context menu on the resource list page|
+|linkActions|[Link Actions](/globalconfig/genericenums/#linkactions)|defines which navigation option can be displayed in the identity link context menu on the resource list page|
 |defaultLinkAction|native &#124; navigate &#124; sideView|defines the default navigation action when clicking on the identity link on the resource list page|
 |pageSize|number||defines the page size on the resource list page, no effect to the simple search. overrides the pageSize setting in the global settings|
 |attributes|string[]||defines attributes to be displayed as column on the resource list page, this setting will be overridden through the columns setting|
 |availableAttributes|string[]||defines a set of attributes shown in the attribute picker on the resource list page, if not defined, all attributes of the defined resource type are available in the attribute picker|
 
-## Columns
+## columns
 
-Using columns setting to make a more specific setting to the columns shown on the resource list page
-
-|Key|Type|Default|Description|
-|--|--|--|--|
-|field|string||attribute name to display|
-|title|string||title displayed on the column header, localisable. if not defined, the display name of the field will be used|
-|isReference|boolean||indicate whether the attribute is a reference attribute, used for filtering|
-|width|number||width of the column, available values are,<ul><li>positive number - width in pixel</li><li>0 - take available spaces automatically</li><li>negative number - the column is hidden</li></ul>|
-|sortable|boolean||defines if the column is sortable|
-|filterable|boolean||defines if the column is filterable|
-|filter|boolean &#124; numeric &#124; text &#124; date|defines which filter type should be used|
-|showStatus|object||settings for showing status|
-|fallbackStatus|object||settings for showing fallback status|
-
-### showStatus
-
-|Key|Type|Default|Description|
-|--|--|--|--|
-|key|string||if the key equals the value of the column, the following defined settings will be shown|
-|text|string|text of the status, if not defined, no text will be displayed|
-|color|string|colour of the status, if not defined, no status dot will be displayed|
-
-### fallbackStatus
-
-If no states defined in the showStatus matches, the fallbackStatus will be displayed
-
-|Key|Type|Default|Description|
-|--|--|--|--|
-|text|string|text of the status, if not defined, no text will be displayed|
-|color|string|colour of the status, if not defined, no status dot will be displayed|
+[Generic column settings](/gobalconfig//Generic-column-settings)

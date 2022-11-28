@@ -77,12 +77,12 @@
       "/OCG-UI/Event-hooks": "/eventHooks/",
 	    "OCG-UI/Workflow": "/workflow",
       "/OCG-UI/DOCS/Global-configuration": "/gobalconfig/",
-      "/OCG-UI/DOCS/Sets-based-UI-Settings": "/uisettings/"
   },
   "replacables3":{
       ".attachments": "img",
       "[[_TOC_]]": "",
       "/OCG-UI/How-To/Tutorials": "/guides",
-      "<br/>": "<br>"
+      "<br/>": "<br>",
+      "/OCG-UI/DOCS/Sets-based-UI-Settings": "/uisettings/"
   }
 }
