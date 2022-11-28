@@ -20,10 +20,12 @@ Menus can be built dynamically in OCG UI. You can define a configuration in the 
 ## onBuildMenuEvent
 
 ### Trigger
+
 This event will be triggered after a menu is clicked and before the menu items are built.
 This event hook can be used to build menu items for various views.
 
 ### Parameter
+
 ```js
 export class MenuEvent {
   type: string;
@@ -35,9 +37,11 @@ export class MenuEvent {
 ```
 
 ### Parameter example
+
 ![onbuildmenu.png](/img/onbuildmenu-69e02001-ba16-438a-b75c-1724b6e07b0c.png)
 
 ### Annotation
+
 - Using `event.viewName` to determine from which view the event is fired
 - Using `event.resourceName` to determine resource type name (including virtual type name)
 - `event.parameter` is an instance of the context resource, from which the event is fired
@@ -46,16 +50,20 @@ export class MenuEvent {
 ## onOpenMenuEvent
 
 ### Trigger
+
 This event will be triggered after a menu is opened and all menu items are loaded.
 This event hook can be used to enable / disable or show / hide menu items according to specific conditions.
 
 ### Parameter
+
 Same as [onBuildMenuEvent](#onbuildmenuevent)
 
 ### Parameter example
+
 ![onopenmenu.png](/img/onopenmenu-f24433ef-c6e7-46c1-808c-617488131038.png)
 
 ### Annotation
+
 - Using `event.viewname` to determine from which view the event is fired
 - Using `event.resourceName` to determine resource type name (including virtual type name)
 - `event.parameter` is an instance of the context resource, from which the event is fired
@@ -63,16 +71,20 @@ Same as [onBuildMenuEvent](#onbuildmenuevent)
 - Set `event.menu.isLoading` to `true` if you want to do some operations and temporarily disable the whole menu
 
 ## onMenuEvent
+
 This event will be triggered after a menu item is clicked.
 This event hook can be used to define the handler for the click action.
 
 ### Parameter
+
 Same as [onBuildMenuEvent](#onbuildmenuevent)
 
 ### Parameter example
+
 ![onmenuevent.png](/img/onmenuevent-67a5aa03-740a-431b-9520-1c54630b42c0.png)
 
 ### Annotation
+
 - Using `event.viewname` to determine from which view the event is fired
 - Using `event.resourceName` to determine resource type name (including virtual type name)
 - `event.parameter` is an instance of the context resource, from which the event is fired

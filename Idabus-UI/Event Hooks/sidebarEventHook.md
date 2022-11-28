@@ -20,10 +20,12 @@ Sidebar is a menu bar on the left side of the UI. Sidebar items can be configure
 ## onSidebarEvent
 
 ### Trigger
+
 This event will be fired after a sidebar item is clicked.
 This event hook can be used to define the event handler for the click action.
 
 ### Parameter
+
 ```js
 export class BroadcastEvent {
   name: string;
@@ -33,4 +35,5 @@ export class BroadcastEvent {
 ```
 
 ### Parameter example
+
 ![onsidebarevent.png](/img/onsidebarevent-6b408eb0-44d4-43d8-8fb9-ce7f1ca6d56e.png)
