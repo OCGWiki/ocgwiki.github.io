@@ -23,7 +23,7 @@ toc: true
 
 ## **getConfig**
 
-**Description**:  gets value of the given key from configuration file
+**Description**:  gets value of the given key from configuration file 
 **Parameters**:
 - **key**: string - key in configuration file
 - **fallback**?: any - default value for the key if none found
@@ -34,15 +34,15 @@ toc: true
 
 **Description**: gets value of the given path from configuration file
 **Parameters**:
-- **path**: string - path in configuration file
+- **path**: string - path in configuration file 
 - **fallback**?: any - default value for the path if none found
 
-**Example**: getConfigEx('images:logoSmall','assets/img/favicon.png')
+**Example**: getConfigEx('images:logoSmall','assets/img/favicon.png') 
 **Remark**: this function returns any
 
 ## **getCulture**
 
-**Description**: gets current language tag
+**Description**: gets current language tag 
 **Parameters**:
 - **route**: string- route as abbreviation of the language to route to
 - **settingName** = 'supportedLanguages' - value of key in configuration file is supportedLanguages
@@ -52,3 +52,5 @@ toc: true
 **Description**: patches project-specific configuration defaults
 **Parameters**:
 - **patch**: object
+
+

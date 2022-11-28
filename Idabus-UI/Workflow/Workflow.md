@@ -18,6 +18,7 @@ toc: true
 
 
 # Workflow activity library
+
 With IDABUS workflow activity library, you can create automated workflows to implement business processes for IAM solution in a productive and visual way.
 
 Pre-defined activities can be combined to build complex workflows or workflow templates, which again can be used as a block in other workflows.

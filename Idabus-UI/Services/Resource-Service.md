@@ -12,7 +12,6 @@ parent: Services
 toc: true
 ---
 
-
 {% include toc.md %}
 
 
@@ -26,7 +25,7 @@ toc: true
 **Description**:  shows current version of UI and Data Service
 **Parameters**: -
 
-## **clear**
+## **clear**  
 
 **Description**:  clears logedInUser attributtes authNMode, encryptionKey, secret, loginUserAttributes, version, baseUrl, language, connUser, user, connection and token
 **Parameters**: -
@@ -34,29 +33,29 @@ toc: true
 ## **buildConnectionString**  
 
 **Description**:  builds connection string from passed parameters
-**Parameters**:
+**Parameters**: 
 - **userName**: string
-- **password**: string
-- **domain**? : string
-- **baseAddress**?: string
+- **password**: string 
+- **domain**? : string 
+- **baseAddress**?: string 
 
 **Remark**: If no domain or base address are passed domain from config and base address '//localhost:5725 ' are going to be used
 
 ## **setService**  
 
 **Description**:  sets connection information to information of the authnticated user
-**Parameters**:
+**Parameters**: 
 - **info**: AuthUser
 
-## **load**
+## **load**  
 
 **Description**:  opens a dialog customized wiht parameters
-**Parameters**:
+**Parameters**: 
 - **conn?**: string - connection string
 
 **Remark**: If no connection is passed windows authentication will be used
 
-## **getUserConfig**
+## **getUserConfig**  
 
 **Description**:  checks if current view is admin view
 **Parameters**: -
@@ -66,7 +65,7 @@ toc: true
 ## **getCurrentUser**  
 
 **Description**:  gets current User
-**Parameters**:
+**Parameters**: 
 - **isAuth** = false
 
 **Example**: getCurrentUser(true)
@@ -75,7 +74,7 @@ toc: true
 ## **getNextGenWorkflowByID**  
 
 **Description**:  gets workflow by Id
-**Parameters**:
+**Parameters**: 
 - **id**: string - workflow id
 
 **Remark**: this function returns Observable<Resource>
@@ -83,13 +82,13 @@ toc: true
 ## **updateNextGenWorkflow**  
 
 **Description**:  updates workflow resource
-**Parameters**:
+**Parameters**: 
 - **resource**: Resource - resource of workflow that we want to update
 
 ## **importResourceFromFile**
 
 **Description**:  imports resources from file
-**Parameters**:
+**Parameters**: 
 - **file**: File - file from wich we want to import resource
 - **objectTypes**: string - type of objects we want to import
 - **attributeBlacklist**: string - attributes in file that should not be imported
@@ -102,7 +101,7 @@ toc: true
 ## **callApi**  
 
 **Description**:  calls data service api with parameters
-**Parameters**:
+**Parameters**: 
 - **method**: string - method name (put, post, delete..)
 - **path**: string - use path to build data service url
 - **param**?: any - parameters of http request
@@ -114,8 +113,8 @@ toc: true
 
 ## **getResourceByID**  
 
-**Description**:  gets resource with given id
-**Parameters**:
+**Description**:  gets resource with given id 
+**Parameters**: 
 - **id**: string - ObjectID of the resource to fetch
 - **attributes**: string[] = [] - attributes of the resource to get
 - **format** = simple
@@ -128,7 +127,7 @@ toc: true
 ## **getResourceSchema**  
 
 **Description**:  gets schema for specified type of resource
-**Parameters**:
+**Parameters**: 
 - **typeName**: string - parameter that specifies type of resource
 - **culture**  = 'en-US'
 
@@ -138,7 +137,7 @@ toc: true
 ## **getResourceByQuery**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -153,16 +152,16 @@ toc: true
 ## **deleteResource**  
 
 **Description**:  deletes the resource with the given id
-**Parameters**:
+**Parameters**: 
 - **id**: string - ObjectID of the resource to delete
 - **adminMode** = false
 
 **Remark**: this function returns Observable<void | HttpResponse<void>>
 
-## **deleteResourceByQuery**  
-
+## **deleteResourceByQuery** 
+ 
 **Description**:  deletes the resource with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - type of Modal(Error, Warning or Info)
 
 **Remark**: this function returns Observable<void | HttpResponse<void>>
@@ -170,7 +169,7 @@ toc: true
 ## **createResource**  
 
 **Description**:  creates the given resource
-**Parameters**:
+**Parameters**: 
 - **resource**: Resource - The resource to be created. ObjectType must exist as a property
 - **adminMode**= false
 
@@ -180,7 +179,7 @@ toc: true
 ## **updateResource**  
 
 **Description**:  updates the given resource
-**Parameters**:
+**Parameters**: 
 - **resource**: Resource - The resource to be updated. ObjectType must exist as a property
 - **adminMode**= false
 
@@ -188,20 +187,20 @@ toc: true
 **Remark**: this function returns Observable<HttpResponse<any>>
 
 
-## **getResourceCount**  
-
+## **getResourceCount** 
+ 
 **Description**:  gets the total count of resource queried by the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **adminMode** = false
 
 **Example**: getResourceCount('/Person[AccountName='${sourceArray[pos]}']')
 **Remark**: this function returns Observable<number>
 
-## **resourceExists**  
-
+## **resourceExists** 
+ 
 **Description**:  returns true/false if the queried resource exists
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 
 **Example**: resourceExists('/Person[AccountName='${sourceArray[pos]}']')
@@ -210,7 +209,7 @@ toc: true
 ## **addResourceValue**  
 
 **Description**:  adds values to a multivalued attribute of the resource with given id
-**Parameters**:
+**Parameters**: 
 - **id**: string - the ObjectID of the resource
 - **attributeName**: string - the multivalued attribute name
 - **valuesToAdd**: string[] = [] - the values to add, seperated with comma. Format: <value>,
@@ -221,7 +220,7 @@ toc: true
 ## **removeResourceValue**  
 
 **Description**:  removes values from a multivalued attribute of the resource with given id
-**Parameters**:
+**Parameters**: 
 - **id**: string - the ObjectID of the resource
 - **attributeName**: string - the multivalued attribute name
 - **valuesToRemove**: string[] = [] - the values to remove, seperated with comma. Format: <value>,
@@ -232,7 +231,7 @@ toc: true
 ## **approve**  
 
 **Description**:  approves or rejects an approval request
-**Parameters**:
+**Parameters**: 
 - **id**: string - the ObjectID of the request object
 - **approve**: boolean - true for approve, false for reject
 - **reason**: string - approve reason
@@ -243,23 +242,23 @@ toc: true
 ## **lookup**  
 
 **Description**:  resolve logedIn user and current date from query
-**Parameters**:
+**Parameters**: 
 - **text**: string - xpath query to resolve
 
 ## **getTypes**  
 
 **Description**:  gets and caches the schema for the given culture
-**Parameters**:
+**Parameters**: 
 - **culture**: string - in which language the schema should be returned, Default value : en-US
 - **adminMode** = false
 
-**Remark**: this function returns Observable<{ [id: string]: TypeResource }>
+**Remark**: this function returns Observable<{ [id: string]: TypeResource }> 
 
 
 ## **getType**  
 
 **Description**:  gets and caches the schema with the given typeName and culture
-**Parameters**:
+**Parameters**: 
 - **type**: string - type name
 - **culture**: string - in which language the schema should be returned
 - **adminMode** = false
@@ -270,7 +269,7 @@ toc: true
 ## **getAttribute**  
 
 **Description**:  gets and caches the schema with the given typeName, attributeName and culture
-**Parameters**:
+**Parameters**: 
 - **type**: string - type name
 - **culture**: string - in which language the schema should be returned
 - **adminMode** = false
@@ -281,16 +280,16 @@ toc: true
 ## **xpathToJson**  
 
 **Description**:  converts xpath to json
-**Parameters**:
+**Parameters**: 
 - **xpath**: string - xpath to convert
 
 **Remark**: this function returns Observable<any>
 
 
-## **jsonToXPath**  
-
-**Description**:  converts json to xpath
-**Parameters**:
+## **jsonToXPath** 
+ 
+**Description**:  converts json to xpath 
+**Parameters**: 
 - **json**: string - json to convert
 
 **Remark**: this function returns Observable<any>
@@ -298,7 +297,7 @@ toc: true
 ## **getEventHistory**  
 
 **Description**:  gets history for the event
-**Parameters**:
+**Parameters**: 
 - **targetId**: string - ID of the events
 - **count**: number - page size
 - **startTime**: string - start time for history time range
@@ -309,8 +308,8 @@ toc: true
 ## **searchEvents**  
 
 **Description**:  searches events with given options
-**Parameters**:
-- **count**: number - page size
+**Parameters**: 
+- **count**: number - page size 
 - **options**: { eventTypes?: string; statuses?: string; requestorId?: string; targetId?: string; workflowId?: string; triggerId?: string; startTimeMin?: string; startTimeMax?: string; } - options to search events
 
 **Remark**: this function returns Observable<Array<any>>
@@ -318,7 +317,7 @@ toc: true
 ## **getResourceHistory**  
 
 **Description**:  gets history for the resource
-**Parameters**:
+**Parameters**: 
 - **targetId**: string - ObjectID of the resource
 - **dateTime**: string - time for history time range
 
@@ -327,7 +326,7 @@ toc: true
 ## **getDeletedHistory**  
 
 **Description**: gets history for deleted object
-**Parameters**:
+**Parameters**: 
 - **targetId**: string - ObjectID of deleted resource
 
 **Remark**: this function returns Observable<any>
@@ -335,16 +334,16 @@ toc: true
 ## **getRootEvent**  
 
 **Description**:  opens a dialog customized wiht parameters
-**Parameters**:
+**Parameters**: 
 - **eventId**: string -
 
 **Example**: show(ModalType.error, 'key_error', err.message)
 **Remark**: this function returns Observable<string>
 
-## **getPathEvents**
+## **getPathEvents**  
 
 **Description**:  opens a dialog customized wiht parameters
-**Parameters**:
+**Parameters**: 
 - **eventId**: string -
 
 **Example**: show(ModalType.error, 'key_error', err.message)
@@ -353,42 +352,42 @@ toc: true
 ## **getEvent**  
 
 **Description**:  gets event with id
-**Parameters**:
+**Parameters**: 
 - **eventId**: string - id of the event to get
 - **includeChildEvents**: boolean - true if we want to become child events
 - **recursive**: boolean
 - **maxNumber**: number = 30
 
-**Remark**: this function returns Observable<any>
+**Remark**: this function returns Observable<any> 
 
-## **getRecentEvents**  
-
+## **getRecentEvents** 
+ 
 **Description**:  gets recent events orderd by creation time
-**Parameters**:
-- **count**: number - page size
+**Parameters**: 
+- **count**: number - page size 
 - **eventTypes**: string - type of events to get
 
 **Remark**: this function returns Observable<ResourceSet>
 
-## **getChildEvents**
-
+## **getChildEvents** 
+ 
 **Description**:  gets all child events of parent event
-**Parameters**:
+**Parameters**: 
 - **parentId**: string - id of parent event
 
 **Remark**: this function returns Observable<Array<any>>
 
 ## **getAttributeDisplayName**  
 
-**Description**:  gets display name of the attribute from its name
-**Parameters**:
+**Description**:  gets display name of the attribute from its name 
+**Parameters**: 
 - **typeName**: sting - type of resource whose schema is needed
-- **attributeName**: string - attribute name
+- **attributeName**: string - attribute name 
 
 **Example**: getAttributeDisplayName('Person', 'ocgObjectScope')
 **Remark**: this function returns string
 
-## **loginUserIsAdmin**
+## **loginUserIsAdmin**  
 
 **Description**:  checks if loged-in user is administrator
 **Parameters**: -
@@ -398,8 +397,8 @@ toc: true
 ## **getNextPage**  
 
 **Description**:  gets next page results
-**Parameters**:
-- **pagingToken**: string
+**Parameters**: 
+- **pagingToken**: string 
 - **pageSize**: number - number of the results in the page
 - **path** = 'resources/search/continue'
 
@@ -408,7 +407,7 @@ toc: true
 ## **refreshPagingTokens**  
 
 **Description**:  refreshes paging tokens
-**Parameters**:
+**Parameters**: 
 - **tokens**: string[] - list of tokens to refresh
 
 **Remark**: this function returns Observable<string[]>

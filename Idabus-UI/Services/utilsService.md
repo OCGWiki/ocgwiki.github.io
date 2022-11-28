@@ -7,7 +7,7 @@ filename: utilsService.md
 permalink: /services/utils/
 
 nav_order: 40
-status: in progress
+status: in Progress
 parent: Services
 toc: true
 ---
@@ -15,9 +15,9 @@ toc: true
 {% include toc.md %}
 
 
-## buildDataServiceUrl
+## buildDataServiceUrl 
 
-builds data service url with controller and method name
+builds data service url with controller and method name 
 
 | Parameter | Datatype | Description |
 |--|--|--|
@@ -43,13 +43,13 @@ encrypt string with a given key
 
 decrypt string with a given key
 
-| Parameter | Datatype | Description | Default value |
+| Parameter | Datatype | Description | Default value | 
 |--|--|--|--|
 | **message** | `string` | decrypt to encrypt |  |
 | key? | `string` | decryption key | `OCGDESecurityAES` |
 
 
-## DeepCopy
+## DeepCopy 
 
 copies object with all its properties
 
@@ -57,11 +57,11 @@ copies object with all its properties
 |--|--|--|
 | **obj** | any | object to be copied |
 
-## EvalScript
-
+## EvalScript 
+ 
 gets resources with the given query
 
-| Parameter | Datatype | Description |
+| Parameter | Datatype | Description | 
 |--|--|--|
 | **text** | `string` | xpath query to search resources |
 
@@ -69,7 +69,7 @@ gets resources with the given query
 _Remark:_ this function returns `Observable<ResourceSet>`
 
 
-## evaluate
+## evaluate 
 
 gets resources with the given query
 
@@ -89,7 +89,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **CopyInto**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -104,7 +104,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **FilterToXPath**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -117,10 +117,10 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 **Remark**: this function returns Observable<ResourceSet>
 
 
-## **GetEditorExpressions**  
-
+## **GetEditorExpressions**
+  
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -135,7 +135,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **ExamValue**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -147,10 +147,10 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 **Example**: getResourceByQuery('/Person[starts-with(DisplayName,'A')]', ['ObjectID'])
 **Remark**: this function returns Observable<ResourceSet>
 
-## **ExtraValue**  
-
+## **ExtraValue** 
+ 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -165,7 +165,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **ToSaveValue**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -177,10 +177,10 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 **Example**: getResourceByQuery('/Person[starts-with(DisplayName,'A')]', ['ObjectID'])
 **Remark**: this function returns Observable<ResourceSet>
 
-## **ToSaveResource**  
-
+## **ToSaveResource**
+  
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -195,7 +195,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **NavigateToIdentity**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -210,7 +210,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **GetSearchDef**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -225,7 +225,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **ToMomentFormat**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -240,7 +240,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **IsGuid**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -255,7 +255,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **IsDateString**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -267,10 +267,10 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 **Example**: getResourceByQuery('/Person[starts-with(DisplayName,'A')]', ['ObjectID'])
 **Remark**: this function returns Observable<ResourceSet>
 
-## **sortDictionaryByKey**  
-
+## **sortDictionaryByKey** 
+ 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -285,7 +285,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **sortDictionaryByValue**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -300,7 +300,7 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 ## **toXPathQuery**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -312,10 +312,10 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 **Example**: getResourceByQuery('/Person[starts-with(DisplayName,'A')]', ['ObjectID'])
 **Remark**: this function returns Observable<ResourceSet>
 
-## **parseComponentConfig**
+## **parseComponentConfig**  
 
 **Description**: gets resources with the given query
-**Parameters**:
+**Parameters**: 
 - **query**: string - xpath query to search resources
 - **attributes**: string[] = [] - attributes to fetch, if not specified, only DisplayName will be fetched
 - **pageSize** = 0 - page size of the returned resources
@@ -329,8 +329,8 @@ _Remark:_ this function returns `Observable<ResourceSet>`
 
 ## **stringifyComponentConfig**  
 
-**Description**: converts
-**Parameters**:
+**Description**: converts 
+**Parameters**: 
 - **config**: any - xpath query to search resources
 
 **Example**: getResourceByQuery('/Person[starts-with(DisplayName,'A')]', ['ObjectID'])

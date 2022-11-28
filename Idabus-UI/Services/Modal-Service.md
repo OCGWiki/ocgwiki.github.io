@@ -18,7 +18,7 @@ toc: true
 ## **show**  
 
 **Description**:  opens a dialog customized wiht parameters
-**Parameters**:
+**Parameters**: 
 - **type**: ModalType - type of Modal(Error, Warning or Info)
 - **title**: string - default value for the key if none found
 - **content**: string - text inside of the dialog
@@ -30,10 +30,12 @@ toc: true
 
 ## **popup**
 
-**Description**:  opens a popup customized wiht parameters
+**Description**:  opens a popup customized wiht parameters 
 **Parameters**:
 - **popupConfig**: PopupConfig - customizable properties of the popup
 
-**Example**:  const popupConfig PopupConfig = new PopupConfig();
+**Example**:  const popupConfig PopupConfig = new PopupConfig(); 
 popup(popupConfig)
 **Remark**: this function returns Observable<WindowCloseResult>
+
+
