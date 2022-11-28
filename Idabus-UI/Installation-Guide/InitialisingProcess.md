@@ -6,7 +6,7 @@ title: Initialising Process
 filename: InitialisingProcess.md
 permalink: /installation/initialisingprocess/
 
-nav_order: 3
+nav_order: 6
 status: in progress
 parent: Installation Guide
 toc: true
