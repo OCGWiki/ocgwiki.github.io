@@ -9,6 +9,7 @@ permalink: installation/configureInstallation/
 nav_order: 4
 status: in progress
 parent: Installation Guide
+has_children: true
 toc: true
 ---
 
@@ -59,5 +60,3 @@ Navigate to the IIS folder, which hosts the OCG UI and edit the "customConfig.de
 | ![verify1_1.png](/img/verify1_1-e1c9eccc-51bc-40cd-af40-b4ea93a3b453.png) |
 |---|
 | ![verify1_2.png](/img/verify1_2-46ecad22-2c2f-4257-8f13-1c92b56848fd.png) |
-
-

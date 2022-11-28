@@ -1,21 +1,23 @@
 ---
 layout: docs
 
-title: 
+title: Variables Configuration - Frontend
 #desription: <add description if needed>
 filename: Variables-configuration-(Frontend).md
-permalink: <add permalink>
+permalink: /installation/configureInstallation/variablesconfig-frontend/
 
-nav_order: <input nav order>
-status: todo
-#parent: <add parent if is child>
+nav_order: 4
+status: in progress
+parent: Configure and verify installation
 toc: true
 ---
+
 
 {% include toc.md %}
 
 
 # Variables Configuration (Frontend)
+
 As described earlier the IDABUS UI® frontend settings are configured in the "customConfig.dev.json" file (or if IDABUS UI® is published with the --prod option) in the "customConfig.prod.json" file respectively. Most of these settings are also available in the frontend (so called Variables configuration) and will overwrite the file configurations.
 
 To open the Variables configuration (granted to people with administrative permissions for the loaded UI View Set only) click on _**Settings** (Sidebar) > **Goto setting** (Variables configuration)_. The settings in the Variables configuration are categorized and more descriptive than their fallback settings in the JSON-files. The settings can also be configured using UI controls best appropriate for their data type (e.g, Color-Picker for colors, Numeric Up/Down input fields for numbers, Switches for booleans, etc.):

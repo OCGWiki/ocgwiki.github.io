@@ -4,7 +4,7 @@ layout: docs
 title: Coding Guidelines
 #desription: <add description if needed>
 filename: Coding-Guidelines.md
-permalink: installation/codingguidelines/
+permalink: /installation/codingguidelines/
 
 nav_order: 10
 status: in progress
