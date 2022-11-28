@@ -32,6 +32,7 @@ toc: true
 # structureViewAttributeStyles
 
 A list of definitions to style the structure view element under a certain condition. If multiple conditions should be applied, the later one will overwrite the former.
+
 |Key|Type|Default|Description|
 |--|--|--|--|
 |attribute|string||attribute used to define the condition|
