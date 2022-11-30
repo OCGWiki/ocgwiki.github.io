@@ -68,7 +68,9 @@
       "/OCG-UI/DOCS/Global-configuration/Resources-settings": "/gobalconfig/resourcessettings/",
       "/OCG-UI/DOCS/Global-configuration/Configuration-files": "/gobalconfig/configfiles/",
       "/OCG-UI/DOCS/Global-configuration/Generic-enums": "/globalconfig/genericenums/",
-      "/OCG-UI/DOCS/Sets-based-UI-Settings/Placeholders": "/uisettings/placeholders/"
+      "/OCG-UI/DOCS/Sets-based-UI-Settings/Placeholders": "/uisettings/placeholders/",
+      "/OCG-UI/DOCS/Global-configuration/Generic-column-settings": "/gobalconfig/genericcolumn/",
+      "/OCG-UI/DOCS/Global-configuration/Search-scope-settings":  "/gobalconfig/searchscopesettings/"
 
   },
   "replacables2": {
