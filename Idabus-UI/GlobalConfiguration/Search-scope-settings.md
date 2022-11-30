@@ -64,4 +64,4 @@ Only apply to simple search, defines which attributes should be displayed. If no
 
 ## columns
 
-[Generic column settings](/gobalconfig//Generic-column-settings)
+[Generic column settings](/gobalconfig/genericcolumn/)

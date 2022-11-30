@@ -42,7 +42,7 @@ Resource table is used to display the result of a xpath query with pre-defined a
 
 ## Columns tab
 
-[Generic column settings](/gobalconfig//Generic-column-settings)
+[Generic column settings](/gobalconfig/genericcolumn/)
 
 ## Paging & sorting tab
 
