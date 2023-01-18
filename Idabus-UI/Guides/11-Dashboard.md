@@ -21,7 +21,7 @@ The **Dashboard** is reached via sidebar link ![image.png](/img/image-6066fb7e-6
 
 Widgets can be added, modified, removed, re-positioned and resized. The following widget types are available:
 
-- [**State card**](/IDABUS-Identity-Solution/How-To/Tutorials/11-Dashboard/a\)-State-card)
+- [**State card**](/guides/dashboard/stateCard/)
 - **Resource table**
 - **Resource chart**
 - **Approvals**

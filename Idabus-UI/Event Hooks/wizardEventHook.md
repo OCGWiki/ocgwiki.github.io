@@ -14,7 +14,7 @@ toc: true
 
 {% include toc.md %}
 
-Wizard view is a popup dialog or stepper. It can be dynamically created in the UI and used for object creation or others tasks, where a popup window is needed. Wizard view can contain all kind of [editors](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors).
+Wizard view is a popup dialog or stepper. It can be dynamically created in the UI and used for object creation or others tasks, where a popup window is needed. Wizard view can contain all kind of [editors](/editors/).
 
 
 

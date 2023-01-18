@@ -76,16 +76,16 @@ The administrator can now start adding **Tabs** and/or **Attributes** to this de
 
 The following **Control Types** are available:
 
-- [**Textbox**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Text-Editor) _(for Strings)_
-- [**Checkbox**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Boolean-Editor) _(for Booleans)_
-- [**Select**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Select-Editor) _(can be DropDown or RadioButton)_
-- [**Date**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Date-Editor) _(for Dates and/or Times)_
-- [**Identity-Picker**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Identity-Editor) _(for References)_
-- [**Identity-List**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Identities-Editor) _(for Memberships)_
-- [**Button**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Button-Editor) _(for custom Angular methods - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
-- [**XPath-Editor**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/XPath-Editor) _(for criteria-based Filters)_
-- [**Separator**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Separator-Editor) _(for on-screen separation-purposes)_
-- [**Frame**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Frame-Editor) _(for custom Angular components - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
+- [**Textbox**](/editors/textEditor) _(for Strings)_
+- [**Checkbox**](/editors/booleanEditor) _(for Booleans)_
+- [**Select**](/editors/selectEditor) _(can be DropDown or RadioButton)_
+- [**Date**](/editors/dateEditor) _(for Dates and/or Times)_
+- [**Identity-Picker**](/editors/identityEditor) _(for References)_
+- [**Identity-List**](/editors/identitiesEditor) _(for Memberships)_
+- [**Button**](/editors/buttonEditor) _(for custom Angular methods - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
+- [**XPath-Editor**](/editors/xPathEditor) _(for criteria-based Filters)_
+- [**Separator**](/editors/separatorEditor) _(for on-screen separation-purposes)_
+- [**Frame**](/editors/frameEditor) _(for custom Angular components - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
 <br>
 
 3\. Complete the operation by clicking the save icon ![image.png](/img/image-3fe151b9-b712-480d-9ea6-ce4082cd908a.png).

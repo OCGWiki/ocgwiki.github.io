@@ -61,7 +61,7 @@ The API function returns immediately with the ID of the backup request event. Th
 
 ## Managing running backups
 
-Only one backup can be running at a given time. If a backup is running, it can be canceled with `POST /api/v1/Backup/cancel`.
+Only one backup can be running at a given time. If a backup is running, it can be canceled with `POST /api/v1/Backup/cancel`. 
 
 The API function `GET /api/v1/Backup/status` returns a non-empty *backup phase* if a backup is currently running, and an empty HTTP 204 otherwise.
 
@@ -83,7 +83,7 @@ As mentioned above, each backup undergoes a number of phases, some of which rest
 
 ## Restoring backups
 
-Restoring a set of backups requires several separate steps.
+Restoring a set of backups requires several separate steps. 
 
 1. The first step is to copy the relevant backup files onto a locally accessible file system, for which you can use Microsoft's AzCopy command line tool or the Microsoft Azure Storage Explorer. Not all backup files are needed: for each collection you want to restore, you only need to copy the last full backup created before the target date plus all incremental backups created after that up until the target date.
 
@@ -96,7 +96,7 @@ You need to specify the following parameters:
 * `<outputFolderForFiles>`: the directory in which the restore files are to be written
 * `<collectionTypes>`: a comma-separated list (without spaces!) of collection types you wish to restore (e.g. `Resources,Events,WorkflowExecutions`)
 * `<maximumBackupFinalTimeUtc>`: only backup files with a creation date time less than or equal to this date time are included. (E.g. `2022-12-31T22:00:00`)
-
+ 
 3. The previous step produced JSON files with a sequence number that can be directly imported into an (empty!) Cosmos DB collection. Take care to import the files into the right collection, and import them in the order of ascending sequence numbers. For the import, you can use the Azure Cosmos DB Data Migration tool by Microsoft, but you must enable the option for overwriting existing documents. You may also use the import tool which tends to be faster for large amounts of data:
 ```
 importTool.exe -exportRaw <restoreFile> <connectionString> <databaseName> <collectionName> <partitionKey>

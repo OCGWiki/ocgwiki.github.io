@@ -14,7 +14,7 @@ toc: true
 
 {% include toc.md %}
 
-Tab view controls only the tab headers in every [form view](/IDABUS-Identity-Solution/Documentation/Event-hooks/Form-view-event-hooks). The tab body is a container for the Attribute View.
+Tab view controls only the tab headers in every [form view](/eventHooks/formView/). The tab body is a container for the Attribute View.
 
 ## onTabAfterInit
 

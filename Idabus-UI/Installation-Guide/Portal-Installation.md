@@ -61,7 +61,7 @@ Add the following Sets and MPRs in MIM Portal
 
 ### Sets
 
-- OCG UI: All UI Sets
+- OCG UI: All UI Sets 
 
 | ![dashboard.png](/img/set1_1-ce13d3a9-4e8c-46fa-b8b9-78648d7a5c44.png) |
 |----|
@@ -81,7 +81,7 @@ Copy the content of "ui-config-example.json" from the installation package in th
 
 ### MPRs
 
-- OCG UI: Users can control UI attributes of their own
+- OCG UI: Users can control UI attributes of their own 
 
 | ![mpr1_1.png](/img/mpr1_1-46f6627a-f187-4535-b079-aee9841be685.png) |
 |---|
@@ -103,7 +103,7 @@ Copy the content of "ui-config-example.json" from the installation package in th
 
 - OCG UI: Users can read selected attributes of Sets, where they are a member of
 
-| ![mpr4_1.png](/img/mpr4_1-0304ac7a-fd30-4a01-9233-34e90706d48e.png) |
+| ![mpr4_1.png](/img/mpr4_1-0304ac7a-fd30-4a01-9233-34e90706d48e.png) | 
 |----|
 | ![mpr4_2.png](/img/mpr4_2-05c6bf39-0a87-416d-a9db-96b2dafe3dea.png) |
 
@@ -111,7 +111,7 @@ Copy the content of "ui-config-example.json" from the installation package in th
 
 ## Backup Workflow for UI settings
 
->Refer to [Sets based UI Settings](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings) to learn how UI setting works. This section only shows how to deploy workflows to backup different UI settings
+>Refer to [Sets based UI Settings](/uisettings/) to learn how UI setting works. This section only shows how to deploy workflows to backup different UI settings
 
 ### Get [MIMWAL](https://github.com/microsoft/MIMWAL/wiki) version and token
 
@@ -151,9 +151,12 @@ This is a configuration object of type ocgConfiguration, defines how long the ba
 >**In real production environment you may need additional settings in IIS like Host Name; Application Pool with Service Account, which has SPN registered; Negotiate only Authentication, etc.**
 
 
-| ![iis1_1.png](/img/iis1_1-b89c9e6f-3e03-4526-9166-9db6e12c35a6.png) |
+| ![iis1_1.png](/img/iis1_1-b89c9e6f-3e03-4526-9166-9db6e12c35a6.png) | 
 |----------|
 | ![ocgui_iis_structure.png](/img/ocgui_iis_structure-9bc6b903-cb2b-4c78-af1e-2d365fcb20ae.png) |
 |![ocgui_iis_auth1.png](/img/ocgui_iis_auth1-f5b8a699-5a57-4cb7-976a-ba0c1a48133c.png)|
 |![ocgui_iis_auth2.png](/img/ocgui_iis_auth2-e1086009-975c-4183-8582-db97d4f7d130.png)|
 |![ocgui_iis_urlrewrite.png](/img/ocgui_iis_urlrewrite-dd46b5c8-743b-4a4f-aa06-81440d7516c8.png)|
+
+
+

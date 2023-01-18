@@ -34,7 +34,7 @@ Resource table is used to display the result of a xpath query with pre-defined a
 |object type|string|Person|object type of the resource showing in the table, this setting only effects the displayed attributes (for getting the displayed attributes defined on the object type)|
 |navigation key|string||a keyword to define the navigation behaviour, if not defined, the object type will be used for navigation|
 |table height|number||defines the table height, if not set, the table will adjust its height according to the table content|
-|query|string||a xpath query with [placeholders](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Placeholders), whose result will be displayed in the table|
+|query|string||a xpath query with [placeholders](/uisettings/placeholders/), whose result will be displayed in the table|
 |date format|string||a string to define the datetime format, if not set, the default one from language resource will be used|
 |export to clipboard|boolean|false|allows export to clipboard|
 |export to pdf|boolean|false|allows export to pdf|
@@ -42,7 +42,7 @@ Resource table is used to display the result of a xpath query with pre-defined a
 
 ## Columns tab
 
-[Generic column settings](/IDABUS-Identity-Solution/Documentation/Global-configuration/Generic-column-settings)
+[Generic column settings](/gobalconfig/genericcolumn/)
 
 ## Paging & sorting tab
 
@@ -68,6 +68,6 @@ Resource table is used to display the result of a xpath query with pre-defined a
 |select only by checkbox|boolean|false|if set to true, rows can be selected only by clicking the leading checkbox|
 |selection mode|single &#124; multiple|single|defines whether multiple rows can be selected|
 |checkbox width|number|45|obsoleted, this setting should not be changed|
-|link actions|[Link Actions](/IDABUS-Identity-Solution/Documentation/Global-configuration/Generic-enums#linkactions)|navigate &#124; sideView|defines the allowed link actions|
+|link actions|[Link Actions](/globalconfig/genericenums/#linkactions)|navigate &#124; sideView|defines the allowed link actions|
 |default link action|native &#124; navigate &#124; sideView|read from config file|defines the default link action when clicking a link|
 |disable link|boolean|false|if set to true, no identity link will be applied in the table|

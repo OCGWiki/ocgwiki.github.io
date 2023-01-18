@@ -57,7 +57,7 @@
       "/IDABUS-Identity-Solution/Documentation/Event-hooks/Menu-event-hooks": "/eventHooks/menu/",
       "/IDABUS-Identity-Solution/Documentation/Event-hooks/Sidebar-event-hooks": "/eventHooks/sidebar/",
       "/IDABUS-Identity-Solution/Documentation/Event-hooks/Card-event-hooks": "/eventHooks/card/",
-	    "/IDABUS-Identity-Solution/Establish-dev-environment": "/installation/establishDevEnvironment/",
+	    "/IDABUS-Identity-Solution/Installation/Portal-Installation/Establish-DEV-Environment": "/porta-installation/establishDevEnvironment/",
 	    "/IDABUS-Identity-Solution/Workflow/Functions": "/workflow/functions/",
 	    "/IDABUS-Identity-Solution/Workflow/Lookups": "/workflow/lookups/",
       "/IDABUS-Identity-Solution/Documentation/Global-configuration/Sidebar-settings": "/gobalconfig/sidebarsettings/",
@@ -77,13 +77,13 @@
       "/IDABUS-Identity-Solution/How-To/Tutorials/11-Dashboard": "/guides/dashboard/",
       "/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors": "/editors/",
       "/IDABUS-Identity-Solution/Event-hooks": "/eventHooks/",
-	    "OCG-UI/Workflow": "/workflow",
+	    "/IDABUS-Identity-Solution/Workflow": "/workflow",
       "/IDABUS-Identity-Solution/Documentation/Global-configuration": "/gobalconfig/",
   },
   "replacables3":{
       ".attachments": "img",
       "[[_TOC_]]": "",
-      "/IDABUS-Identity-Solution/How-To/Tutorials": "/guides",
+      "/IDABUS-Identity-Solution/How-To/Tutorials": "/guides/",
       "<br/>": "<br>",
       "/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings": "/uisettings/"
   }

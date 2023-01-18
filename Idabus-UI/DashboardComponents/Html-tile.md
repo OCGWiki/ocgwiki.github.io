@@ -18,7 +18,7 @@ toc: true
 
 # General
 
-Html tiles can be used to display any html with [placeholders](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Placeholders)
+Html tiles can be used to display any html with [placeholders](/uisettings/placeholders/)
 
 # Configuration
 

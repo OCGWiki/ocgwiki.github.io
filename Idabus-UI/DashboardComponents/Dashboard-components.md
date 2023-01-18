@@ -22,9 +22,9 @@ Dashboard components are components, which can be put as a widget on the dashboa
 
 # Available components
 
-[Approval tile](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Dashboard-components/Approval-tile)
-[Chart tile](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Dashboard-components/Chart-tile)
-[Frame tile](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Dashboard-components/Frame-tile)
-[Html tile](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Dashboard-components/Html-tile)
-[Resource table](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Dashboard-components/Resource-table)
-[State tile](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Dashboard-components/State-tile)
+[Approval tile](/uisettings//Dashboard-components/Approval-tile)
+[Chart tile](/uisettings//Dashboard-components/Chart-tile)
+[Frame tile](/uisettings//Dashboard-components/Frame-tile)
+[Html tile](/uisettings//Dashboard-components/Html-tile)
+[Resource table](/uisettings//Dashboard-components/Resource-table)
+[State tile](/uisettings//Dashboard-components/State-tile)
