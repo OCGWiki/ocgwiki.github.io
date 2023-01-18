@@ -19,12 +19,12 @@ Event hooks are reserved empty functions, which will be called if one of a pre-d
 
 | Available event hooks |
 |--|
-| [Form view event hooks](/eventHooks/formView/) |
-| [Tab view event hooks](/eventHooks/wizard/) |
-| [Wizard event hooks](/eventHooks/wizard/) |
-| [Menu event hooks](/eventHooks/menu/) |
-| [Sidebar event hooks](/eventHooks/sidebar/) |
-| [Card event hooks](/eventHooks/card/) |
+| [Form view event hooks](/IDABUS-Identity-Solution/Documentation/Event-hooks/Form-view-event-hooks) |
+| [Tab view event hooks](/IDABUS-Identity-Solution/Documentation/Event-hooks/Tab-view-event-hooks) |
+| [Wizard event hooks](/IDABUS-Identity-Solution/Documentation/Event-hooks/Wizard-event-hooks) |
+| [Menu event hooks](/IDABUS-Identity-Solution/Documentation/Event-hooks/Menu-event-hooks) |
+| [Sidebar event hooks](/IDABUS-Identity-Solution/Documentation/Event-hooks/Sidebar-event-hooks) |
+| [Card event hooks](/IDABUS-Identity-Solution/Documentation/Event-hooks/Card-event-hooks) |
 
 
 

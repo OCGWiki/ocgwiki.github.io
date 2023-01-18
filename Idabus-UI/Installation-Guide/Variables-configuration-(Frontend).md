@@ -4,12 +4,12 @@ layout: docs
 title: Variables Configuration - Frontend
 #desription: <add description if needed>
 filename: Variables-configuration-(Frontend).md
-permalink: /installation/configureInstallation/variablesconfig-frontend/
+permalink: /portal-installation/configureInstallation/variablesconfig-frontend/
 
-nav_order: 4
+nav_order: 16
 status: in progress
 parent: Configure and verify installation
-grand_parent: Installation Guide
+grand_parent: Portal Installation
 toc: true
 ---
 

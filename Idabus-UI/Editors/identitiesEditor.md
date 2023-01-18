@@ -45,7 +45,7 @@ toc: true
 |idpConfig|new IdentityEditorConfig()|A new Editor within the Identity List is opened. In this case it is the Identity-Picker below the identity list.|
 |idpConfig.isMultivalue|true|Specifies whether or not this text editor can store multiple values|
 |idpConfig.objectType|this.objectType|Specifies the object type which ist displayed in the Identity Picker below the Identity List|
-|linkActions|[Link Actions](/globalconfig/genericenums/#linkactions)|Defines the possible link actions after selecting an element|
+|linkActions|[Link Actions](/IDABUS-Identity-Solution/Documentation/Global-configuration/Generic-enums#linkactions)|Defines the possible link actions after selecting an element|
 |navigationKey|undefined|Defines where to navigate with the linkAction|
 |objectType|Person|Specifies the object type as stored in MIM for items to be handled by this Identity-List|
 |pageButton|true|If enabled the paging buttons (previous/next/page selection) are displayed at the bottom left of the Identity-List.|

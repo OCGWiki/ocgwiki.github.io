@@ -4,11 +4,11 @@ layout: docs
 title: Initialising Process
 #description:
 filename: InitialisingProcess.md
-permalink: /installation/initialisingprocess/
+permalink: /portal-config-and-extensions/initialisingprocess/
 
 nav_order: 6
 status: in progress
-parent: Installation Guide
+parent: Portal Configuration and Extensions
 toc: true
 ---
 

@@ -23,11 +23,11 @@ A wizard is defined as a target for the <span style="color: #8000FC">**"secondar
 
 ![image.png](/img/image-1ccccd36-7c00-4b5e-b372-ecbd90e7fdad.png)
 
-and is displayed when the user clicks on the plus-icon of an Action Card in the [All Resources](/guides/allResources/) view. This actually attempts to find a wizard within the IDABUS® UI configuration with the name specified by <span style="color: #8000FC">**"secondaryAction"**</span>.
+and is displayed when the user clicks on the plus-icon of an Action Card in the [All Resources](/IDABUS-Identity-Solution/How-To/Tutorials/5-All-Resources) view. This actually attempts to find a wizard within the IDABUS® UI configuration with the name specified by <span style="color: #8000FC">**"secondaryAction"**</span>.
 
 After all <span style="color: red;">required fields</span> are entered by the user, the **Create** button is no longer greyed out and the resource can be created in MIM when clicked.
 
-With the <span style="color: #8000FC">**"navigateAfterCreation"**</span> option the user can control whether or not the IDABUS® UI should navigate to the [Detail View](/guides/detailViews/) of the newly created resource or stay on the current page. The user needs to click the **right** part of this switch before creating the resource to switch to the Detail View. The (_default_) **left** part keeps the IDABUS® UI at the current location. The _default_ can be pre-defined in the `customConfig.dev.json` file.
+With the <span style="color: #8000FC">**"navigateAfterCreation"**</span> option the user can control whether or not the IDABUS® UI should navigate to the [Detail View](/IDABUS-Identity-Solution/How-To/Tutorials/10-Detail-Views) of the newly created resource or stay on the current page. The user needs to click the **right** part of this switch before creating the resource to switch to the Detail View. The (_default_) **left** part keeps the IDABUS® UI at the current location. The _default_ can be pre-defined in the `customConfig.dev.json` file.
 
 # Configuration
 
@@ -42,16 +42,16 @@ The wizard needs to be defined at two places:
 
 After the wizard was created (as shown in the picture above) it can be configured with attributes, dependencies, requirements, conditions, etc. using best suited control to guarentee the data quaility you need. Except for the **Resource type** all other properties can be changed. The following controls for data types are available:
 
-- [**Textbox**](/editors/textEditor) _(for Strings)_
-- [**Checkbox**](/editors/booleanEditor) _(for Booleans)_
-- [**Select**](/editors/selectEditor) _(can be DropDown or RadioButton)_
-- [**Date**](/editors/dateEditor) _(for Dates and/or Times)_
-- [**Identity-Picker**](/editors/identityEditor) _(for References)_
-- [**Identity-List**](/editors/identitiesEditor) _(for Memberships)_
-- [**Button**](/editors/buttonEditor) _(for custom Angular methods - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
-- [**XPath-Editor**](/editors/xPathEditor) _(for criteria-based Filters)_
-- [**Separator**](/editors/separatorEditor) _(for on-screen separation-purposes)_
-- [**Frame**](/editors/frameEditor) _(for custom Angular components - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
+- [**Textbox**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Text-Editor) _(for Strings)_
+- [**Checkbox**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Boolean-Editor) _(for Booleans)_
+- [**Select**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Select-Editor) _(can be DropDown or RadioButton)_
+- [**Date**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Date-Editor) _(for Dates and/or Times)_
+- [**Identity-Picker**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Identity-Editor) _(for References)_
+- [**Identity-List**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Identities-Editor) _(for Memberships)_
+- [**Button**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Button-Editor) _(for custom Angular methods - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
+- [**XPath-Editor**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/XPath-Editor) _(for criteria-based Filters)_
+- [**Separator**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Separator-Editor) _(for on-screen separation-purposes)_
+- [**Frame**](/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Editors/Frame-Editor) _(for custom Angular components - [<span style="color: red;"><u>Advanced Training required!</u></span>](https://ocg.de/Trainings))_
 <br>
 
 To add attributes to the wizard please follow the steps in the following image and don't forget to click **Save changes** when done:

@@ -56,7 +56,7 @@ Only apply to simple search, defines which attributes should be displayed. If no
 |--|--|--|--|
 |typeQuery|xpath||defines a xpath query used for listing all the wanted resources in resource list page. use **%SearchText%** for the input text and **[#LoginID]** for resource id of the current login user|
 |selectable|boolean||defines whether the result displayed in resource list is selectable, if set to false, no records can be selected and thus, no actions can be applied (readonly like)|
-|linkActions|[Link Actions](/globalconfig/genericenums/#linkactions)|defines which navigation option can be displayed in the identity link context menu on the resource list page|
+|linkActions|[Link Actions](/IDABUS-Identity-Solution/Documentation/Global-configuration/Generic-enums#linkactions)|defines which navigation option can be displayed in the identity link context menu on the resource list page|
 |defaultLinkAction|native &#124; navigate &#124; sideView|defines the default navigation action when clicking on the identity link on the resource list page|
 |pageSize|number||defines the page size on the resource list page, no effect to the simple search. overrides the pageSize setting in the global settings|
 |attributes|string[]||defines attributes to be displayed as column on the resource list page, this setting will be overridden through the columns setting|
@@ -64,4 +64,4 @@ Only apply to simple search, defines which attributes should be displayed. If no
 
 ## columns
 
-[Generic column settings](/gobalconfig/genericcolumn/)
+[Generic column settings](/IDABUS-Identity-Solution/Documentation/Global-configuration/Generic-column-settings)

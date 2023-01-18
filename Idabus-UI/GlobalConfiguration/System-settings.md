@@ -24,7 +24,7 @@ IDABUS Identity Portal can be used for connecting different systems or environme
 
 # Settings overriding
 
-All settings specified in the [configuration file](/gobalconfig/configfiles/) (except the MSAL settings for now), can be overridden in the config block of the individual system settings. This is also a [top level overriding](/gobalconfig/#Overriding)
+All settings specified in the [configuration file](/IDABUS-Identity-Solution/Documentation/Global-configuration/Configuration-files) (except the MSAL settings for now), can be overridden in the config block of the individual system settings. This is also a [top level overriding](/IDABUS-Identity-Solution/Documentation/Global-configuration#Overriding)
 
 # Authentication modes
 

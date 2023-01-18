@@ -57,15 +57,15 @@ toc: true
 |maintenanceMode|boolean|false|enable / disable maintenance mode|
 |maintenanceExceptions|string[]|[]|defines a list of account names, which can exceptional login to the system during the maintenance mode|
 |defaultLinkAction|native &#124; navigate &#124; sideView|navigate|defines what should happen when an identity link is clicked, the behaviours are:<ul><li>native - show the identity in a FIM / MIM popup window (on-premises only)</li>navigate - navigate to the identity<li>sideView - show the identity in side view</li></ul>|
-|linkActions|[Link Actions](/globalconfig/genericenums/#linkactions)|["navigate", "sideView"]|defines which link actions should appear in the context menu of an identity link|
+|linkActions|[Link Actions](/IDABUS-Identity-Solution/Documentation/Global-configuration/Generic-enums#linkactions)|["navigate", "sideView"]|defines which link actions should appear in the context menu of an identity link|
 
 # Supported languages
 
-[DOCS/Language Files](/gobalconfig/languagefiles/)
+[DOCS/Language Files](/IDABUS-Identity-Solution/Documentation/Global-configuration/Language-Files)
 
 # Images
 
-[DOCS/Image Settings](/gobalconfig/imagesettings/)
+[DOCS/Image Settings](/IDABUS-Identity-Solution/Documentation/Global-configuration/Image-settings)
 
 # MSAL settings
 
@@ -99,11 +99,11 @@ toc: true
 
 # Sidebar
 
-[DOCS/Sidebar settings](/gobalconfig/sidebarsettings/)
+[DOCS/Sidebar settings](/IDABUS-Identity-Solution/Documentation/Global-configuration/Sidebar-settings)
 
 # Structure view
 
-[DOCS/Structure view](/gobalconfig/structureview/)
+[DOCS/Structure view](/IDABUS-Identity-Solution/Documentation/Global-configuration/Structure-view)
 
 # Uniqueness checks
 
@@ -125,10 +125,10 @@ toc: true
 
 # Systems
 
-[DOCS/System settings](/gobalconfig/systemsettings/)
+[DOCS/System settings](/IDABUS-Identity-Solution/Documentation/Global-configuration/System-settings)
 
 # Resources
 
-[DOCS/Resources settings](/gobalconfig/resourcessettings/)
+[DOCS/Resources settings](/IDABUS-Identity-Solution/Documentation/Global-configuration/Resources-settings)
 
 # Search scopes

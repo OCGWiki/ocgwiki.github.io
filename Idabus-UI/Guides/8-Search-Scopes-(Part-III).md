@@ -17,7 +17,7 @@ toc: true
 
 # Scenario
 
-In [Part II](/guides/searchScopes2/) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:
+In [Part II](/IDABUS-Identity-Solution/How-To/Tutorials/7-Search-Scopes-\(Part-II\)) we added a new Action Card for **Office Equipment** and configured it to display available office equipment on <span style="color: #8000FC">**"primaryAction"**</span> in the Resource-List below:
 
 ![image.png](/img/image-c3fe09de-7790-425f-90e1-888825036330.png)
 

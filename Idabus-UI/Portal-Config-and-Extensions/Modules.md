@@ -4,10 +4,11 @@ layout: docs
 title: Modules
 #description:
 filename: Modules.md
-permalink: /modules/
+permalink: /portal-config-and-extensions/modules/
 
-nav_order: 30
+nav_order: 5
 status: in progress
+parent: Portal Configuration and Extensions
 toc: true
 ---
 

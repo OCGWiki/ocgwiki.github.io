@@ -4,12 +4,12 @@ layout: docs
 title: Variables Configuration - JSON File
 #desription: <add description if needed>
 filename: Variables-configuration-(JSON%2Dfile).md
-permalink: /installation/configureInstallation/variablesconfig-json/
+permalink: /portal-installation/configureInstallation/variablesconfig-json/
 
 nav_order: 8
 status: in progress
 parent: Configure and verify installation
-grand_parent: Installation Guide
+grand_parent: Portal Installation
 toc: true
 ---
 
