@@ -70,7 +70,8 @@
       "/IDABUS-Identity-Solution/Documentation/Global-configuration/Generic-enums": "/globalconfig/genericenums/",
       "/IDABUS-Identity-Solution/Documentation/Sets-based-UI-Settings/Placeholders": "/uisettings/placeholders/",
       "/IDABUS-Identity-Solution/Documentation/Global-configuration/Generic-column-settings": "/gobalconfig/genericcolumn/",
-      "/IDABUS-Identity-Solution/Documentation/Global-configuration/Search-scope-settings":  "/gobalconfig/searchscopesettings/"
+      "/IDABUS-Identity-Solution/Documentation/Global-configuration/Search-scope-settings":  "/gobalconfig/searchscopesettings/",
+      "IDABUS-Identity-Solution/Documentation/Administrative-tasks/Backup-and-restore": "/administrative-tasks/backup-and-restore/"
 
   },
   "replacables2": {
